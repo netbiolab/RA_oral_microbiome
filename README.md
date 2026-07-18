@@ -148,11 +148,12 @@ pip install pandas numpy scipy statsmodels scikit-learn xgboost shap scikit-bio 
 
 1. (Optional) Re-run preprocessing in `00_Data_Preprocessing/` to regenerate the
    tables in `01_Processed_Data/` from `99_Original_Data/`.
-2. Open the relevant notebook in `02_final_notebooks/` and run all cells; PDFs
+2. Unzip the HROV metadata and host information file in `99_Original_Data/`.
+3. Open the relevant notebook in `02_final_notebooks/` and run all cells; PDFs
    are written to `03_Output_Figures/`.
-3. Run `python 04_PERMANOVA/permanova_analysis.py` for the beta-diversity /
+4. Run `python 04_PERMANOVA/permanova_analysis.py` for the beta-diversity /
    PERMANOVA panels.
-4. For the leakage-free Fig. 5 follow-up, run the scripts in
+5. For the leakage-free Fig. 5 follow-up, run the scripts in
    `05_multikingdom_nestedFS/` in order (`01` → `07`) from inside that
    directory.
 
