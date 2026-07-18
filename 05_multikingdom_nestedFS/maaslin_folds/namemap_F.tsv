@@ -1,0 +1,125 @@
+col_index	maaslin_name	original
+1	s__Ophiosphaerella.narmari	s__Ophiosphaerella narmari
+2	s__Ophiosphaerella.herpotricha	s__Ophiosphaerella herpotricha
+3	s__Curvularia.eragrostidis	s__Curvularia eragrostidis
+4	s__Zasmidium.angulare	s__Zasmidium angulare
+5	s__Cercospora.citrullina	s__Cercospora citrullina
+6	s__Teratosphaeria.gauchensis	s__Teratosphaeria gauchensis
+7	s__Lasiodiplodia.theobromae	s__Lasiodiplodia theobromae
+8	s__Lasiodiplodia.sp..KE8409	s__Lasiodiplodia sp. KE8409
+9	s__Lasiodiplodia.sp..KE8368	s__Lasiodiplodia sp. KE8368
+10	s__Diplodia.sapinea	s__Diplodia sapinea
+11	s__Scheffersomyces.stambukii	s__Scheffersomyces stambukii
+12	s__Candida.albicans	s__Candida albicans
+13	s__.Candida..ascalaphidarum	s__[Candida] ascalaphidarum
+14	s__Kurtzmaniella.fragi	s__Kurtzmaniella fragi
+15	s__Pichia.nakasei	s__Pichia nakasei
+16	s__Wickerhamomyces.pijperi	s__Wickerhamomyces pijperi
+17	s__Fusarium.fracticaudum	s__Fusarium fracticaudum
+18	s__Fusarium.concolor	s__Fusarium concolor
+19	s__Mariannaea.elegans	s__Mariannaea elegans
+20	s__Periglandula.ipomoeae	s__Periglandula ipomoeae
+21	s__Metarhizium.humberi	s__Metarhizium humberi
+22	s__Albifimbria.verrucaria	s__Albifimbria verrucaria
+23	s__Coniochaeta.pulveracea	s__Coniochaeta pulveracea
+24	s__Rosellinia.necatrix	s__Rosellinia necatrix
+25	s__Xylaria.sp..218_066	s__Xylaria sp. 218_066
+26	s__Aspergillus.hortae	s__Aspergillus hortae
+27	s__Aspergillus.fumigatiaffinis	s__Aspergillus fumigatiaffinis
+28	s__Aspergillus.sp..HF37	s__Aspergillus sp. HF37
+29	s__Aspergillus.jensenii	s__Aspergillus jensenii
+30	s__Penicillium.expansum	s__Penicillium expansum
+31	s__Talaromyces.islandicus	s__Talaromyces islandicus
+32	s__Byssoonygena.ceratinophila	s__Byssoonygena ceratinophila
+33	s__Trichophyton.mentagrophytes	s__Trichophyton mentagrophytes
+34	s__Pseudophaeomoniella.oleicola	s__Pseudophaeomoniella oleicola
+35	s__Sclerotinia.nivalis	s__Sclerotinia nivalis
+36	s__Clarireedia.sp..CPB17	s__Clarireedia sp. CPB17
+37	s__Clarireedia.monteithiana	s__Clarireedia monteithiana
+38	s__Clarireedia.paspali	s__Clarireedia paspali
+39	s__Hymenoscyphus.linearis	s__Hymenoscyphus linearis
+40	s__Oidium.heveae	s__Oidium heveae
+41	s__Protomyces.arabidopsidicola	s__Protomyces arabidopsidicola
+42	s__Morchella.punctipes	s__Morchella punctipes
+43	s__Pseudozyma.thailandica	s__Pseudozyma thailandica
+44	s__Moesziomyces.parantarcticus	s__Moesziomyces parantarcticus
+45	s__Ganoderma.multipileum	s__Ganoderma multipileum
+46	s__Physisporinus.lineatus	s__Physisporinus lineatus
+47	s__Laccaria.trichodermophora	s__Laccaria trichodermophora
+48	s__Podaxis.sp..AQ645840	s__Podaxis sp. AQ645840
+49	s__Malassezia.restricta	s__Malassezia restricta
+50	s__Malassezia.cuniculi	s__Malassezia cuniculi
+51	s__Apiotrichum.gamsii	s__Apiotrichum gamsii
+52	s__Dothiorella.sarmentorum	s__Dothiorella sarmentorum
+53	s__Cladosporium.sp..SL.16	s__Cladosporium sp. SL-16
+54	s__Botrytis.tulipae	s__Botrytis tulipae
+55	s__Clarireedia.hainanense	s__Clarireedia hainanense
+56	s__Hymenoscyphus.occultus	s__Hymenoscyphus occultus
+57	s__Suhomyces.faveliae	s__Suhomyces faveliae
+58	s__Wickerhamomyces.ciferrii	s__Wickerhamomyces ciferrii
+59	s__Trichoderma.erinaceum	s__Trichoderma erinaceum
+60	s__Aspergillus.spinulosporus	s__Aspergillus spinulosporus
+61	s__Aspergillus.texensis	s__Aspergillus texensis
+62	s__Tuber.melosporum	s__Tuber melosporum
+63	s__Malassezia.arunalokei	s__Malassezia arunalokei
+64	s__Malassezia.globosa	s__Malassezia globosa
+65	s__Golubevia.sp..BC0812	s__Golubevia sp. BC0812
+66	s__Candida.dubliniensis	s__Candida dubliniensis
+67	s__Trichomonascus.petasosporus	s__Trichomonascus petasosporus
+68	s__Saccharomycopsis.sp..KB.2023a	s__Saccharomycopsis sp. KB-2023a
+69	s__Alternaria.burnsii	s__Alternaria burnsii
+70	s__Lecanosticta.acicola	s__Lecanosticta acicola
+71	s__Pseudocercospora.ulei	s__Pseudocercospora ulei
+72	s__Sclerotinia.minor	s__Sclerotinia minor
+73	s__Myriosclerotinia.scirpicola	s__Myriosclerotinia scirpicola
+74	s__Claviceps.fusiformis	s__Claviceps fusiformis
+75	s__Epichloe.festucae	s__Epichloe festucae
+76	s__Sphaerostilbella.broomeana	s__Sphaerostilbella broomeana
+77	s__Ustanciosporium.gigantosporum	s__Ustanciosporium gigantosporum
+78	s__Tausonia.pullulans	s__Tausonia pullulans
+79	s__.Candida..boidinii	s__[Candida] boidinii
+80	s__Botryosphaeria.kuwatsukai	s__Botryosphaeria kuwatsukai
+81	s__Trichosporon.faecale	s__Trichosporon faecale
+82	s__Xylaria.cf..heliscus	s__Xylaria cf. heliscus
+83	s__Fusarium.tuaranense	s__Fusarium tuaranense
+84	s__Calonectria.naviculata	s__Calonectria naviculata
+85	s__Xenoacremonium.recifei	s__Xenoacremonium recifei
+86	s__Pyricularia.oryzae	s__Pyricularia oryzae
+87	s__Phaeosphaeria.sp..H6.2b	s__Phaeosphaeria sp. H6.2b
+88	s__Teratosphaeria.destructans	s__Teratosphaeria destructans
+89	s__Lasiodiplodia.citricola	s__Lasiodiplodia citricola
+90	s__Zalaria.sp..Him3	s__Zalaria sp. Him3
+91	s__Meyerozyma.caribbica	s__Meyerozyma caribbica
+92	s__Metschnikowia.sp..MTCC.13085	s__Metschnikowia sp. MTCC 13085
+93	s__Cryptococcus.sp..VH57_BW	s__Cryptococcus sp. VH57_BW
+94	s__Atkinsonella.texensis	s__Atkinsonella texensis
+95	s__Exserohilum.rostratum	s__Exserohilum rostratum
+96	s__Aspergillus.flavus	s__Aspergillus flavus
+97	s__Tetrapisispora.blattae	s__Tetrapisispora blattae
+98	s__Calvatia.gigantea	s__Calvatia gigantea
+99	s__Heterodoassansia.hygrophilae	s__Heterodoassansia hygrophilae
+100	s__Sarocladium.oryzae	s__Sarocladium oryzae
+101	s__Protomyces.inundatus	s__Protomyces inundatus
+102	s__Cercospora.canescens	s__Cercospora canescens
+103	s__Hyphopichia.heimii	s__Hyphopichia heimii
+104	s__Ogataea.ramenticola	s__Ogataea ramenticola
+105	s__Scedosporium.minutisporum	s__Scedosporium minutisporum
+106	s__Aureobasidium.sp..P6	s__Aureobasidium sp. P6
+107	s__Lachancea.kluyveri	s__Lachancea kluyveri
+108	s__Trametes.hirsuta	s__Trametes hirsuta
+109	s__Saccharomyces.boulardii..nom..inval..	s__Saccharomyces boulardii (nom. inval.)
+110	s__Fusarium.staphyleae	s__Fusarium staphyleae
+111	s__Trichoderma.orchidacearum	s__Trichoderma orchidacearum
+112	s__Kluyveromyces.marxianus	s__Kluyveromyces marxianus
+113	s__Yamadazyma.philogaea	s__Yamadazyma philogaea
+114	s__Saccharomyces.cerevisiae	s__Saccharomyces cerevisiae
+115	s__Aphanoascus.verrucosus	s__Aphanoascus verrucosus
+116	s__Trichophyton.simii	s__Trichophyton simii
+117	s__Fusarium.bulbicola	s__Fusarium bulbicola
+118	s__Botryosphaeria.dothidea	s__Botryosphaeria dothidea
+119	s__Exophiala.spinifera	s__Exophiala spinifera
+120	s__Alternaria.viburni	s__Alternaria viburni
+121	s__Curvularia.sp..ZM96	s__Curvularia sp. ZM96
+122	s__Malassezia.pachydermatis	s__Malassezia pachydermatis
+123	s__Apiotrichum.porosum	s__Apiotrichum porosum
+124	s__Kazachstania.exigua	s__Kazachstania exigua

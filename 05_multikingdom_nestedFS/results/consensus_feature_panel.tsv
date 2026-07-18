@@ -1,0 +1,153 @@
+kingdom	feature_original	maaslin_name	folds_selected	frac_folds	mean_coef	direction
+B	s__Streptococcus oralis_Y	s__Streptococcus.oralis_Y	35	1.0	-2.675	up_in_Responder
+B	s__Haemophilus_D parainfluenzae_N	s__Haemophilus_D.parainfluenzae_N	35	1.0	3.625	up_in_NonResponder
+B	s__Haemophilus_A paraphrohaemolyticus	s__Haemophilus_A.paraphrohaemolyticus	35	1.0	2.359	up_in_NonResponder
+B	s__Bifidobacterium longum	s__Bifidobacterium.longum	35	1.0	-5.002	up_in_Responder
+B	s__Veillonella dispar	s__Veillonella.dispar.3	35	1.0	-4.166	up_in_Responder
+B	s__HROM_Genome_0948	s__HROM_Genome_0948	35	1.0	-2.45	up_in_Responder
+B	s__Veillonella dispar	s__Veillonella.dispar.1	34	0.971	-3.049	up_in_Responder
+B	s__Treponema sp905372265	s__Treponema.sp905372265	32	0.914	-2.861	up_in_Responder
+B	s__Haemophilus_D sp900756875	s__Haemophilus_D.sp900756875	32	0.914	3.174	up_in_NonResponder
+B	s__Streptococcus cristatus_E	s__Streptococcus.cristatus_E	32	0.914	-1.567	up_in_Responder
+B	s__Lancefieldella sp000564995	s__Lancefieldella.sp000564995.7	31	0.886	-1.404	up_in_Responder
+B	s__HROM_Genome_0958	s__HROM_Genome_0958	31	0.886	-1.77	up_in_Responder
+B	s__Veillonella sp018367495	s__Veillonella.sp018367495	30	0.857	-2.306	up_in_Responder
+B	s__Haemophilus_D parainfluenzae	s__Haemophilus_D.parainfluenzae	29	0.829	2.808	up_in_NonResponder
+B	s__HROM_Genome_3296	s__HROM_Genome_3296	24	0.686	-1.21	up_in_Responder
+B	s__HROM_Genome_2578	s__HROM_Genome_2578	24	0.686	-2.59	up_in_Responder
+B	s__Prevotella sp000257925	s__Prevotella.sp000257925	23	0.657	-4.426	up_in_Responder
+B	s__HROM_Genome_2291	s__HROM_Genome_2291	12	0.343	-2.069	up_in_Responder
+B	s__HROM_Genome_2759	s__HROM_Genome_2759	9	0.257	-2.285	up_in_Responder
+B	s__Arachnia propionica	s__Arachnia.propionica	9	0.257	2.555	up_in_NonResponder
+B	s__F0428 sp003043955	s__F0428.sp003043955	9	0.257	-5.107	up_in_Responder
+B	s__HROM_Genome_2731	s__HROM_Genome_2731	8	0.229	-2.263	up_in_Responder
+B	s__Lancefieldella sp000564995	s__Lancefieldella.sp000564995.6	5	0.143	-1.369	up_in_Responder
+B	s__Streptococcus cristatus_C	s__Streptococcus.cristatus_C.1	5	0.143	-2.371	up_in_Responder
+B	s__HROM_Genome_1125	s__HROM_Genome_1125	4	0.114	3.925	up_in_NonResponder
+B	s__HROM_Genome_0434	s__HROM_Genome_0434	3	0.086	-1.719	up_in_Responder
+B	s__HROM_Genome_1001	s__HROM_Genome_1001	3	0.086	-2.978	up_in_Responder
+B	s__Veillonella sp900549805	s__Veillonella.sp900549805	3	0.086	-4.607	up_in_Responder
+B	s__SDRK01 sp007845205	s__SDRK01.sp007845205	2	0.057	-2.731	up_in_Responder
+B	s__Streptococcus oralis_T	s__Streptococcus.oralis_T.1	2	0.057	-1.779	up_in_Responder
+B	s__HROM_Genome_2109	s__HROM_Genome_2109	2	0.057	-1.702	up_in_Responder
+B	s__Rothia mucilaginosa	s__Rothia.mucilaginosa.10	2	0.057	3.544	up_in_NonResponder
+B	s__Lactobacillus delbrueckii	s__Lactobacillus.delbrueckii	2	0.057	-2.025	up_in_Responder
+B	s__Limosilactobacillus portuensis	s__Limosilactobacillus.portuensis	2	0.057	-3.356	up_in_Responder
+B	s__Prevotella jejuni	s__Prevotella.jejuni	1	0.029	-4.82	up_in_Responder
+B	s__Saccharimonas sp018127705	s__Saccharimonas.sp018127705	1	0.029	-3.155	up_in_Responder
+B	s__Leptotrichia wadei	s__Leptotrichia.wadei	1	0.029	-2.343	up_in_Responder
+B	s__Granulicatella sp905371865	s__Granulicatella.sp905371865	1	0.029	-2.488	up_in_Responder
+B	s__Streptococcus mitis_BB	s__Streptococcus.mitis_BB.1	1	0.029	-2.525	up_in_Responder
+B	s__Oribacterium sinus	s__Oribacterium.sinus.2	1	0.029	-1.199	up_in_Responder
+B	s__Pauljensenia odontolytica_A	s__Pauljensenia.odontolytica_A	1	0.029	2.005	up_in_NonResponder
+B	s__HROM_Genome_1967	s__HROM_Genome_1967	1	0.029	-1.941	up_in_Responder
+B	s__HROM_Genome_2228	s__HROM_Genome_2228	1	0.029	-1.737	up_in_Responder
+B	s__HROM_Genome_5023	s__HROM_Genome_5023	1	0.029	-2.18	up_in_Responder
+B	s__HROM_Genome_2434	s__HROM_Genome_2434	1	0.029	-1.784	up_in_Responder
+B	s__Streptococcus pseudopneumoniae_L	s__Streptococcus.pseudopneumoniae_L	1	0.029	-1.447	up_in_Responder
+B	s__HROM_Genome_2371	s__HROM_Genome_2371	1	0.029	-2.469	up_in_Responder
+B	s__Veillonella dispar	s__Veillonella.dispar.2	1	0.029	-1.719	up_in_Responder
+B	s__HROM_Genome_4858	s__HROM_Genome_4858	1	0.029	0.825	up_in_NonResponder
+B	s__Lancefieldella sp015258485	s__Lancefieldella.sp015258485	1	0.029	-2.306	up_in_Responder
+F	s__Penicillium expansum	s__Penicillium.expansum	35	1.0	-2.37	up_in_Responder
+F	s__Cercospora citrullina	s__Cercospora.citrullina	35	1.0	-2.66	up_in_Responder
+F	s__Rosellinia necatrix	s__Rosellinia.necatrix	35	1.0	-1.346	up_in_Responder
+F	s__Aspergillus fumigatiaffinis	s__Aspergillus.fumigatiaffinis	35	1.0	-1.447	up_in_Responder
+F	s__Tetrapisispora blattae	s__Tetrapisispora.blattae	34	0.971	0.746	up_in_NonResponder
+F	s__[Candida] boidinii	s__.Candida..boidinii	34	0.971	-1.501	up_in_Responder
+F	s__Aspergillus jensenii	s__Aspergillus.jensenii	33	0.943	-0.658	up_in_Responder
+F	s__Botrytis tulipae	s__Botrytis.tulipae	33	0.943	0.97	up_in_NonResponder
+F	s__Lasiodiplodia sp. KE8409	s__Lasiodiplodia.sp..KE8409	32	0.914	-2.044	up_in_Responder
+F	s__Aspergillus hortae	s__Aspergillus.hortae	32	0.914	-1.715	up_in_Responder
+F	s__Calonectria naviculata	s__Calonectria.naviculata	32	0.914	-1.542	up_in_Responder
+F	s__Kazachstania exigua	s__Kazachstania.exigua	31	0.886	-1.282	up_in_Responder
+F	s__Saccharomycopsis sp. KB-2023a	s__Saccharomycopsis.sp..KB.2023a	31	0.886	1.002	up_in_NonResponder
+F	s__Zalaria sp. Him3	s__Zalaria.sp..Him3	30	0.857	-0.769	up_in_Responder
+F	s__Pseudocercospora ulei	s__Pseudocercospora.ulei	30	0.857	-0.656	up_in_Responder
+F	s__Metschnikowia sp. MTCC 13085	s__Metschnikowia.sp..MTCC.13085	28	0.8	-0.783	up_in_Responder
+F	s__Alternaria burnsii	s__Alternaria.burnsii	10	0.286	-1.99	up_in_Responder
+F	s__Exserohilum rostratum	s__Exserohilum.rostratum	8	0.229	2.083	up_in_NonResponder
+F	s__Trichoderma erinaceum	s__Trichoderma.erinaceum	8	0.229	1.418	up_in_NonResponder
+F	s__Trichosporon faecale	s__Trichosporon.faecale	6	0.171	-0.364	up_in_Responder
+F	s__Trichomonascus petasosporus	s__Trichomonascus.petasosporus	5	0.143	-0.858	up_in_Responder
+F	s__Cryptococcus sp. VH57_BW	s__Cryptococcus.sp..VH57_BW	4	0.114	1.871	up_in_NonResponder
+F	s__Physisporinus lineatus	s__Physisporinus.lineatus	3	0.086	1.608	up_in_NonResponder
+F	s__Byssoonygena ceratinophila	s__Byssoonygena.ceratinophila	3	0.086	0.956	up_in_NonResponder
+F	s__Lasiodiplodia sp. KE8368	s__Lasiodiplodia.sp..KE8368	3	0.086	-1.802	up_in_Responder
+F	s__Malassezia arunalokei	s__Malassezia.arunalokei	2	0.057	1.712	up_in_NonResponder
+F	s__Aphanoascus verrucosus	s__Aphanoascus.verrucosus	2	0.057	-1.466	up_in_Responder
+F	s__Wickerhamomyces ciferrii	s__Wickerhamomyces.ciferrii	2	0.057	1.233	up_in_NonResponder
+F	s__Teratosphaeria gauchensis	s__Teratosphaeria.gauchensis	2	0.057	-0.854	up_in_Responder
+F	s__Heterodoassansia hygrophilae	s__Heterodoassansia.hygrophilae	1	0.029	-0.577	up_in_Responder
+F	s__Aspergillus texensis	s__Aspergillus.texensis	1	0.029	1.917	up_in_NonResponder
+F	s__Malassezia globosa	s__Malassezia.globosa	1	0.029	1.656	up_in_NonResponder
+F	s__Fusarium staphyleae	s__Fusarium.staphyleae	1	0.029	-0.973	up_in_Responder
+F	s__Trametes hirsuta	s__Trametes.hirsuta	1	0.029	-1.771	up_in_Responder
+F	s__Ustanciosporium gigantosporum	s__Ustanciosporium.gigantosporum	1	0.029	1.056	up_in_NonResponder
+F	s__Xylaria cf. heliscus	s__Xylaria.cf..heliscus	1	0.029	-0.519	up_in_Responder
+F	s__Curvularia sp. ZM96	s__Curvularia.sp..ZM96	1	0.029	0.425	up_in_NonResponder
+F	s__Talaromyces islandicus	s__Talaromyces.islandicus	1	0.029	-0.769	up_in_Responder
+F	s__Kurtzmaniella fragi	s__Kurtzmaniella.fragi	1	0.029	1.645	up_in_NonResponder
+F	s__Morchella punctipes	s__Morchella.punctipes	1	0.029	0.694	up_in_NonResponder
+V	HROV-vOTU20811	HROV.vOTU20811	35	1.0	3.826	up_in_NonResponder
+V	HROV-vOTU03764	HROV.vOTU03764	35	1.0	-2.649	up_in_Responder
+V	HROV-vOTU35149	HROV.vOTU35149	35	1.0	-1.167	up_in_Responder
+V	HROV-vOTU75944	HROV.vOTU75944	35	1.0	-1.709	up_in_Responder
+V	HROV-vOTU07618	HROV.vOTU07618	35	1.0	-3.731	up_in_Responder
+V	HROV-vOTU72475	HROV.vOTU72475	35	1.0	-2.621	up_in_Responder
+V	HROV-vOTU41492	HROV.vOTU41492	34	0.971	2.935	up_in_NonResponder
+V	HROV-vOTU66954	HROV.vOTU66954	33	0.943	-2.507	up_in_Responder
+V	HROV-vOTU50963	HROV.vOTU50963	33	0.943	-2.5	up_in_Responder
+V	HROV-vOTU09867	HROV.vOTU09867	31	0.886	-0.808	up_in_Responder
+V	HROV-vOTU46906	HROV.vOTU46906	31	0.886	-3.765	up_in_Responder
+V	HROV-vOTU01981	HROV.vOTU01981	30	0.857	2.654	up_in_NonResponder
+V	HROV-vOTU26732	HROV.vOTU26732	29	0.829	-3.5	up_in_Responder
+V	HROV-vOTU64653	HROV.vOTU64653	28	0.8	-1.807	up_in_Responder
+V	HROV-vOTU66335	HROV.vOTU66335	25	0.714	-3.694	up_in_Responder
+V	HROV-vOTU08997	HROV.vOTU08997	18	0.514	-2.389	up_in_Responder
+V	HROV-vOTU70612	HROV.vOTU70612	17	0.486	-1.461	up_in_Responder
+V	HROV-vOTU45963	HROV.vOTU45963	10	0.286	-1.903	up_in_Responder
+V	HROV-vOTU23447	HROV.vOTU23447	7	0.2	-2.865	up_in_Responder
+V	HROV-vOTU29861	HROV.vOTU29861	6	0.171	-2.816	up_in_Responder
+V	HROV-vOTU28638	HROV.vOTU28638	6	0.171	-2.688	up_in_Responder
+V	HROV-vOTU71826	HROV.vOTU71826	5	0.143	-2.394	up_in_Responder
+V	HROV-vOTU13507	HROV.vOTU13507	5	0.143	-2.104	up_in_Responder
+V	HROV-vOTU30890	HROV.vOTU30890	4	0.114	-2.827	up_in_Responder
+V	HROV-vOTU38705	HROV.vOTU38705	4	0.114	2.68	up_in_NonResponder
+V	HROV-vOTU71115	HROV.vOTU71115	4	0.114	-3.637	up_in_Responder
+V	HROV-vOTU20963	HROV.vOTU20963	4	0.114	-3.584	up_in_Responder
+V	HROV-vOTU09864	HROV.vOTU09864	4	0.114	-2.005	up_in_Responder
+V	HROV-vOTU45175	HROV.vOTU45175	3	0.086	2.684	up_in_NonResponder
+V	HROV-vOTU74082	HROV.vOTU74082	3	0.086	-3.873	up_in_Responder
+V	HROV-vOTU01892	HROV.vOTU01892	3	0.086	-4.695	up_in_Responder
+V	HROV-vOTU61707	HROV.vOTU61707	3	0.086	-2.041	up_in_Responder
+V	HROV-vOTU64982	HROV.vOTU64982	3	0.086	-3.354	up_in_Responder
+V	HROV-vOTU32053	HROV.vOTU32053	3	0.086	-2.035	up_in_Responder
+V	HROV-vOTU64497	HROV.vOTU64497	2	0.057	-1.677	up_in_Responder
+V	HROV-vOTU74504	HROV.vOTU74504	2	0.057	-0.885	up_in_Responder
+V	HROV-vOTU65727	HROV.vOTU65727	2	0.057	2.732	up_in_NonResponder
+V	HROV-vOTU34455	HROV.vOTU34455	2	0.057	-2.136	up_in_Responder
+V	HROV-vOTU47360	HROV.vOTU47360	2	0.057	-2.008	up_in_Responder
+V	HROV-vOTU39537	HROV.vOTU39537	2	0.057	-1.901	up_in_Responder
+V	HROV-vOTU63613	HROV.vOTU63613	1	0.029	2.296	up_in_NonResponder
+V	HROV-vOTU59503	HROV.vOTU59503	1	0.029	-2.894	up_in_Responder
+V	HROV-vOTU43762	HROV.vOTU43762	1	0.029	4.411	up_in_NonResponder
+V	HROV-vOTU12418	HROV.vOTU12418	1	0.029	3.267	up_in_NonResponder
+V	HROV-vOTU56294	HROV.vOTU56294	1	0.029	-2.468	up_in_Responder
+V	HROV-vOTU14455	HROV.vOTU14455	1	0.029	2.45	up_in_NonResponder
+V	HROV-vOTU15831	HROV.vOTU15831	1	0.029	2.094	up_in_NonResponder
+V	HROV-vOTU43248	HROV.vOTU43248	1	0.029	-2.32	up_in_Responder
+V	HROV-vOTU38195	HROV.vOTU38195	1	0.029	-3.759	up_in_Responder
+V	HROV-vOTU26034	HROV.vOTU26034	1	0.029	3.713	up_in_NonResponder
+V	HROV-vOTU61744	HROV.vOTU61744	1	0.029	-1.951	up_in_Responder
+V	HROV-vOTU53817	HROV.vOTU53817	1	0.029	-2.377	up_in_Responder
+V	HROV-vOTU57623	HROV.vOTU57623	1	0.029	2.226	up_in_NonResponder
+V	HROV-vOTU49726	HROV.vOTU49726	1	0.029	-0.5	up_in_Responder
+V	HROV-vOTU59956	HROV.vOTU59956	1	0.029	-1.509	up_in_Responder
+V	HROV-vOTU13757	HROV.vOTU13757	1	0.029	-1.195	up_in_Responder
+V	HROV-vOTU09958	HROV.vOTU09958	1	0.029	-3.236	up_in_Responder
+V	HROV-vOTU06026	HROV.vOTU06026	1	0.029	2.807	up_in_NonResponder
+V	HROV-vOTU21781	HROV.vOTU21781	1	0.029	-1.819	up_in_Responder
+V	HROV-vOTU15781	HROV.vOTU15781	1	0.029	-2.664	up_in_Responder
+V	HROV-vOTU19010	HROV.vOTU19010	1	0.029	-3.574	up_in_Responder
+V	HROV-vOTU66454	HROV.vOTU66454	1	0.029	-1.821	up_in_Responder

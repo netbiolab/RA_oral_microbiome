@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jq '.metadata | {kernelspec, language_info: {name: .language_info.name, version: .language_info.version}}' 02_final_notebooks/updated_Figure_4.ipynb)",
+      "Bash(jq '.metadata.language_info.version' 02_Figure_Notebooks/Figure_5_Machine_learning_analysis.ipynb)"
+    ]
+  }
+}

@@ -1,0 +1,1512 @@
+2026-05-21 13:30:41.908597 INFO::Writing function arguments to log file
+2026-05-21 13:30:41.97267 DEBUG::Function arguments
+2026-05-21 13:30:41.980482 DEBUG::Output folder: maaslin2_OAvsRA
+2026-05-21 13:30:41.981246 DEBUG::Min Abundance: 0.000000
+2026-05-21 13:30:41.981974 DEBUG::Min Prevalence: 0.100000
+2026-05-21 13:30:41.982662 DEBUG::Normalization: TSS
+2026-05-21 13:30:41.983343 DEBUG::Transform: LOG
+2026-05-21 13:30:41.984016 DEBUG::Analysis method: LM
+2026-05-21 13:30:41.984737 DEBUG::Max significance: 0.250000
+2026-05-21 13:30:41.985399 DEBUG::Random effects:
+2026-05-21 13:30:41.986064 DEBUG::Fixed effects: diagnosis,Sex,Age,Smoking_Status
+2026-05-21 13:30:41.98671 DEBUG::Correction method: BH
+2026-05-21 13:30:41.987371 DEBUG::Standardize: TRUE
+2026-05-21 13:30:41.988025 DEBUG::Cores: 1
+2026-05-21 13:30:41.988661 INFO::Verifying options selected are valid
+2026-05-21 13:30:42.018171 INFO::Determining format of input files
+2026-05-21 13:30:42.020187 INFO::Input format is data samples as rows and metadata samples as rows
+2026-05-21 13:30:42.023775 DEBUG::A total of 77 samples were found in both the data and metadata
+2026-05-21 13:30:42.024573 DEBUG::Reordering data/metadata to use same sample ordering
+2026-05-21 13:30:42.044902 INFO::Formula for fixed effects: expr ~  diagnosis + Sex + Age + Smoking_Status
+2026-05-21 13:30:42.046846 INFO::Factor detected for categorial metadata 'diagnosis'. Provide a reference argument or manually set factor ordering to change reference level.
+2026-05-21 13:30:42.048017 INFO::Factor detected for categorial metadata 'Sex'. Provide a reference argument or manually set factor ordering to change reference level.
+2026-05-21 13:30:42.0492 INFO::Factor detected for categorial metadata 'Smoking_Status'. Provide a reference argument or manually set factor ordering to change reference level.
+2026-05-21 13:30:42.050359 INFO::Filter data based on min abundance and min prevalence
+2026-05-21 13:30:42.051473 INFO::Total samples in data: 77
+2026-05-21 13:30:42.052583 INFO::Min samples required with min abundance for a feature not to be filtered: 7.700000
+2026-05-21 13:30:42.068215 INFO::Total filtered features: 0
+2026-05-21 13:30:42.069816 INFO::Filtered feature names from abundance and prevalence filtering:
+2026-05-21 13:30:42.092458 INFO::Total filtered features with variance filtering: 0
+2026-05-21 13:30:42.094421 INFO::Filtered feature names from variance filtering:
+2026-05-21 13:30:42.095539 INFO::Running selected normalization method: TSS
+2026-05-21 13:30:42.935883 INFO::Applying z-score to standardize continuous metadata
+2026-05-21 13:30:42.958663 INFO::Running selected transform method: LOG
+2026-05-21 13:30:42.98796 INFO::Running selected analysis method: LM
+2026-05-21 13:30:42.996975 INFO::Fitting model to feature number 1, s__Scardovia.inopinata
+2026-05-21 13:30:43.018486 INFO::Fitting model to feature number 2, s__Rothia.mucilaginosa
+2026-05-21 13:30:43.022291 INFO::Fitting model to feature number 3, s__Rothia.mucilaginosa.1
+2026-05-21 13:30:43.025954 INFO::Fitting model to feature number 4, s__Rothia.mucilaginosa_A
+2026-05-21 13:30:43.029754 INFO::Fitting model to feature number 5, s__Rothia.sp015265375
+2026-05-21 13:30:43.033285 INFO::Fitting model to feature number 6, s__Rothia.mucilaginosa.2
+2026-05-21 13:30:43.036896 INFO::Fitting model to feature number 7, s__Rothia.sp001808955
+2026-05-21 13:30:43.040346 INFO::Fitting model to feature number 8, s__Rothia.mucilaginosa.3
+2026-05-21 13:30:43.043976 INFO::Fitting model to feature number 9, s__Rothia.mucilaginosa_B
+2026-05-21 13:30:43.066987 INFO::Fitting model to feature number 10, s__Rothia.mucilaginosa_B.1
+2026-05-21 13:30:43.071378 INFO::Fitting model to feature number 11, s__Rothia.sp001808955.1
+2026-05-21 13:30:43.074995 INFO::Fitting model to feature number 12, s__Rothia.mucilaginosa.4
+2026-05-21 13:30:43.078412 INFO::Fitting model to feature number 13, s__Rothia.sp001808955.2
+2026-05-21 13:30:43.082172 INFO::Fitting model to feature number 14, s__Rothia.sp001808955.3
+2026-05-21 13:30:43.085976 INFO::Fitting model to feature number 15, s__Rothia.sp015265375.1
+2026-05-21 13:30:43.089627 INFO::Fitting model to feature number 16, s__Rothia.sp001808955.4
+2026-05-21 13:30:43.093159 INFO::Fitting model to feature number 17, s__Rothia.mucilaginosa.5
+2026-05-21 13:30:43.096687 INFO::Fitting model to feature number 18, s__Rothia.mucilaginosa_B.2
+2026-05-21 13:30:43.100109 INFO::Fitting model to feature number 19, s__Rothia.mucilaginosa_B.3
+2026-05-21 13:30:43.103504 INFO::Fitting model to feature number 20, s__HROM_Genome_0036
+2026-05-21 13:30:43.106937 INFO::Fitting model to feature number 21, s__Rothia.mucilaginosa.6
+2026-05-21 13:30:43.110413 INFO::Fitting model to feature number 22, s__Rothia.mucilaginosa.7
+2026-05-21 13:30:43.113801 INFO::Fitting model to feature number 23, s__Rothia.sp902373285
+2026-05-21 13:30:43.117178 INFO::Fitting model to feature number 24, s__Rothia.sp015265375.2
+2026-05-21 13:30:43.120553 INFO::Fitting model to feature number 25, s__Rothia.sp001808955.5
+2026-05-21 13:30:43.123923 INFO::Fitting model to feature number 26, s__HROM_Genome_0083
+2026-05-21 13:30:43.127279 INFO::Fitting model to feature number 27, s__Rothia.mucilaginosa.8
+2026-05-21 13:30:43.130628 INFO::Fitting model to feature number 28, s__Rothia.mucilaginosa.9
+2026-05-21 13:30:43.133967 INFO::Fitting model to feature number 29, s__Rothia.mucilaginosa.10
+2026-05-21 13:30:43.13738 INFO::Fitting model to feature number 30, s__Rothia.mucilaginosa_B.4
+2026-05-21 13:30:43.140742 INFO::Fitting model to feature number 31, s__Rothia.mucilaginosa.11
+2026-05-21 13:30:43.144009 INFO::Fitting model to feature number 32, s__HROM_Genome_0145
+2026-05-21 13:30:43.147185 INFO::Fitting model to feature number 33, s__Rothia.mucilaginosa.12
+2026-05-21 13:30:43.150356 INFO::Fitting model to feature number 34, s__Rothia.mucilaginosa_B.5
+2026-05-21 13:30:43.153543 INFO::Fitting model to feature number 35, s__Rothia.sp001808955.6
+2026-05-21 13:30:43.156702 INFO::Fitting model to feature number 36, s__Rothia.sp001808955.7
+2026-05-21 13:30:43.159947 INFO::Fitting model to feature number 37, s__Rothia.mucilaginosa_B.6
+2026-05-21 13:30:43.163107 INFO::Fitting model to feature number 38, s__Rothia.mucilaginosa_B.7
+2026-05-21 13:30:43.166281 INFO::Fitting model to feature number 39, s__Rothia.sp001808955.8
+2026-05-21 13:30:43.169442 INFO::Fitting model to feature number 40, s__Rothia.sp001808955.9
+2026-05-21 13:30:43.172638 INFO::Fitting model to feature number 41, s__Rothia.dentocariosa
+2026-05-21 13:30:43.175836 INFO::Fitting model to feature number 42, s__Rothia.aeria
+2026-05-21 13:30:43.178984 INFO::Fitting model to feature number 43, s__Micrococcus.luteus
+2026-05-21 13:30:43.182231 INFO::Fitting model to feature number 44, s__Scardovia.wiggsiae
+2026-05-21 13:30:43.185522 INFO::Fitting model to feature number 45, s__Pauljensenia.sp000308055
+2026-05-21 13:30:43.188662 INFO::Fitting model to feature number 46, s__Pauljensenia.pyogenes_A
+2026-05-21 13:30:43.19188 INFO::Fitting model to feature number 47, s__Pauljensenia.sp000758755
+2026-05-21 13:30:43.195194 INFO::Fitting model to feature number 48, s__HROM_Genome_0217
+2026-05-21 13:30:43.245633 INFO::Fitting model to feature number 49, s__Pauljensenia.sp000308055.1
+2026-05-21 13:30:43.2503 INFO::Fitting model to feature number 50, s__Pauljensenia.marseillensis
+2026-05-21 13:30:43.25353 INFO::Fitting model to feature number 51, s__HROM_Genome_0220
+2026-05-21 13:30:43.256706 INFO::Fitting model to feature number 52, s__HROM_Genome_0223
+2026-05-21 13:30:43.259951 INFO::Fitting model to feature number 53, s__HROM_Genome_0224
+2026-05-21 13:30:43.263111 INFO::Fitting model to feature number 54, s__HROM_Genome_0225
+2026-05-21 13:30:43.266348 INFO::Fitting model to feature number 55, s__Pauljensenia.sp900541895
+2026-05-21 13:30:43.269602 INFO::Fitting model to feature number 56, s__HROM_Genome_0236
+2026-05-21 13:30:43.273946 INFO::Fitting model to feature number 57, s__Pauljensenia.georgiae
+2026-05-21 13:30:43.278611 INFO::Fitting model to feature number 58, s__Pauljensenia.hongkongensis
+2026-05-21 13:30:43.281833 INFO::Fitting model to feature number 59, s__Pauljensenia.sp000411415
+2026-05-21 13:30:43.285153 INFO::Fitting model to feature number 60, s__Pauljensenia.sp018375675
+2026-05-21 13:30:43.288347 INFO::Fitting model to feature number 61, s__Pauljensenia.sp018382595
+2026-05-21 13:30:43.291526 INFO::Fitting model to feature number 62, s__HROM_Genome_0247
+2026-05-21 13:30:43.294716 INFO::Fitting model to feature number 63, s__Pauljensenia.sp000278725
+2026-05-21 13:30:43.297893 INFO::Fitting model to feature number 64, s__Pauljensenia.sp001838165
+2026-05-21 13:30:43.301064 INFO::Fitting model to feature number 65, s__Pauljensenia.odontolytica_A
+2026-05-21 13:30:43.304181 INFO::Fitting model to feature number 66, s__Pauljensenia.sp902373545
+2026-05-21 13:30:43.307375 INFO::Fitting model to feature number 67, s__HROM_Genome_0252
+2026-05-21 13:30:43.310614 INFO::Fitting model to feature number 68, s__HROM_Genome_0253
+2026-05-21 13:30:43.313787 INFO::Fitting model to feature number 69, s__Pauljensenia.sp000466265
+2026-05-21 13:30:43.316945 INFO::Fitting model to feature number 70, s__HROM_Genome_0255
+2026-05-21 13:30:43.320222 INFO::Fitting model to feature number 71, s__Pauljensenia.odontolytica_C
+2026-05-21 13:30:43.323521 INFO::Fitting model to feature number 72, s__HROM_Genome_0257
+2026-05-21 13:30:43.326684 INFO::Fitting model to feature number 73, s__HROM_Genome_0258
+2026-05-21 13:30:43.32983 INFO::Fitting model to feature number 74, s__HROM_Genome_0259
+2026-05-21 13:30:43.333047 INFO::Fitting model to feature number 75, s__HROM_Genome_0261
+2026-05-21 13:30:43.336198 INFO::Fitting model to feature number 76, s__Pauljensenia.sp000466265.1
+2026-05-21 13:30:43.339415 INFO::Fitting model to feature number 77, s__Pauljensenia.bouchesdurhonensis
+2026-05-21 13:30:43.34261 INFO::Fitting model to feature number 78, s__HROM_Genome_0265
+2026-05-21 13:30:43.345784 INFO::Fitting model to feature number 79, s__Pauljensenia.sp000185285
+2026-05-21 13:30:43.34896 INFO::Fitting model to feature number 80, s__HROM_Genome_0267
+2026-05-21 13:30:43.352115 INFO::Fitting model to feature number 81, s__Pauljensenia.sp001064145
+2026-05-21 13:30:43.355262 INFO::Fitting model to feature number 82, s__Pauljensenia.odontolytica_B
+2026-05-21 13:30:43.358421 INFO::Fitting model to feature number 83, s__Pauljensenia.sp018382595.1
+2026-05-21 13:30:43.361588 INFO::Fitting model to feature number 84, s__Pauljensenia.sp900556405
+2026-05-21 13:30:43.364726 INFO::Fitting model to feature number 85, s__Pauljensenia.odontolytica
+2026-05-21 13:30:43.367927 INFO::Fitting model to feature number 86, s__Pauljensenia.sp902373435
+2026-05-21 13:30:43.371138 INFO::Fitting model to feature number 87, s__HROM_Genome_0285
+2026-05-21 13:30:43.374357 INFO::Fitting model to feature number 88, s__HROM_Genome_0286
+2026-05-21 13:30:43.382796 INFO::Fitting model to feature number 89, s__HROM_Genome_0287
+2026-05-21 13:30:43.386542 INFO::Fitting model to feature number 90, s__Pauljensenia.meyeri
+2026-05-21 13:30:43.389771 INFO::Fitting model to feature number 91, s__Pauljensenia.cardiffensis
+2026-05-21 13:30:43.392963 INFO::Fitting model to feature number 92, s__Actinomyces.graevenitzii
+2026-05-21 13:30:43.396095 INFO::Fitting model to feature number 93, s__HROM_Genome_0303
+2026-05-21 13:30:43.399272 INFO::Fitting model to feature number 94, s__Actinomyces.oricola
+2026-05-21 13:30:43.402449 INFO::Fitting model to feature number 95, s__Actinomyces.johnsonii
+2026-05-21 13:30:43.405646 INFO::Fitting model to feature number 96, s__Actinomyces.oris
+2026-05-21 13:30:43.40892 INFO::Fitting model to feature number 97, s__Actinomyces.oris_B
+2026-05-21 13:30:43.412097 INFO::Fitting model to feature number 98, s__Actinomyces.oris_C
+2026-05-21 13:30:43.415271 INFO::Fitting model to feature number 99, s__Actinomyces.naeslundii
+2026-05-21 13:30:43.418539 INFO::Fitting model to feature number 100, s__Actinomyces.oris_D
+2026-05-21 13:30:43.421727 INFO::Fitting model to feature number 101, s__Actinomyces.oris_E
+2026-05-21 13:30:43.424876 INFO::Fitting model to feature number 102, s__Actinomyces.sp002999235
+2026-05-21 13:30:43.428085 INFO::Fitting model to feature number 103, s__Actinomyces.sp000220835
+2026-05-21 13:30:43.431756 INFO::Fitting model to feature number 104, s__Actinomyces.dentalis
+2026-05-21 13:30:43.434998 INFO::Fitting model to feature number 105, s__Actinomyces.radicidentis
+2026-05-21 13:30:43.438234 INFO::Fitting model to feature number 106, s__Actinomyces.israelii
+2026-05-21 13:30:43.441413 INFO::Fitting model to feature number 107, s__Actinomyces.sp000195595
+2026-05-21 13:30:43.444555 INFO::Fitting model to feature number 108, s__Actinomyces.sp900323545
+2026-05-21 13:30:43.447753 INFO::Fitting model to feature number 109, s__Actinomyces.gerencseriae
+2026-05-21 13:30:43.450995 INFO::Fitting model to feature number 110, s__Actinomyces.massiliensis
+2026-05-21 13:30:43.45419 INFO::Fitting model to feature number 111, s__Actinomyces.sp001278845
+2026-05-21 13:30:43.45751 INFO::Fitting model to feature number 112, s__Actinomyces.timonensis
+2026-05-21 13:30:43.460689 INFO::Fitting model to feature number 113, s__Bifidobacterium.swidsinskii
+2026-05-21 13:30:43.463822 INFO::Fitting model to feature number 114, s__Peptidiphaga.sp000466165
+2026-05-21 13:30:43.46697 INFO::Fitting model to feature number 115, s__Peptidiphaga.gingivicola
+2026-05-21 13:30:43.47009 INFO::Fitting model to feature number 116, s__HROM_Genome_0348
+2026-05-21 13:30:43.473293 INFO::Fitting model to feature number 117, s__HROM_Genome_0349
+2026-05-21 13:30:43.47643 INFO::Fitting model to feature number 118, s__Peptidiphaga.sp905373325
+2026-05-21 13:30:43.479553 INFO::Fitting model to feature number 119, s__HROM_Genome_0351
+2026-05-21 13:30:43.482778 INFO::Fitting model to feature number 120, s__Alloscardovia.omnicolens
+2026-05-21 13:30:43.485909 INFO::Fitting model to feature number 121, s__Parascardovia.denticolens
+2026-05-21 13:30:43.488965 INFO::Fitting model to feature number 122, s__Bifidobacterium.dentium
+2026-05-21 13:30:43.492123 INFO::Fitting model to feature number 123, s__Bifidobacterium.longum
+2026-05-21 13:30:43.495311 INFO::Fitting model to feature number 124, s__Corynebacterium.durum
+2026-05-21 13:30:43.498411 INFO::Fitting model to feature number 125, s__HROM_Genome_0380
+2026-05-21 13:30:43.50152 INFO::Fitting model to feature number 126, s__Corynebacterium.matruchotii
+2026-05-21 13:30:43.504633 INFO::Fitting model to feature number 127, s__HROM_Genome_0382
+2026-05-21 13:30:43.50783 INFO::Fitting model to feature number 128, s__Corynebacterium.argentoratense
+2026-05-21 13:30:43.516583 INFO::Fitting model to feature number 129, s__Cutibacterium.acnes
+2026-05-21 13:30:43.519939 INFO::Fitting model to feature number 130, s__Arachnia.propionica
+2026-05-21 13:30:43.523129 INFO::Fitting model to feature number 131, s__Arachnia.rubra
+2026-05-21 13:30:43.526293 INFO::Fitting model to feature number 132, s__HROM_Genome_0390
+2026-05-21 13:30:43.529359 INFO::Fitting model to feature number 133, s__Arachnia.sp905372155
+2026-05-21 13:30:43.532476 INFO::Fitting model to feature number 134, s__Arachnia.sp013333945
+2026-05-21 13:30:43.535626 INFO::Fitting model to feature number 135, s__HROM_Genome_0395
+2026-05-21 13:30:43.538807 INFO::Fitting model to feature number 136, s__HROM_Genome_0396
+2026-05-21 13:30:43.541974 INFO::Fitting model to feature number 137, s__Propionibacterium.acidifaciens
+2026-05-21 13:30:43.545123 INFO::Fitting model to feature number 138, s__Cryptobacterium.curtum
+2026-05-21 13:30:43.548302 INFO::Fitting model to feature number 139, s__Olsenella.uli
+2026-05-21 13:30:43.551452 INFO::Fitting model to feature number 140, s__Olsenella_I.phocaeensis
+2026-05-21 13:30:43.55462 INFO::Fitting model to feature number 141, s__Fannyhessea.vaginae
+2026-05-21 13:30:43.557888 INFO::Fitting model to feature number 142, s__HROM_Genome_0409
+2026-05-21 13:30:43.561031 INFO::Fitting model to feature number 143, s__Lancefieldella.sp000411555
+2026-05-21 13:30:43.564168 INFO::Fitting model to feature number 144, s__Lancefieldella.sp015258605
+2026-05-21 13:30:43.567339 INFO::Fitting model to feature number 145, s__Lancefieldella.sp000564995
+2026-05-21 13:30:43.570472 INFO::Fitting model to feature number 146, s__Lancefieldella.sp015258485
+2026-05-21 13:30:43.573848 INFO::Fitting model to feature number 147, s__Lancefieldella.parvula
+2026-05-21 13:30:43.577061 INFO::Fitting model to feature number 148, s__HROM_Genome_0430
+2026-05-21 13:30:43.580179 INFO::Fitting model to feature number 149, s__HROM_Genome_0434
+2026-05-21 13:30:43.583363 INFO::Fitting model to feature number 150, s__Lancefieldella.sp000564995.1
+2026-05-21 13:30:43.586643 INFO::Fitting model to feature number 151, s__Lancefieldella.sp000564995.2
+2026-05-21 13:30:43.589759 INFO::Fitting model to feature number 152, s__Lancefieldella.sp000564995.3
+2026-05-21 13:30:43.592913 INFO::Fitting model to feature number 153, s__Lancefieldella.sp000564995.4
+2026-05-21 13:30:43.596066 INFO::Fitting model to feature number 154, s__HROM_Genome_0455
+2026-05-21 13:30:43.599182 INFO::Fitting model to feature number 155, s__HROM_Genome_0485
+2026-05-21 13:30:43.60231 INFO::Fitting model to feature number 156, s__Lancefieldella.sp015259105
+2026-05-21 13:30:43.605461 INFO::Fitting model to feature number 157, s__HROM_Genome_0501
+2026-05-21 13:30:43.608709 INFO::Fitting model to feature number 158, s__Lancefieldella.sp000564995.5
+2026-05-21 13:30:43.611876 INFO::Fitting model to feature number 159, s__HROM_Genome_0520
+2026-05-21 13:30:43.614981 INFO::Fitting model to feature number 160, s__Lancefieldella.sp000564995.6
+2026-05-21 13:30:43.618079 INFO::Fitting model to feature number 161, s__Lancefieldella.sp000564995.7
+2026-05-21 13:30:43.621231 INFO::Fitting model to feature number 162, s__Lancefieldella.sp000564995.8
+2026-05-21 13:30:43.624356 INFO::Fitting model to feature number 163, s__HROM_Genome_0622
+2026-05-21 13:30:43.627469 INFO::Fitting model to feature number 164, s__Lancefieldella.sp000564995.9
+2026-05-21 13:30:43.630605 INFO::Fitting model to feature number 165, s__Lancefieldella.sp000564995.10
+2026-05-21 13:30:43.633733 INFO::Fitting model to feature number 166, s__Lancefieldella.sp902373375
+2026-05-21 13:30:43.636809 INFO::Fitting model to feature number 167, s__HROM_Genome_0698
+2026-05-21 13:30:43.645213 INFO::Fitting model to feature number 168, s__Lancefieldella.sp000564995.11
+2026-05-21 13:30:43.648747 INFO::Fitting model to feature number 169, s__HROM_Genome_0706
+2026-05-21 13:30:43.651864 INFO::Fitting model to feature number 170, s__HROM_Genome_0711
+2026-05-21 13:30:43.655022 INFO::Fitting model to feature number 171, s__HROM_Genome_0712
+2026-05-21 13:30:43.658207 INFO::Fitting model to feature number 172, s__Lancefieldella.sp000564995.12
+2026-05-21 13:30:43.661379 INFO::Fitting model to feature number 173, s__HROM_Genome_0716
+2026-05-21 13:30:43.664554 INFO::Fitting model to feature number 174, s__Lancefieldella.sp000564995.13
+2026-05-21 13:30:43.667723 INFO::Fitting model to feature number 175, s__Lancefieldella.sp000564995.14
+2026-05-21 13:30:43.670866 INFO::Fitting model to feature number 176, s__HROM_Genome_0722
+2026-05-21 13:30:43.674005 INFO::Fitting model to feature number 177, s__HROM_Genome_0746
+2026-05-21 13:30:43.677173 INFO::Fitting model to feature number 178, s__HROM_Genome_0747
+2026-05-21 13:30:43.6803 INFO::Fitting model to feature number 179, s__HROM_Genome_0748
+2026-05-21 13:30:43.683553 INFO::Fitting model to feature number 180, s__HROM_Genome_0761
+2026-05-21 13:30:43.686754 INFO::Fitting model to feature number 181, s__Lancefieldella.sp000564995.15
+2026-05-21 13:30:43.689872 INFO::Fitting model to feature number 182, s__HROM_Genome_0781
+2026-05-21 13:30:43.693082 INFO::Fitting model to feature number 183, s__Lancefieldella.sp000564995.16
+2026-05-21 13:30:43.696203 INFO::Fitting model to feature number 184, s__Lancefieldella.sp000564995.17
+2026-05-21 13:30:43.699388 INFO::Fitting model to feature number 185, s__HROM_Genome_0795
+2026-05-21 13:30:43.702546 INFO::Fitting model to feature number 186, s__Lancefieldella.sp000564995.18
+2026-05-21 13:30:43.705671 INFO::Fitting model to feature number 187, s__Lancefieldella.sp000564995.19
+2026-05-21 13:30:43.708827 INFO::Fitting model to feature number 188, s__Lancefieldella.sp000564995.20
+2026-05-21 13:30:43.712194 INFO::Fitting model to feature number 189, s__HROM_Genome_0854
+2026-05-21 13:30:43.715378 INFO::Fitting model to feature number 190, s__Lancefieldella.sp000564995.21
+2026-05-21 13:30:43.718539 INFO::Fitting model to feature number 191, s__Lancefieldella.sp000564995.22
+2026-05-21 13:30:43.721643 INFO::Fitting model to feature number 192, s__HROM_Genome_0875
+2026-05-21 13:30:43.724806 INFO::Fitting model to feature number 193, s__HROM_Genome_0877
+2026-05-21 13:30:43.727935 INFO::Fitting model to feature number 194, s__HROM_Genome_0878
+2026-05-21 13:30:43.731056 INFO::Fitting model to feature number 195, s__HROM_Genome_0885
+2026-05-21 13:30:43.734142 INFO::Fitting model to feature number 196, s__HROM_Genome_0924
+2026-05-21 13:30:43.737272 INFO::Fitting model to feature number 197, s__HROM_Genome_0934
+2026-05-21 13:30:43.74039 INFO::Fitting model to feature number 198, s__HROM_Genome_0948
+2026-05-21 13:30:43.743558 INFO::Fitting model to feature number 199, s__Slackia.exigua
+2026-05-21 13:30:43.746668 INFO::Fitting model to feature number 200, s__Olsenella_F.sp001189515
+2026-05-21 13:30:43.749784 INFO::Fitting model to feature number 201, s__HROM_Genome_0958
+2026-05-21 13:30:43.752892 INFO::Fitting model to feature number 202, s__HROM_Genome_0960
+2026-05-21 13:30:43.756018 INFO::Fitting model to feature number 203, s__Olsenella_F.profusa_A
+2026-05-21 13:30:43.759116 INFO::Fitting model to feature number 204, s__HROM_Genome_0963
+2026-05-21 13:30:43.76226 INFO::Fitting model to feature number 205, s__Prevotella.sp905372445
+2026-05-21 13:30:43.765338 INFO::Fitting model to feature number 206, s__Prevotella.koreensis
+2026-05-21 13:30:43.773541 INFO::Fitting model to feature number 207, s__Prevotella.multisaccharivorax
+2026-05-21 13:30:43.777439 INFO::Fitting model to feature number 208, s__Prevotella.denticola
+2026-05-21 13:30:43.780578 INFO::Fitting model to feature number 209, s__Prevotella.multiformis
+2026-05-21 13:30:43.783709 INFO::Fitting model to feature number 210, s__Prevotella.sp000257925
+2026-05-21 13:30:43.786844 INFO::Fitting model to feature number 211, s__Prevotella.veroralis
+2026-05-21 13:30:43.789949 INFO::Fitting model to feature number 212, s__Prevotella.histicola
+2026-05-21 13:30:43.793101 INFO::Fitting model to feature number 213, s__Prevotella.melaninogenica
+2026-05-21 13:30:43.796278 INFO::Fitting model to feature number 214, s__Prevotella.melaninogenica_A
+2026-05-21 13:30:43.799437 INFO::Fitting model to feature number 215, s__Prevotella.jejuni
+2026-05-21 13:30:43.802725 INFO::Fitting model to feature number 216, s__HROM_Genome_0980
+2026-05-21 13:30:43.805915 INFO::Fitting model to feature number 217, s__HROM_Genome_0982
+2026-05-21 13:30:43.809376 INFO::Fitting model to feature number 218, s__Prevotella.sp000467895
+2026-05-21 13:30:43.812577 INFO::Fitting model to feature number 219, s__Prevotella.fusca
+2026-05-21 13:30:43.815806 INFO::Fitting model to feature number 220, s__HROM_Genome_0985
+2026-05-21 13:30:43.818957 INFO::Fitting model to feature number 221, s__Prevotella.scopos
+2026-05-21 13:30:43.822175 INFO::Fitting model to feature number 222, s__Prevotella.nigrescens
+2026-05-21 13:30:43.825367 INFO::Fitting model to feature number 223, s__Prevotella.aurantiaca
+2026-05-21 13:30:43.828539 INFO::Fitting model to feature number 224, s__Prevotella.pallens
+2026-05-21 13:30:43.831659 INFO::Fitting model to feature number 225, s__Prevotella.intermedia
+2026-05-21 13:30:43.834785 INFO::Fitting model to feature number 226, s__HROM_Genome_1001
+2026-05-21 13:30:43.837973 INFO::Fitting model to feature number 227, s__HROM_Genome_1003
+2026-05-21 13:30:43.841173 INFO::Fitting model to feature number 228, s__Prevotella.nanceiensis
+2026-05-21 13:30:43.844377 INFO::Fitting model to feature number 229, s__Prevotella.sp000163055
+2026-05-21 13:30:43.847476 INFO::Fitting model to feature number 230, s__Prevotella.sp015256945
+2026-05-21 13:30:43.8506 INFO::Fitting model to feature number 231, s__Prevotella.sp013333285
+2026-05-21 13:30:43.853795 INFO::Fitting model to feature number 232, s__Prevotella.sp013333935
+2026-05-21 13:30:43.857068 INFO::Fitting model to feature number 233, s__HROM_Genome_1009
+2026-05-21 13:30:43.860211 INFO::Fitting model to feature number 234, s__Prevotella.sp003043945
+2026-05-21 13:30:43.863375 INFO::Fitting model to feature number 235, s__HROM_Genome_1014
+2026-05-21 13:30:43.866524 INFO::Fitting model to feature number 236, s__HROM_Genome_1015
+2026-05-21 13:30:43.869694 INFO::Fitting model to feature number 237, s__HROM_Genome_1016
+2026-05-21 13:30:43.872858 INFO::Fitting model to feature number 238, s__Prevotella.baroniae
+2026-05-21 13:30:43.875993 INFO::Fitting model to feature number 239, s__Prevotella.seregens
+2026-05-21 13:30:43.879138 INFO::Fitting model to feature number 240, s__Prevotella.buccae
+2026-05-21 13:30:43.882343 INFO::Fitting model to feature number 241, s__HROM_Genome_1021
+2026-05-21 13:30:43.885448 INFO::Fitting model to feature number 242, s__Prevotella.sp000599605
+2026-05-21 13:30:43.888569 INFO::Fitting model to feature number 243, s__Prevotella.oulorum
+2026-05-21 13:30:43.891681 INFO::Fitting model to feature number 244, s__Prevotella.maculosa
+2026-05-21 13:30:43.894801 INFO::Fitting model to feature number 245, s__Prevotella.salivae
+2026-05-21 13:30:43.902588 INFO::Fitting model to feature number 246, s__Prevotella.oris
+2026-05-21 13:30:43.906855 INFO::Fitting model to feature number 247, s__Prevotella.oralis
+2026-05-21 13:30:43.910043 INFO::Fitting model to feature number 248, s__HROM_Genome_1030
+2026-05-21 13:30:43.913205 INFO::Fitting model to feature number 249, s__Prevotella.pleuritidis
+2026-05-21 13:30:43.916471 INFO::Fitting model to feature number 250, s__Prevotella.enoeca
+2026-05-21 13:30:43.919687 INFO::Fitting model to feature number 251, s__Prevotella.marshii
+2026-05-21 13:30:43.922879 INFO::Fitting model to feature number 252, s__Prevotella.micans
+2026-05-21 13:30:43.926127 INFO::Fitting model to feature number 253, s__Alloprevotella.tannerae_A
+2026-05-21 13:30:43.929574 INFO::Fitting model to feature number 254, s__Alloprevotella.tannerae_B
+2026-05-21 13:30:43.932884 INFO::Fitting model to feature number 255, s__Alloprevotella.tannerae
+2026-05-21 13:30:43.936032 INFO::Fitting model to feature number 256, s__HROM_Genome_1042
+2026-05-21 13:30:43.939216 INFO::Fitting model to feature number 257, s__Alloprevotella.rava
+2026-05-21 13:30:43.942412 INFO::Fitting model to feature number 258, s__Alloprevotella.sp000318095
+2026-05-21 13:30:43.94558 INFO::Fitting model to feature number 259, s__Alloprevotella.sp015259235
+2026-05-21 13:30:43.948733 INFO::Fitting model to feature number 260, s__Alloprevotella.sp900095835
+2026-05-21 13:30:43.951901 INFO::Fitting model to feature number 261, s__Alloprevotella.sp905371275
+2026-05-21 13:30:43.955077 INFO::Fitting model to feature number 262, s__Alloprevotella.sp003639005
+2026-05-21 13:30:43.958229 INFO::Fitting model to feature number 263, s__Alloprevotella.sp905369775
+2026-05-21 13:30:43.961411 INFO::Fitting model to feature number 264, s__Alloprevotella.sp015257125
+2026-05-21 13:30:43.964547 INFO::Fitting model to feature number 265, s__HROM_Genome_1066
+2026-05-21 13:30:43.967731 INFO::Fitting model to feature number 266, s__Bacteroides_D.sp905373665
+2026-05-21 13:30:43.971003 INFO::Fitting model to feature number 267, s__Bacteroides_D.sp905373475
+2026-05-21 13:30:43.974229 INFO::Fitting model to feature number 268, s__HROM_Genome_1074
+2026-05-21 13:30:43.97753 INFO::Fitting model to feature number 269, s__Bacteroides_D.sp013333835
+2026-05-21 13:30:43.9807 INFO::Fitting model to feature number 270, s__Bacteroides_D.periocalifornicus
+2026-05-21 13:30:43.983959 INFO::Fitting model to feature number 271, s__Bacteroides_D.sp013333195
+2026-05-21 13:30:43.987188 INFO::Fitting model to feature number 272, s__F0058.sp000163695
+2026-05-21 13:30:43.990356 INFO::Fitting model to feature number 273, s__F0058.sp905372135
+2026-05-21 13:30:43.993502 INFO::Fitting model to feature number 274, s__F0058.sp905372605
+2026-05-21 13:30:43.996619 INFO::Fitting model to feature number 275, s__Porphyromonas.catoniae
+2026-05-21 13:30:43.999928 INFO::Fitting model to feature number 276, s__HROM_Genome_1089
+2026-05-21 13:30:44.003097 INFO::Fitting model to feature number 277, s__Porphyromonas.sp905372525
+2026-05-21 13:30:44.006218 INFO::Fitting model to feature number 278, s__Porphyromonas.sp018127745
+2026-05-21 13:30:44.009337 INFO::Fitting model to feature number 279, s__Porphyromonas.sp000467855
+2026-05-21 13:30:44.012498 INFO::Fitting model to feature number 280, s__Porphyromonas.pasteri
+2026-05-21 13:30:44.015644 INFO::Fitting model to feature number 281, s__HROM_Genome_1101
+2026-05-21 13:30:44.018787 INFO::Fitting model to feature number 282, s__Porphyromonas.gingivalis
+2026-05-21 13:30:44.02191 INFO::Fitting model to feature number 283, s__Tannerella.forsythia
+2026-05-21 13:30:44.025004 INFO::Fitting model to feature number 284, s__HROM_Genome_1111
+2026-05-21 13:30:44.028154 INFO::Fitting model to feature number 285, s__Tannerella.sp003033925
+2026-05-21 13:30:44.037024 INFO::Fitting model to feature number 286, s__Tannerella.sp002890585
+2026-05-21 13:30:44.04041 INFO::Fitting model to feature number 287, s__HROM_Genome_1115
+2026-05-21 13:30:44.043591 INFO::Fitting model to feature number 288, s__HROM_Genome_1116
+2026-05-21 13:30:44.046889 INFO::Fitting model to feature number 289, s__Prevotella.saccharolytica
+2026-05-21 13:30:44.050067 INFO::Fitting model to feature number 290, s__HROM_Genome_1125
+2026-05-21 13:30:44.053217 INFO::Fitting model to feature number 291, s__Porphyromonas.endodontalis
+2026-05-21 13:30:44.056406 INFO::Fitting model to feature number 292, s__Porphyromonas.sp003640335
+2026-05-21 13:30:44.059618 INFO::Fitting model to feature number 293, s__Porphyromonas.sp003640335.1
+2026-05-21 13:30:44.06282 INFO::Fitting model to feature number 294, s__Phocaeicola.abscessus
+2026-05-21 13:30:44.065988 INFO::Fitting model to feature number 295, s__HROM_Genome_1142
+2026-05-21 13:30:44.069147 INFO::Fitting model to feature number 296, s__Prevotella.sp018127805
+2026-05-21 13:30:44.072301 INFO::Fitting model to feature number 297, s__Bacteroides.heparinolyticus
+2026-05-21 13:30:44.075448 INFO::Fitting model to feature number 298, s__Prevotella.shahii
+2026-05-21 13:30:44.078627 INFO::Fitting model to feature number 299, s__Prevotella.conceptionensis
+2026-05-21 13:30:44.081743 INFO::Fitting model to feature number 300, s__HROM_Genome_1159
+2026-05-21 13:30:44.08489 INFO::Fitting model to feature number 301, s__Prevotella.loescheii
+2026-05-21 13:30:44.088049 INFO::Fitting model to feature number 302, s__HROM_Genome_1162
+2026-05-21 13:30:44.091518 INFO::Fitting model to feature number 303, s__Prevotella.sp905373605
+2026-05-21 13:30:44.095149 INFO::Fitting model to feature number 304, s__HROM_Genome_1174
+2026-05-21 13:30:44.098316 INFO::Fitting model to feature number 305, s__Capnocytophaga.sp000192225
+2026-05-21 13:30:44.101467 INFO::Fitting model to feature number 306, s__HROM_Genome_1185
+2026-05-21 13:30:44.104667 INFO::Fitting model to feature number 307, s__HROM_Genome_1187
+2026-05-21 13:30:44.10788 INFO::Fitting model to feature number 308, s__JABCPE02.sp013333875
+2026-05-21 13:30:44.111012 INFO::Fitting model to feature number 309, s__HROM_Genome_1196
+2026-05-21 13:30:44.114151 INFO::Fitting model to feature number 310, s__Bergeyella_A.cardium
+2026-05-21 13:30:44.117308 INFO::Fitting model to feature number 311, s__HROM_Genome_1209
+2026-05-21 13:30:44.120482 INFO::Fitting model to feature number 312, s__Capnocytophaga.granulosa
+2026-05-21 13:30:44.124054 INFO::Fitting model to feature number 313, s__Capnocytophaga.gingivalis
+2026-05-21 13:30:44.127185 INFO::Fitting model to feature number 314, s__HROM_Genome_1212
+2026-05-21 13:30:44.130317 INFO::Fitting model to feature number 315, s__Capnocytophaga.sp000466425
+2026-05-21 13:30:44.133474 INFO::Fitting model to feature number 316, s__HROM_Genome_1214
+2026-05-21 13:30:44.136617 INFO::Fitting model to feature number 317, s__HROM_Genome_1215
+2026-05-21 13:30:44.139765 INFO::Fitting model to feature number 318, s__Capnocytophaga.sp905372595
+2026-05-21 13:30:44.142922 INFO::Fitting model to feature number 319, s__HROM_Genome_1217
+2026-05-21 13:30:44.14612 INFO::Fitting model to feature number 320, s__Capnocytophaga.haemolytica
+2026-05-21 13:30:44.149269 INFO::Fitting model to feature number 321, s__Capnocytophaga.bilenii
+2026-05-21 13:30:44.15235 INFO::Fitting model to feature number 322, s__Capnocytophaga.ochracea
+2026-05-21 13:30:44.155539 INFO::Fitting model to feature number 323, s__Capnocytophaga.endodontalis
+2026-05-21 13:30:44.15872 INFO::Fitting model to feature number 324, s__Capnocytophaga.leadbetteri
+2026-05-21 13:30:44.167249 INFO::Fitting model to feature number 325, s__HROM_Genome_1226
+2026-05-21 13:30:44.171285 INFO::Fitting model to feature number 326, s__Capnocytophaga.sputigena
+2026-05-21 13:30:44.174952 INFO::Fitting model to feature number 327, s__Campylobacter_A.curvus
+2026-05-21 13:30:44.178156 INFO::Fitting model to feature number 328, s__Campylobacter_A.concisus_C
+2026-05-21 13:30:44.181321 INFO::Fitting model to feature number 329, s__Campylobacter_A.concisus_O
+2026-05-21 13:30:44.184484 INFO::Fitting model to feature number 330, s__Campylobacter_A.concisus
+2026-05-21 13:30:44.187657 INFO::Fitting model to feature number 331, s__Campylobacter_A.concisus_Q
+2026-05-21 13:30:44.190834 INFO::Fitting model to feature number 332, s__Campylobacter_A.concisus_M
+2026-05-21 13:30:44.194027 INFO::Fitting model to feature number 333, s__Campylobacter_A.concisus_Y
+2026-05-21 13:30:44.197208 INFO::Fitting model to feature number 334, s__Campylobacter_A.concisus_AF
+2026-05-21 13:30:44.200416 INFO::Fitting model to feature number 335, s__HROM_Genome_1261
+2026-05-21 13:30:44.203568 INFO::Fitting model to feature number 336, s__HROM_Genome_1263
+2026-05-21 13:30:44.206748 INFO::Fitting model to feature number 337, s__HROM_Genome_1264
+2026-05-21 13:30:44.209984 INFO::Fitting model to feature number 338, s__HROM_Genome_1265
+2026-05-21 13:30:44.213173 INFO::Fitting model to feature number 339, s__HROM_Genome_1266
+2026-05-21 13:30:44.216331 INFO::Fitting model to feature number 340, s__HROM_Genome_1267
+2026-05-21 13:30:44.219474 INFO::Fitting model to feature number 341, s__HROM_Genome_1272
+2026-05-21 13:30:44.222633 INFO::Fitting model to feature number 342, s__HROM_Genome_1275
+2026-05-21 13:30:44.225784 INFO::Fitting model to feature number 343, s__HROM_Genome_1277
+2026-05-21 13:30:44.22894 INFO::Fitting model to feature number 344, s__HROM_Genome_1284
+2026-05-21 13:30:44.232109 INFO::Fitting model to feature number 345, s__HROM_Genome_1286
+2026-05-21 13:30:44.235295 INFO::Fitting model to feature number 346, s__Campylobacter_A.concisus_G
+2026-05-21 13:30:44.238495 INFO::Fitting model to feature number 347, s__HROM_Genome_1297
+2026-05-21 13:30:44.242018 INFO::Fitting model to feature number 348, s__HROM_Genome_1312
+2026-05-21 13:30:44.24521 INFO::Fitting model to feature number 349, s__Campylobacter_A.concisus_P
+2026-05-21 13:30:44.248332 INFO::Fitting model to feature number 350, s__HROM_Genome_1316
+2026-05-21 13:30:44.251475 INFO::Fitting model to feature number 351, s__HROM_Genome_1320
+2026-05-21 13:30:44.254593 INFO::Fitting model to feature number 352, s__HROM_Genome_1321
+2026-05-21 13:30:44.257733 INFO::Fitting model to feature number 353, s__HROM_Genome_1329
+2026-05-21 13:30:44.260844 INFO::Fitting model to feature number 354, s__HROM_Genome_1333
+2026-05-21 13:30:44.263958 INFO::Fitting model to feature number 355, s__HROM_Genome_1334
+2026-05-21 13:30:44.267106 INFO::Fitting model to feature number 356, s__HROM_Genome_1338
+2026-05-21 13:30:44.270225 INFO::Fitting model to feature number 357, s__HROM_Genome_1341
+2026-05-21 13:30:44.273377 INFO::Fitting model to feature number 358, s__HROM_Genome_1342
+2026-05-21 13:30:44.276498 INFO::Fitting model to feature number 359, s__HROM_Genome_1346
+2026-05-21 13:30:44.279631 INFO::Fitting model to feature number 360, s__HROM_Genome_1353
+2026-05-21 13:30:44.282758 INFO::Fitting model to feature number 361, s__HROM_Genome_1356
+2026-05-21 13:30:44.285912 INFO::Fitting model to feature number 362, s__HROM_Genome_1358
+2026-05-21 13:30:44.289106 INFO::Fitting model to feature number 363, s__HROM_Genome_1359
+2026-05-21 13:30:44.297847 INFO::Fitting model to feature number 364, s__Campylobacter_A.concisus_C.1
+2026-05-21 13:30:44.301394 INFO::Fitting model to feature number 365, s__HROM_Genome_1368
+2026-05-21 13:30:44.304534 INFO::Fitting model to feature number 366, s__HROM_Genome_1369
+2026-05-21 13:30:44.307706 INFO::Fitting model to feature number 367, s__HROM_Genome_1372
+2026-05-21 13:30:44.310897 INFO::Fitting model to feature number 368, s__HROM_Genome_1381
+2026-05-21 13:30:44.314033 INFO::Fitting model to feature number 369, s__HROM_Genome_1454
+2026-05-21 13:30:44.317191 INFO::Fitting model to feature number 370, s__HROM_Genome_1486
+2026-05-21 13:30:44.32036 INFO::Fitting model to feature number 371, s__Campylobacter_B.gracilis_A
+2026-05-21 13:30:44.323522 INFO::Fitting model to feature number 372, s__HROM_Genome_1499
+2026-05-21 13:30:44.326684 INFO::Fitting model to feature number 373, s__HROM_Genome_1515
+2026-05-21 13:30:44.329807 INFO::Fitting model to feature number 374, s__Campylobacter_A.rectus
+2026-05-21 13:30:44.332935 INFO::Fitting model to feature number 375, s__Campylobacter_A.showae_A
+2026-05-21 13:30:44.336096 INFO::Fitting model to feature number 376, s__HROM_Genome_1525
+2026-05-21 13:30:44.339248 INFO::Fitting model to feature number 377, s__Campylobacter_A.sp905371695
+2026-05-21 13:30:44.342419 INFO::Fitting model to feature number 378, s__HROM_Genome_1539
+2026-05-21 13:30:44.345615 INFO::Fitting model to feature number 379, s__HROM_Genome_1541
+2026-05-21 13:30:44.348828 INFO::Fitting model to feature number 380, s__HROM_Genome_1542
+2026-05-21 13:30:44.352075 INFO::Fitting model to feature number 381, s__Campylobacter_A.sp905372745
+2026-05-21 13:30:44.355217 INFO::Fitting model to feature number 382, s__Campylobacter_A.sp905372745.1
+2026-05-21 13:30:44.358477 INFO::Fitting model to feature number 383, s__HROM_Genome_1564
+2026-05-21 13:30:44.361615 INFO::Fitting model to feature number 384, s__Campylobacter_A.sp905372745.2
+2026-05-21 13:30:44.364816 INFO::Fitting model to feature number 385, s__Campylobacter_A.sp905372745.3
+2026-05-21 13:30:44.36826 INFO::Fitting model to feature number 386, s__HROM_Genome_1575
+2026-05-21 13:30:44.371408 INFO::Fitting model to feature number 387, s__HROM_Genome_1588
+2026-05-21 13:30:44.374628 INFO::Fitting model to feature number 388, s__HROM_Genome_1602
+2026-05-21 13:30:44.377787 INFO::Fitting model to feature number 389, s__HROM_Genome_1644
+2026-05-21 13:30:44.380916 INFO::Fitting model to feature number 390, s__Flexilinea.sp001717545
+2026-05-21 13:30:44.384042 INFO::Fitting model to feature number 391, s__HROM_Genome_1646
+2026-05-21 13:30:44.387155 INFO::Fitting model to feature number 392, s__Desulfobulbus.oralis
+2026-05-21 13:30:44.390324 INFO::Fitting model to feature number 393, s__Desulfomicrobium.orale
+2026-05-21 13:30:44.393465 INFO::Fitting model to feature number 394, s__Desulfovibrio.sp003860215
+2026-05-21 13:30:44.396576 INFO::Fitting model to feature number 395, s__HROM_Genome_1664
+2026-05-21 13:30:44.399685 INFO::Fitting model to feature number 396, s__HROM_Genome_1665
+2026-05-21 13:30:44.402847 INFO::Fitting model to feature number 397, s__Pseudoramibacter.alactolyticus
+2026-05-21 13:30:44.405975 INFO::Fitting model to feature number 398, s__Shuttleworthia.satelles
+2026-05-21 13:30:44.409123 INFO::Fitting model to feature number 399, s__Butyrivibrio.sp015258065
+2026-05-21 13:30:44.412254 INFO::Fitting model to feature number 400, s__HROM_Genome_1674
+2026-05-21 13:30:44.415367 INFO::Fitting model to feature number 401, s__HROM_Genome_1675
+2026-05-21 13:30:44.418556 INFO::Fitting model to feature number 402, s__Catonella.massiliensis
+2026-05-21 13:30:44.427351 INFO::Fitting model to feature number 403, s__HROM_Genome_1679
+2026-05-21 13:30:44.430744 INFO::Fitting model to feature number 404, s__HROM_Genome_1681
+2026-05-21 13:30:44.433903 INFO::Fitting model to feature number 405, s__Catonella.morbi
+2026-05-21 13:30:44.437074 INFO::Fitting model to feature number 406, s__HROM_Genome_1683
+2026-05-21 13:30:44.440211 INFO::Fitting model to feature number 407, s__HROM_Genome_1684
+2026-05-21 13:30:44.443427 INFO::Fitting model to feature number 408, s__HROM_Genome_1688
+2026-05-21 13:30:44.446579 INFO::Fitting model to feature number 409, s__HROM_Genome_1690
+2026-05-21 13:30:44.44977 INFO::Fitting model to feature number 410, s__HROM_Genome_1692
+2026-05-21 13:30:44.452922 INFO::Fitting model to feature number 411, s__HROM_Genome_1696
+2026-05-21 13:30:44.456465 INFO::Fitting model to feature number 412, s__HROM_Genome_1700
+2026-05-21 13:30:44.459643 INFO::Fitting model to feature number 413, s__HROM_Genome_1701
+2026-05-21 13:30:44.462773 INFO::Fitting model to feature number 414, s__HROM_Genome_1702
+2026-05-21 13:30:44.465919 INFO::Fitting model to feature number 415, s__HROM_Genome_1703
+2026-05-21 13:30:44.469059 INFO::Fitting model to feature number 416, s__HROM_Genome_1704
+2026-05-21 13:30:44.472189 INFO::Fitting model to feature number 417, s__Johnsonella.sp905373785
+2026-05-21 13:30:44.475387 INFO::Fitting model to feature number 418, s__Johnsonella.sp900766185
+2026-05-21 13:30:44.479664 INFO::Fitting model to feature number 419, s__HROM_Genome_1707
+2026-05-21 13:30:44.483616 INFO::Fitting model to feature number 420, s__Johnsonella.ignava
+2026-05-21 13:30:44.486846 INFO::Fitting model to feature number 421, s__HROM_Genome_1709
+2026-05-21 13:30:44.490071 INFO::Fitting model to feature number 422, s__Oribacterium.sp015258095
+2026-05-21 13:30:44.493276 INFO::Fitting model to feature number 423, s__F0428.sp003043955
+2026-05-21 13:30:44.496531 INFO::Fitting model to feature number 424, s__Lachnoanaerobaculum.sp000287675
+2026-05-21 13:30:44.499711 INFO::Fitting model to feature number 425, s__Lachnoanaerobaculum.orale
+2026-05-21 13:30:44.503008 INFO::Fitting model to feature number 426, s__Lachnoanaerobaculum.sp000209465
+2026-05-21 13:30:44.506153 INFO::Fitting model to feature number 427, s__Lachnoanaerobaculum.gingivalis
+2026-05-21 13:30:44.5093 INFO::Fitting model to feature number 428, s__HROM_Genome_1717
+2026-05-21 13:30:44.512454 INFO::Fitting model to feature number 429, s__Lachnoanaerobaculum.umeaense
+2026-05-21 13:30:44.515581 INFO::Fitting model to feature number 430, s__Lachnoanaerobaculum.saburreum
+2026-05-21 13:30:44.518742 INFO::Fitting model to feature number 431, s__HROM_Genome_1725
+2026-05-21 13:30:44.521916 INFO::Fitting model to feature number 432, s__Acetatifactor.sp900755865
+2026-05-21 13:30:44.525101 INFO::Fitting model to feature number 433, s__Oribacterium.parvum
+2026-05-21 13:30:44.528309 INFO::Fitting model to feature number 434, s__Oribacterium.sinus
+2026-05-21 13:30:44.531507 INFO::Fitting model to feature number 435, s__Oribacterium.sinus.1
+2026-05-21 13:30:44.534649 INFO::Fitting model to feature number 436, s__Oribacterium.asaccharolyticum
+2026-05-21 13:30:44.537791 INFO::Fitting model to feature number 437, s__HROM_Genome_1742
+2026-05-21 13:30:44.541016 INFO::Fitting model to feature number 438, s__HROM_Genome_1746
+2026-05-21 13:30:44.544146 INFO::Fitting model to feature number 439, s__HROM_Genome_1750
+2026-05-21 13:30:44.547276 INFO::Fitting model to feature number 440, s__HROM_Genome_1753
+2026-05-21 13:30:44.550583 INFO::Fitting model to feature number 441, s__HROM_Genome_1757
+2026-05-21 13:30:44.560198 INFO::Fitting model to feature number 442, s__HROM_Genome_1758
+2026-05-21 13:30:44.56337 INFO::Fitting model to feature number 443, s__Oribacterium.sinus.2
+2026-05-21 13:30:44.56651 INFO::Fitting model to feature number 444, s__HROM_Genome_1762
+2026-05-21 13:30:44.56969 INFO::Fitting model to feature number 445, s__HROM_Genome_1765
+2026-05-21 13:30:44.572859 INFO::Fitting model to feature number 446, s__HROM_Genome_1766
+2026-05-21 13:30:44.576085 INFO::Fitting model to feature number 447, s__HROM_Genome_1769
+2026-05-21 13:30:44.579449 INFO::Fitting model to feature number 448, s__HROM_Genome_1771
+2026-05-21 13:30:44.582873 INFO::Fitting model to feature number 449, s__HROM_Genome_1775
+2026-05-21 13:30:44.586506 INFO::Fitting model to feature number 450, s__Oribacterium.sinus.3
+2026-05-21 13:30:44.590153 INFO::Fitting model to feature number 451, s__Oribacterium.sinus.4
+2026-05-21 13:30:44.59446 INFO::Fitting model to feature number 452, s__HROM_Genome_1799
+2026-05-21 13:30:44.59866 INFO::Fitting model to feature number 453, s__HROM_Genome_1804
+2026-05-21 13:30:44.602931 INFO::Fitting model to feature number 454, s__HROM_Genome_1810
+2026-05-21 13:30:44.607187 INFO::Fitting model to feature number 455, s__Oribacterium.sinus.5
+2026-05-21 13:30:44.611484 INFO::Fitting model to feature number 456, s__HROM_Genome_1815
+2026-05-21 13:30:44.615749 INFO::Fitting model to feature number 457, s__Oribacterium.sinus.6
+2026-05-21 13:30:44.619579 INFO::Fitting model to feature number 458, s__HROM_Genome_1828
+2026-05-21 13:30:44.622725 INFO::Fitting model to feature number 459, s__HROM_Genome_1833
+2026-05-21 13:30:44.625918 INFO::Fitting model to feature number 460, s__HROM_Genome_1836
+2026-05-21 13:30:44.629081 INFO::Fitting model to feature number 461, s__HROM_Genome_1841
+2026-05-21 13:30:44.632238 INFO::Fitting model to feature number 462, s__HROM_Genome_1843
+2026-05-21 13:30:44.635413 INFO::Fitting model to feature number 463, s__Oribacterium.sinus.7
+2026-05-21 13:30:44.638618 INFO::Fitting model to feature number 464, s__HROM_Genome_1849
+2026-05-21 13:30:44.642244 INFO::Fitting model to feature number 465, s__HROM_Genome_1853
+2026-05-21 13:30:44.645611 INFO::Fitting model to feature number 466, s__HROM_Genome_1855
+2026-05-21 13:30:44.648749 INFO::Fitting model to feature number 467, s__HROM_Genome_1862
+2026-05-21 13:30:44.651899 INFO::Fitting model to feature number 468, s__UBA4285.sp900542465
+2026-05-21 13:30:44.655021 INFO::Fitting model to feature number 469, s__W11650.sp002999035
+2026-05-21 13:30:44.65814 INFO::Fitting model to feature number 470, s__HROM_Genome_1877
+2026-05-21 13:30:44.66126 INFO::Fitting model to feature number 471, s__HROM_Genome_1878
+2026-05-21 13:30:44.664387 INFO::Fitting model to feature number 472, s__HROM_Genome_1880
+2026-05-21 13:30:44.667531 INFO::Fitting model to feature number 473, s__HROM_Genome_1882
+2026-05-21 13:30:44.670946 INFO::Fitting model to feature number 474, s__Oribacterium.sp000160135
+2026-05-21 13:30:44.674076 INFO::Fitting model to feature number 475, s__Oribacterium.sp013394775
+2026-05-21 13:30:44.677495 INFO::Fitting model to feature number 476, s__HROM_Genome_1888
+2026-05-21 13:30:44.680615 INFO::Fitting model to feature number 477, s__Stomatobaculum.longum
+2026-05-21 13:30:44.68379 INFO::Fitting model to feature number 478, s__HROM_Genome_1890
+2026-05-21 13:30:44.686893 INFO::Fitting model to feature number 479, s__Stomatobaculum.longum_A
+2026-05-21 13:30:44.695706 INFO::Fitting model to feature number 480, s__HROM_Genome_1892
+2026-05-21 13:30:44.699534 INFO::Fitting model to feature number 481, s__HROM_Genome_1893
+2026-05-21 13:30:44.702897 INFO::Fitting model to feature number 482, s__Stomatobaculum.longum_A.1
+2026-05-21 13:30:44.706048 INFO::Fitting model to feature number 483, s__HROM_Genome_1909
+2026-05-21 13:30:44.709207 INFO::Fitting model to feature number 484, s__Mogibacterium.timidum
+2026-05-21 13:30:44.712334 INFO::Fitting model to feature number 485, s__Mogibacterium.diversum
+2026-05-21 13:30:44.715485 INFO::Fitting model to feature number 486, s__HROM_Genome_1912
+2026-05-21 13:30:44.718679 INFO::Fitting model to feature number 487, s__HROM_Genome_1913
+2026-05-21 13:30:44.721859 INFO::Fitting model to feature number 488, s__HROM_Genome_1914
+2026-05-21 13:30:44.725018 INFO::Fitting model to feature number 489, s__HROM_Genome_1915
+2026-05-21 13:30:44.728197 INFO::Fitting model to feature number 490, s__HROM_Genome_1916
+2026-05-21 13:30:44.731402 INFO::Fitting model to feature number 491, s__Mogibacterium.pumilum
+2026-05-21 13:30:44.73462 INFO::Fitting model to feature number 492, s__HROM_Genome_1919
+2026-05-21 13:30:44.73784 INFO::Fitting model to feature number 493, s__Eubacterium_B.sulci
+2026-05-21 13:30:44.740998 INFO::Fitting model to feature number 494, s__Eubacterium_B.infirmum
+2026-05-21 13:30:44.744213 INFO::Fitting model to feature number 495, s__HROM_Genome_1922
+2026-05-21 13:30:44.747514 INFO::Fitting model to feature number 496, s__HROM_Genome_1923
+2026-05-21 13:30:44.750723 INFO::Fitting model to feature number 497, s__HROM_Genome_1924
+2026-05-21 13:30:44.753869 INFO::Fitting model to feature number 498, s__JABZIP01.sp015258265
+2026-05-21 13:30:44.75705 INFO::Fitting model to feature number 499, s__Peptostreptococcus.sp900759325
+2026-05-21 13:30:44.760237 INFO::Fitting model to feature number 500, s__Peptostreptococcus.stomatis
+2026-05-21 13:30:44.763446 INFO::Fitting model to feature number 501, s__Filifactor.alocis
+2026-05-21 13:30:44.766629 INFO::Fitting model to feature number 502, s__HROM_Genome_1934
+2026-05-21 13:30:44.769798 INFO::Fitting model to feature number 503, s__HROM_Genome_1937
+2026-05-21 13:30:44.772946 INFO::Fitting model to feature number 504, s__Peptoanaerobacter.yurii
+2026-05-21 13:30:44.776159 INFO::Fitting model to feature number 505, s__HROM_Genome_1939
+2026-05-21 13:30:44.779287 INFO::Fitting model to feature number 506, s__HROM_Genome_1940
+2026-05-21 13:30:44.782539 INFO::Fitting model to feature number 507, s__Peptoanaerobacter.stomatis
+2026-05-21 13:30:44.785679 INFO::Fitting model to feature number 508, s__Eubacterium_M.brachy
+2026-05-21 13:30:44.788868 INFO::Fitting model to feature number 509, s__Hornefia.minuta
+2026-05-21 13:30:44.79197 INFO::Fitting model to feature number 510, s__Hornefia.nodata
+2026-05-21 13:30:44.795111 INFO::Fitting model to feature number 511, s__Eubacterium_N.saphenum
+2026-05-21 13:30:44.798229 INFO::Fitting model to feature number 512, s__CAJPNN01.sp905372035
+2026-05-21 13:30:44.801451 INFO::Fitting model to feature number 513, s__CAG.793.sp013333035
+2026-05-21 13:30:44.804606 INFO::Fitting model to feature number 514, s__CAG.793.sp013333395
+2026-05-21 13:30:44.807784 INFO::Fitting model to feature number 515, s__HROM_Genome_1957
+2026-05-21 13:30:44.810946 INFO::Fitting model to feature number 516, s__JABCPO02.sp013333105
+2026-05-21 13:30:44.814053 INFO::Fitting model to feature number 517, s__Parvimonas.micra
+2026-05-21 13:30:44.81723 INFO::Fitting model to feature number 518, s__Parvimonas.sp015257355
+2026-05-21 13:30:44.82644 INFO::Fitting model to feature number 519, s__Parvimonas.sp000214475
+2026-05-21 13:30:44.83026 INFO::Fitting model to feature number 520, s__HROM_Genome_1967
+2026-05-21 13:30:44.833454 INFO::Fitting model to feature number 521, s__Parvimonas.sp000223315
+2026-05-21 13:30:44.836626 INFO::Fitting model to feature number 522, s__W5053.sp000467935
+2026-05-21 13:30:44.839772 INFO::Fitting model to feature number 523, s__HROM_Genome_1982
+2026-05-21 13:30:44.842926 INFO::Fitting model to feature number 524, s__HROM_Genome_1983
+2026-05-21 13:30:44.84624 INFO::Fitting model to feature number 525, s__Eggerthia.catenaformis
+2026-05-21 13:30:44.849504 INFO::Fitting model to feature number 526, s__HROM_Genome_2038
+2026-05-21 13:30:44.852791 INFO::Fitting model to feature number 527, s__HROM_Genome_2039
+2026-05-21 13:30:44.855949 INFO::Fitting model to feature number 528, s__Bulleidia.extructa
+2026-05-21 13:30:44.859161 INFO::Fitting model to feature number 529, s__Bulleidia.sp015256775
+2026-05-21 13:30:44.862349 INFO::Fitting model to feature number 530, s__Bulleidia.sp015256455
+2026-05-21 13:30:44.8655 INFO::Fitting model to feature number 531, s__Bulleidia.moorei
+2026-05-21 13:30:44.868643 INFO::Fitting model to feature number 532, s__HROM_Genome_2044
+2026-05-21 13:30:44.871859 INFO::Fitting model to feature number 533, s__Bulleidia.sp900554555
+2026-05-21 13:30:44.875009 INFO::Fitting model to feature number 534, s__HROM_Genome_2046
+2026-05-21 13:30:44.878213 INFO::Fitting model to feature number 535, s__HROM_Genome_2048
+2026-05-21 13:30:44.881379 INFO::Fitting model to feature number 536, s__Limosilactobacillus.fermentum
+2026-05-21 13:30:44.884545 INFO::Fitting model to feature number 537, s__Limosilactobacillus.oris
+2026-05-21 13:30:44.887704 INFO::Fitting model to feature number 538, s__Limosilactobacillus.portuensis
+2026-05-21 13:30:44.890877 INFO::Fitting model to feature number 539, s__Limosilactobacillus.vaginalis
+2026-05-21 13:30:44.894163 INFO::Fitting model to feature number 540, s__Lactobacillus.delbrueckii
+2026-05-21 13:30:44.897391 INFO::Fitting model to feature number 541, s__Ligilactobacillus.salivarius
+2026-05-21 13:30:44.900542 INFO::Fitting model to feature number 542, s__Lactobacillus.iners
+2026-05-21 13:30:44.90365 INFO::Fitting model to feature number 543, s__Lactobacillus.paragasseri
+2026-05-21 13:30:44.906891 INFO::Fitting model to feature number 544, s__Lactobacillus.crispatus
+2026-05-21 13:30:44.910041 INFO::Fitting model to feature number 545, s__Lactobacillus.helveticus
+2026-05-21 13:30:44.913129 INFO::Fitting model to feature number 546, s__Lactobacillus.acidophilus
+2026-05-21 13:30:44.916267 INFO::Fitting model to feature number 547, s__HROM_Genome_2084
+2026-05-21 13:30:44.919402 INFO::Fitting model to feature number 548, s__Lactococcus.cremoris
+2026-05-21 13:30:44.922529 INFO::Fitting model to feature number 549, s__Lactococcus.lactis
+2026-05-21 13:30:44.926036 INFO::Fitting model to feature number 550, s__Streptococcus.salivarius
+2026-05-21 13:30:44.929179 INFO::Fitting model to feature number 551, s__Streptococcus.vestibularis
+2026-05-21 13:30:44.93232 INFO::Fitting model to feature number 552, s__Streptococcus.sp000187445
+2026-05-21 13:30:44.935614 INFO::Fitting model to feature number 553, s__Streptococcus.thermophilus
+2026-05-21 13:30:44.938731 INFO::Fitting model to feature number 554, s__HROM_Genome_2092
+2026-05-21 13:30:44.941819 INFO::Fitting model to feature number 555, s__HROM_Genome_2093
+2026-05-21 13:30:44.94537 INFO::Fitting model to feature number 556, s__Streptococcus.rubneri
+2026-05-21 13:30:44.948532 INFO::Fitting model to feature number 557, s__Streptococcus.parasanguinis_B
+2026-05-21 13:30:44.957995 INFO::Fitting model to feature number 558, s__Streptococcus.parasanguinis
+2026-05-21 13:30:44.961303 INFO::Fitting model to feature number 559, s__Streptococcus.xiaochunlingii
+2026-05-21 13:30:44.964437 INFO::Fitting model to feature number 560, s__Streptococcus.koreensis
+2026-05-21 13:30:44.967593 INFO::Fitting model to feature number 561, s__Streptococcus.lactarius
+2026-05-21 13:30:44.970717 INFO::Fitting model to feature number 562, s__Streptococcus.sp000314795
+2026-05-21 13:30:44.973856 INFO::Fitting model to feature number 563, s__Streptococcus.sp902363395
+2026-05-21 13:30:44.977048 INFO::Fitting model to feature number 564, s__HROM_Genome_2105
+2026-05-21 13:30:44.980222 INFO::Fitting model to feature number 565, s__HROM_Genome_2106
+2026-05-21 13:30:44.983407 INFO::Fitting model to feature number 566, s__HROM_Genome_2107
+2026-05-21 13:30:44.986514 INFO::Fitting model to feature number 567, s__HROM_Genome_2109
+2026-05-21 13:30:44.989666 INFO::Fitting model to feature number 568, s__HROM_Genome_2110
+2026-05-21 13:30:44.992779 INFO::Fitting model to feature number 569, s__HROM_Genome_2112
+2026-05-21 13:30:44.995954 INFO::Fitting model to feature number 570, s__Streptococcus.parasanguinis_A
+2026-05-21 13:30:44.999108 INFO::Fitting model to feature number 571, s__Streptococcus.koreensis.1
+2026-05-21 13:30:45.002317 INFO::Fitting model to feature number 572, s__HROM_Genome_2118
+2026-05-21 13:30:45.005457 INFO::Fitting model to feature number 573, s__HROM_Genome_2120
+2026-05-21 13:30:45.00862 INFO::Fitting model to feature number 574, s__HROM_Genome_2122
+2026-05-21 13:30:45.011753 INFO::Fitting model to feature number 575, s__HROM_Genome_2123
+2026-05-21 13:30:45.014949 INFO::Fitting model to feature number 576, s__HROM_Genome_2124
+2026-05-21 13:30:45.018151 INFO::Fitting model to feature number 577, s__Streptococcus.australis
+2026-05-21 13:30:45.021319 INFO::Fitting model to feature number 578, s__Streptococcus.mitis_J
+2026-05-21 13:30:45.024504 INFO::Fitting model to feature number 579, s__Streptococcus.mitis_D
+2026-05-21 13:30:45.027775 INFO::Fitting model to feature number 580, s__Streptococcus.pseudopneumoniae_M
+2026-05-21 13:30:45.030873 INFO::Fitting model to feature number 581, s__Streptococcus.halitosis
+2026-05-21 13:30:45.034148 INFO::Fitting model to feature number 582, s__Streptococcus.oralis_BC
+2026-05-21 13:30:45.037313 INFO::Fitting model to feature number 583, s__Streptococcus.oralis_AC
+2026-05-21 13:30:45.040447 INFO::Fitting model to feature number 584, s__Streptococcus.oralis_BC.1
+2026-05-21 13:30:45.043535 INFO::Fitting model to feature number 585, s__Streptococcus.symci
+2026-05-21 13:30:45.046628 INFO::Fitting model to feature number 586, s__Streptococcus.mitis
+2026-05-21 13:30:45.049772 INFO::Fitting model to feature number 587, s__Streptococcus.sp003428885
+2026-05-21 13:30:45.052872 INFO::Fitting model to feature number 588, s__Streptococcus.oralis_H
+2026-05-21 13:30:45.055993 INFO::Fitting model to feature number 589, s__Streptococcus.pseudopneumoniae_E
+2026-05-21 13:30:45.059129 INFO::Fitting model to feature number 590, s__Streptococcus.pneumoniae
+2026-05-21 13:30:45.062212 INFO::Fitting model to feature number 591, s__Streptococcus.mitis_K
+2026-05-21 13:30:45.065348 INFO::Fitting model to feature number 592, s__Streptococcus.sp000259505
+2026-05-21 13:30:45.068449 INFO::Fitting model to feature number 593, s__Streptococcus.pseudopneumoniae_L
+2026-05-21 13:30:45.071579 INFO::Fitting model to feature number 594, s__Streptococcus.oralis_W
+2026-05-21 13:30:45.074708 INFO::Fitting model to feature number 595, s__Streptococcus.oralis
+2026-05-21 13:30:45.083846 INFO::Fitting model to feature number 596, s__Streptococcus.oralis.1
+2026-05-21 13:30:45.087685 INFO::Fitting model to feature number 597, s__Streptococcus.oralis_G
+2026-05-21 13:30:45.090952 INFO::Fitting model to feature number 598, s__Streptococcus.oralis_B
+2026-05-21 13:30:45.094266 INFO::Fitting model to feature number 599, s__Streptococcus.infantis_C
+2026-05-21 13:30:45.097384 INFO::Fitting model to feature number 600, s__Streptococcus.oralis_BK
+2026-05-21 13:30:45.100626 INFO::Fitting model to feature number 601, s__Streptococcus.infantis_F
+2026-05-21 13:30:45.103847 INFO::Fitting model to feature number 602, s__Streptococcus.oralis_X
+2026-05-21 13:30:45.107093 INFO::Fitting model to feature number 603, s__Streptococcus.oralis_AB
+2026-05-21 13:30:45.110284 INFO::Fitting model to feature number 604, s__Streptococcus.oralis_F
+2026-05-21 13:30:45.113463 INFO::Fitting model to feature number 605, s__Streptococcus.oralis_C
+2026-05-21 13:30:45.116645 INFO::Fitting model to feature number 606, s__Streptococcus.oralis_S
+2026-05-21 13:30:45.119807 INFO::Fitting model to feature number 607, s__Streptococcus.halitosis.1
+2026-05-21 13:30:45.122952 INFO::Fitting model to feature number 608, s__Streptococcus.gwangjuense
+2026-05-21 13:30:45.126125 INFO::Fitting model to feature number 609, s__Streptococcus.oralis_BE
+2026-05-21 13:30:45.129337 INFO::Fitting model to feature number 610, s__Streptococcus.sp905371745
+2026-05-21 13:30:45.13253 INFO::Fitting model to feature number 611, s__Streptococcus.oralis_BC.2
+2026-05-21 13:30:45.135771 INFO::Fitting model to feature number 612, s__Streptococcus.oralis_G.1
+2026-05-21 13:30:45.139027 INFO::Fitting model to feature number 613, s__Streptococcus.oralis_J
+2026-05-21 13:30:45.142196 INFO::Fitting model to feature number 614, s__Streptococcus.oralis_BF
+2026-05-21 13:30:45.145365 INFO::Fitting model to feature number 615, s__Streptococcus.oralis_BJ
+2026-05-21 13:30:45.148513 INFO::Fitting model to feature number 616, s__Streptococcus.oralis_BH
+2026-05-21 13:30:45.15174 INFO::Fitting model to feature number 617, s__Streptococcus.oralis_BI
+2026-05-21 13:30:45.154934 INFO::Fitting model to feature number 618, s__Streptococcus.mitis_AI
+2026-05-21 13:30:45.158074 INFO::Fitting model to feature number 619, s__Streptococcus.mitis_AX
+2026-05-21 13:30:45.161183 INFO::Fitting model to feature number 620, s__Streptococcus.mitis_BT
+2026-05-21 13:30:45.164358 INFO::Fitting model to feature number 621, s__Streptococcus.oralis.2
+2026-05-21 13:30:45.167564 INFO::Fitting model to feature number 622, s__Streptococcus.mitis_BM
+2026-05-21 13:30:45.170748 INFO::Fitting model to feature number 623, s__Streptococcus.mitis_BS
+2026-05-21 13:30:45.173876 INFO::Fitting model to feature number 624, s__HROM_Genome_2178
+2026-05-21 13:30:45.177086 INFO::Fitting model to feature number 625, s__Streptococcus.mitis_BB
+2026-05-21 13:30:45.180259 INFO::Fitting model to feature number 626, s__Streptococcus.infantis_H
+2026-05-21 13:30:45.183542 INFO::Fitting model to feature number 627, s__Streptococcus.infantis_I
+2026-05-21 13:30:45.186774 INFO::Fitting model to feature number 628, s__HROM_Genome_2183
+2026-05-21 13:30:45.189967 INFO::Fitting model to feature number 629, s__Streptococcus.mitis_BO
+2026-05-21 13:30:45.19321 INFO::Fitting model to feature number 630, s__HROM_Genome_2185
+2026-05-21 13:30:45.196486 INFO::Fitting model to feature number 631, s__Streptococcus.mitis_AC
+2026-05-21 13:30:45.19963 INFO::Fitting model to feature number 632, s__Streptococcus.mitis_BN
+2026-05-21 13:30:45.202798 INFO::Fitting model to feature number 633, s__Streptococcus.mitis_AD
+2026-05-21 13:30:45.211557 INFO::Fitting model to feature number 634, s__HROM_Genome_2190
+2026-05-21 13:30:45.215645 INFO::Fitting model to feature number 635, s__HROM_Genome_2191
+2026-05-21 13:30:45.218837 INFO::Fitting model to feature number 636, s__HROM_Genome_2192
+2026-05-21 13:30:45.22202 INFO::Fitting model to feature number 637, s__Streptococcus.mitis_AV
+2026-05-21 13:30:45.22521 INFO::Fitting model to feature number 638, s__HROM_Genome_2198
+2026-05-21 13:30:45.22836 INFO::Fitting model to feature number 639, s__HROM_Genome_2199
+2026-05-21 13:30:45.231516 INFO::Fitting model to feature number 640, s__Streptococcus.mitis_N
+2026-05-21 13:30:45.234771 INFO::Fitting model to feature number 641, s__Streptococcus.mitis_BQ
+2026-05-21 13:30:45.237969 INFO::Fitting model to feature number 642, s__Streptococcus.mitis_AK
+2026-05-21 13:30:45.241123 INFO::Fitting model to feature number 643, s__Streptococcus.peroris
+2026-05-21 13:30:45.244292 INFO::Fitting model to feature number 644, s__Streptococcus.mitis_BB.1
+2026-05-21 13:30:45.247463 INFO::Fitting model to feature number 645, s__Streptococcus.mitis_P
+2026-05-21 13:30:45.250626 INFO::Fitting model to feature number 646, s__HROM_Genome_2214
+2026-05-21 13:30:45.253791 INFO::Fitting model to feature number 647, s__Streptococcus.oralis.3
+2026-05-21 13:30:45.257086 INFO::Fitting model to feature number 648, s__HROM_Genome_2217
+2026-05-21 13:30:45.260242 INFO::Fitting model to feature number 649, s__Streptococcus.mitis_Y
+2026-05-21 13:30:45.263491 INFO::Fitting model to feature number 650, s__Streptococcus.pseudopneumoniae_C
+2026-05-21 13:30:45.266701 INFO::Fitting model to feature number 651, s__HROM_Genome_2221
+2026-05-21 13:30:45.269873 INFO::Fitting model to feature number 652, s__HROM_Genome_2223
+2026-05-21 13:30:45.273009 INFO::Fitting model to feature number 653, s__HROM_Genome_2224
+2026-05-21 13:30:45.276183 INFO::Fitting model to feature number 654, s__Streptococcus.oralis_BD
+2026-05-21 13:30:45.27938 INFO::Fitting model to feature number 655, s__HROM_Genome_2228
+2026-05-21 13:30:45.282565 INFO::Fitting model to feature number 656, s__Streptococcus.sp000411475
+2026-05-21 13:30:45.285716 INFO::Fitting model to feature number 657, s__HROM_Genome_2231
+2026-05-21 13:30:45.288852 INFO::Fitting model to feature number 658, s__HROM_Genome_2232
+2026-05-21 13:30:45.291986 INFO::Fitting model to feature number 659, s__HROM_Genome_2234
+2026-05-21 13:30:45.295149 INFO::Fitting model to feature number 660, s__HROM_Genome_2235
+2026-05-21 13:30:45.298292 INFO::Fitting model to feature number 661, s__Streptococcus.sp000187745
+2026-05-21 13:30:45.301412 INFO::Fitting model to feature number 662, s__Streptococcus.sp901875575
+2026-05-21 13:30:45.304561 INFO::Fitting model to feature number 663, s__HROM_Genome_2244
+2026-05-21 13:30:45.307678 INFO::Fitting model to feature number 664, s__HROM_Genome_2245
+2026-05-21 13:30:45.31082 INFO::Fitting model to feature number 665, s__HROM_Genome_2246
+2026-05-21 13:30:45.31394 INFO::Fitting model to feature number 666, s__HROM_Genome_2247
+2026-05-21 13:30:45.317069 INFO::Fitting model to feature number 667, s__Streptococcus.chosunense
+2026-05-21 13:30:45.320187 INFO::Fitting model to feature number 668, s__HROM_Genome_2250
+2026-05-21 13:30:45.32337 INFO::Fitting model to feature number 669, s__Streptococcus.mitis_Q
+2026-05-21 13:30:45.326493 INFO::Fitting model to feature number 670, s__HROM_Genome_2255
+2026-05-21 13:30:45.329701 INFO::Fitting model to feature number 671, s__Streptococcus.mitis_Q.1
+2026-05-21 13:30:45.332799 INFO::Fitting model to feature number 672, s__HROM_Genome_2259
+2026-05-21 13:30:45.342067 INFO::Fitting model to feature number 673, s__HROM_Genome_2262
+2026-05-21 13:30:45.345571 INFO::Fitting model to feature number 674, s__HROM_Genome_2273
+2026-05-21 13:30:45.348825 INFO::Fitting model to feature number 675, s__HROM_Genome_2274
+2026-05-21 13:30:45.352017 INFO::Fitting model to feature number 676, s__Streptococcus.oralis_C.1
+2026-05-21 13:30:45.355151 INFO::Fitting model to feature number 677, s__Streptococcus.oralis_Y
+2026-05-21 13:30:45.358417 INFO::Fitting model to feature number 678, s__HROM_Genome_2283
+2026-05-21 13:30:45.361634 INFO::Fitting model to feature number 679, s__Streptococcus.oralis_Z
+2026-05-21 13:30:45.364887 INFO::Fitting model to feature number 680, s__HROM_Genome_2287
+2026-05-21 13:30:45.368047 INFO::Fitting model to feature number 681, s__HROM_Genome_2291
+2026-05-21 13:30:45.371199 INFO::Fitting model to feature number 682, s__HROM_Genome_2293
+2026-05-21 13:30:45.374375 INFO::Fitting model to feature number 683, s__HROM_Genome_2298
+2026-05-21 13:30:45.377554 INFO::Fitting model to feature number 684, s__Streptococcus.sp905221435
+2026-05-21 13:30:45.380763 INFO::Fitting model to feature number 685, s__Streptococcus.dentisani
+2026-05-21 13:30:45.383908 INFO::Fitting model to feature number 686, s__Streptococcus.oralis_BM
+2026-05-21 13:30:45.387075 INFO::Fitting model to feature number 687, s__HROM_Genome_2309
+2026-05-21 13:30:45.390243 INFO::Fitting model to feature number 688, s__Streptococcus.dentisani.1
+2026-05-21 13:30:45.393539 INFO::Fitting model to feature number 689, s__HROM_Genome_2312
+2026-05-21 13:30:45.396668 INFO::Fitting model to feature number 690, s__Streptococcus.oralis_BA
+2026-05-21 13:30:45.399828 INFO::Fitting model to feature number 691, s__HROM_Genome_2315
+2026-05-21 13:30:45.403114 INFO::Fitting model to feature number 692, s__HROM_Genome_2317
+2026-05-21 13:30:45.406309 INFO::Fitting model to feature number 693, s__HROM_Genome_2319
+2026-05-21 13:30:45.409535 INFO::Fitting model to feature number 694, s__HROM_Genome_2320
+2026-05-21 13:30:45.412721 INFO::Fitting model to feature number 695, s__HROM_Genome_2322
+2026-05-21 13:30:45.415818 INFO::Fitting model to feature number 696, s__HROM_Genome_2324
+2026-05-21 13:30:45.418971 INFO::Fitting model to feature number 697, s__HROM_Genome_2325
+2026-05-21 13:30:45.422118 INFO::Fitting model to feature number 698, s__HROM_Genome_2326
+2026-05-21 13:30:45.425258 INFO::Fitting model to feature number 699, s__HROM_Genome_2327
+2026-05-21 13:30:45.428377 INFO::Fitting model to feature number 700, s__Streptococcus.sp900550895
+2026-05-21 13:30:45.431527 INFO::Fitting model to feature number 701, s__HROM_Genome_2334
+2026-05-21 13:30:45.434622 INFO::Fitting model to feature number 702, s__HROM_Genome_2337
+2026-05-21 13:30:45.437778 INFO::Fitting model to feature number 703, s__Streptococcus.mitis_O
+2026-05-21 13:30:45.44084 INFO::Fitting model to feature number 704, s__HROM_Genome_2342
+2026-05-21 13:30:45.443938 INFO::Fitting model to feature number 705, s__Streptococcus.timonensis
+2026-05-21 13:30:45.447019 INFO::Fitting model to feature number 706, s__Streptococcus.oralis_AD
+2026-05-21 13:30:45.450139 INFO::Fitting model to feature number 707, s__HROM_Genome_2347
+2026-05-21 13:30:45.453229 INFO::Fitting model to feature number 708, s__Streptococcus.mitis_AZ
+2026-05-21 13:30:45.456371 INFO::Fitting model to feature number 709, s__HROM_Genome_2351
+2026-05-21 13:30:45.459471 INFO::Fitting model to feature number 710, s__HROM_Genome_2354
+2026-05-21 13:30:45.468597 INFO::Fitting model to feature number 711, s__HROM_Genome_2355
+2026-05-21 13:30:45.47234 INFO::Fitting model to feature number 712, s__HROM_Genome_2357
+2026-05-21 13:30:45.475651 INFO::Fitting model to feature number 713, s__HROM_Genome_2358
+2026-05-21 13:30:45.478812 INFO::Fitting model to feature number 714, s__Streptococcus.mitis_AH
+2026-05-21 13:30:45.481987 INFO::Fitting model to feature number 715, s__HROM_Genome_2360
+2026-05-21 13:30:45.485106 INFO::Fitting model to feature number 716, s__Streptococcus.chosunense.1
+2026-05-21 13:30:45.488283 INFO::Fitting model to feature number 717, s__Streptococcus.mitis_AF
+2026-05-21 13:30:45.491478 INFO::Fitting model to feature number 718, s__HROM_Genome_2365
+2026-05-21 13:30:45.494658 INFO::Fitting model to feature number 719, s__HROM_Genome_2371
+2026-05-21 13:30:45.497847 INFO::Fitting model to feature number 720, s__Streptococcus.oralis_N
+2026-05-21 13:30:45.501003 INFO::Fitting model to feature number 721, s__Streptococcus.infantis_I.1
+2026-05-21 13:30:45.504161 INFO::Fitting model to feature number 722, s__Streptococcus.oralis_T
+2026-05-21 13:30:45.507301 INFO::Fitting model to feature number 723, s__Streptococcus.sp905372925
+2026-05-21 13:30:45.510459 INFO::Fitting model to feature number 724, s__Streptococcus.mitis_BJ
+2026-05-21 13:30:45.513597 INFO::Fitting model to feature number 725, s__Streptococcus.oralis_T.1
+2026-05-21 13:30:45.516792 INFO::Fitting model to feature number 726, s__Streptococcus.oralis_F.1
+2026-05-21 13:30:45.519938 INFO::Fitting model to feature number 727, s__HROM_Genome_2386
+2026-05-21 13:30:45.523082 INFO::Fitting model to feature number 728, s__HROM_Genome_2388
+2026-05-21 13:30:45.526278 INFO::Fitting model to feature number 729, s__HROM_Genome_2389
+2026-05-21 13:30:45.529421 INFO::Fitting model to feature number 730, s__HROM_Genome_2392
+2026-05-21 13:30:45.532562 INFO::Fitting model to feature number 731, s__HROM_Genome_2395
+2026-05-21 13:30:45.535717 INFO::Fitting model to feature number 732, s__Streptococcus.mitis_AC.1
+2026-05-21 13:30:45.538931 INFO::Fitting model to feature number 733, s__Streptococcus.mitis_E
+2026-05-21 13:30:45.54205 INFO::Fitting model to feature number 734, s__HROM_Genome_2405
+2026-05-21 13:30:45.545193 INFO::Fitting model to feature number 735, s__HROM_Genome_2406
+2026-05-21 13:30:45.548298 INFO::Fitting model to feature number 736, s__HROM_Genome_2410
+2026-05-21 13:30:45.551411 INFO::Fitting model to feature number 737, s__HROM_Genome_2411
+2026-05-21 13:30:45.554514 INFO::Fitting model to feature number 738, s__Streptococcus.pseudopneumoniae_A
+2026-05-21 13:30:45.557647 INFO::Fitting model to feature number 739, s__Streptococcus.mitis_I
+2026-05-21 13:30:45.560771 INFO::Fitting model to feature number 740, s__Streptococcus.sp001808705
+2026-05-21 13:30:45.5639 INFO::Fitting model to feature number 741, s__Streptococcus.mitis_H
+2026-05-21 13:30:45.567024 INFO::Fitting model to feature number 742, s__HROM_Genome_2419
+2026-05-21 13:30:45.570126 INFO::Fitting model to feature number 743, s__Streptococcus.sp001808705.1
+2026-05-21 13:30:45.573303 INFO::Fitting model to feature number 744, s__HROM_Genome_2421
+2026-05-21 13:30:45.57644 INFO::Fitting model to feature number 745, s__HROM_Genome_2422
+2026-05-21 13:30:45.579558 INFO::Fitting model to feature number 746, s__HROM_Genome_2424
+2026-05-21 13:30:45.58272 INFO::Fitting model to feature number 747, s__Streptococcus.mitis_C
+2026-05-21 13:30:45.58587 INFO::Fitting model to feature number 748, s__Streptococcus.sp001808705.2
+2026-05-21 13:30:45.594928 INFO::Fitting model to feature number 749, s__HROM_Genome_2428
+2026-05-21 13:30:45.598653 INFO::Fitting model to feature number 750, s__HROM_Genome_2429
+2026-05-21 13:30:45.601963 INFO::Fitting model to feature number 751, s__HROM_Genome_2434
+2026-05-21 13:30:45.60514 INFO::Fitting model to feature number 752, s__HROM_Genome_2435
+2026-05-21 13:30:45.608315 INFO::Fitting model to feature number 753, s__HROM_Genome_2437
+2026-05-21 13:30:45.611471 INFO::Fitting model to feature number 754, s__HROM_Genome_2439
+2026-05-21 13:30:45.614668 INFO::Fitting model to feature number 755, s__Streptococcus.mitis_AZ.1
+2026-05-21 13:30:45.617839 INFO::Fitting model to feature number 756, s__Streptococcus.oralis_BO
+2026-05-21 13:30:45.621095 INFO::Fitting model to feature number 757, s__Streptococcus.oralis_Y.1
+2026-05-21 13:30:45.62426 INFO::Fitting model to feature number 758, s__HROM_Genome_2443
+2026-05-21 13:30:45.627531 INFO::Fitting model to feature number 759, s__HROM_Genome_2444
+2026-05-21 13:30:45.630696 INFO::Fitting model to feature number 760, s__Streptococcus.oralis_AD.1
+2026-05-21 13:30:45.633829 INFO::Fitting model to feature number 761, s__HROM_Genome_2448
+2026-05-21 13:30:45.636999 INFO::Fitting model to feature number 762, s__Streptococcus.oralis_AC.1
+2026-05-21 13:30:45.640123 INFO::Fitting model to feature number 763, s__Streptococcus.oralis.4
+2026-05-21 13:30:45.643268 INFO::Fitting model to feature number 764, s__HROM_Genome_2454
+2026-05-21 13:30:45.646442 INFO::Fitting model to feature number 765, s__Streptococcus.oralis_Y.2
+2026-05-21 13:30:45.649601 INFO::Fitting model to feature number 766, s__HROM_Genome_2458
+2026-05-21 13:30:45.652783 INFO::Fitting model to feature number 767, s__HROM_Genome_2460
+2026-05-21 13:30:45.655976 INFO::Fitting model to feature number 768, s__HROM_Genome_2463
+2026-05-21 13:30:45.659117 INFO::Fitting model to feature number 769, s__HROM_Genome_2464
+2026-05-21 13:30:45.662343 INFO::Fitting model to feature number 770, s__HROM_Genome_2465
+2026-05-21 13:30:45.665569 INFO::Fitting model to feature number 771, s__HROM_Genome_2466
+2026-05-21 13:30:45.669425 INFO::Fitting model to feature number 772, s__HROM_Genome_2467
+2026-05-21 13:30:45.67259 INFO::Fitting model to feature number 773, s__HROM_Genome_2469
+2026-05-21 13:30:45.675744 INFO::Fitting model to feature number 774, s__HROM_Genome_2470
+2026-05-21 13:30:45.678918 INFO::Fitting model to feature number 775, s__Streptococcus.sp000235485
+2026-05-21 13:30:45.682054 INFO::Fitting model to feature number 776, s__Streptococcus.mitis_AY
+2026-05-21 13:30:45.685144 INFO::Fitting model to feature number 777, s__Streptococcus.sp001553685
+2026-05-21 13:30:45.68829 INFO::Fitting model to feature number 778, s__Streptococcus.sp013394695
+2026-05-21 13:30:45.691437 INFO::Fitting model to feature number 779, s__Streptococcus.mitis_BD
+2026-05-21 13:30:45.694577 INFO::Fitting model to feature number 780, s__Streptococcus.mitis_BI
+2026-05-21 13:30:45.697667 INFO::Fitting model to feature number 781, s__Streptococcus.mitis_BC
+2026-05-21 13:30:45.700785 INFO::Fitting model to feature number 782, s__Streptococcus.mitis_BK
+2026-05-21 13:30:45.70395 INFO::Fitting model to feature number 783, s__HROM_Genome_2482
+2026-05-21 13:30:45.707147 INFO::Fitting model to feature number 784, s__HROM_Genome_2483
+2026-05-21 13:30:45.710231 INFO::Fitting model to feature number 785, s__HROM_Genome_2485
+2026-05-21 13:30:45.713379 INFO::Fitting model to feature number 786, s__HROM_Genome_2491
+2026-05-21 13:30:45.72231 INFO::Fitting model to feature number 787, s__HROM_Genome_2492
+2026-05-21 13:30:45.726509 INFO::Fitting model to feature number 788, s__Streptococcus.intermedius
+2026-05-21 13:30:45.729787 INFO::Fitting model to feature number 789, s__Streptococcus.constellatus
+2026-05-21 13:30:45.732907 INFO::Fitting model to feature number 790, s__Streptococcus.anginosus
+2026-05-21 13:30:45.736021 INFO::Fitting model to feature number 791, s__Streptococcus.anginosus_C
+2026-05-21 13:30:45.739166 INFO::Fitting model to feature number 792, s__Streptococcus.sanguinis
+2026-05-21 13:30:45.742285 INFO::Fitting model to feature number 793, s__Streptococcus.cristatus_C
+2026-05-21 13:30:45.745441 INFO::Fitting model to feature number 794, s__Streptococcus.sanguinis_F
+2026-05-21 13:30:45.748587 INFO::Fitting model to feature number 795, s__Streptococcus.sanguinis_C
+2026-05-21 13:30:45.751754 INFO::Fitting model to feature number 796, s__Streptococcus.cristatus
+2026-05-21 13:30:45.754869 INFO::Fitting model to feature number 797, s__Streptococcus.gordonii
+2026-05-21 13:30:45.758083 INFO::Fitting model to feature number 798, s__Streptococcus.cristatus.1
+2026-05-21 13:30:45.761175 INFO::Fitting model to feature number 799, s__Streptococcus.sanguinis_G
+2026-05-21 13:30:45.764317 INFO::Fitting model to feature number 800, s__Streptococcus.cristatus_C.1
+2026-05-21 13:30:45.767516 INFO::Fitting model to feature number 801, s__Streptococcus.cristatus_E
+2026-05-21 13:30:45.770699 INFO::Fitting model to feature number 802, s__Streptococcus.cristatus_D
+2026-05-21 13:30:45.773813 INFO::Fitting model to feature number 803, s__Streptococcus.sanguinis_E
+2026-05-21 13:30:45.776975 INFO::Fitting model to feature number 804, s__Streptococcus.cristatus_F
+2026-05-21 13:30:45.780109 INFO::Fitting model to feature number 805, s__Streptococcus.cristatus_B
+2026-05-21 13:30:45.783244 INFO::Fitting model to feature number 806, s__Streptococcus.sinensis
+2026-05-21 13:30:45.786409 INFO::Fitting model to feature number 807, s__HROM_Genome_2524
+2026-05-21 13:30:45.789599 INFO::Fitting model to feature number 808, s__HROM_Genome_2527
+2026-05-21 13:30:45.792803 INFO::Fitting model to feature number 809, s__Streptococcus.sp000220065
+2026-05-21 13:30:45.795953 INFO::Fitting model to feature number 810, s__HROM_Genome_2530
+2026-05-21 13:30:45.799048 INFO::Fitting model to feature number 811, s__HROM_Genome_2531
+2026-05-21 13:30:45.802202 INFO::Fitting model to feature number 812, s__Streptococcus.sp902460355
+2026-05-21 13:30:45.805413 INFO::Fitting model to feature number 813, s__Streptococcus.sp902460355.1
+2026-05-21 13:30:45.808537 INFO::Fitting model to feature number 814, s__Streptococcus.sanguinis_A
+2026-05-21 13:30:45.811686 INFO::Fitting model to feature number 815, s__HROM_Genome_2539
+2026-05-21 13:30:45.81477 INFO::Fitting model to feature number 816, s__HROM_Genome_2541
+2026-05-21 13:30:45.81794 INFO::Fitting model to feature number 817, s__HROM_Genome_2544
+2026-05-21 13:30:45.821059 INFO::Fitting model to feature number 818, s__Streptococcus.sobrinus
+2026-05-21 13:30:45.824189 INFO::Fitting model to feature number 819, s__Streptococcus.dysgalactiae
+2026-05-21 13:30:45.827309 INFO::Fitting model to feature number 820, s__Streptococcus.agalactiae
+2026-05-21 13:30:45.830439 INFO::Fitting model to feature number 821, s__Streptococcus.mutans
+2026-05-21 13:30:45.833545 INFO::Fitting model to feature number 822, s__Abiotrophia.defectiva
+2026-05-21 13:30:45.836662 INFO::Fitting model to feature number 823, s__Abiotrophia.sp001815865
+2026-05-21 13:30:45.839769 INFO::Fitting model to feature number 824, s__HROM_Genome_2562
+2026-05-21 13:30:45.848797 INFO::Fitting model to feature number 825, s__Lactiplantibacillus.plantarum
+2026-05-21 13:30:45.852598 INFO::Fitting model to feature number 826, s__Granulicatella.elegans
+2026-05-21 13:30:45.855777 INFO::Fitting model to feature number 827, s__HROM_Genome_2573
+2026-05-21 13:30:45.858882 INFO::Fitting model to feature number 828, s__HROM_Genome_2574
+2026-05-21 13:30:45.862062 INFO::Fitting model to feature number 829, s__HROM_Genome_2575
+2026-05-21 13:30:45.865283 INFO::Fitting model to feature number 830, s__HROM_Genome_2576
+2026-05-21 13:30:45.868451 INFO::Fitting model to feature number 831, s__Granulicatella.elegans.1
+2026-05-21 13:30:45.87162 INFO::Fitting model to feature number 832, s__HROM_Genome_2578
+2026-05-21 13:30:45.874812 INFO::Fitting model to feature number 833, s__HROM_Genome_2582
+2026-05-21 13:30:45.878026 INFO::Fitting model to feature number 834, s__HROM_Genome_2583
+2026-05-21 13:30:45.881191 INFO::Fitting model to feature number 835, s__HROM_Genome_2585
+2026-05-21 13:30:45.884356 INFO::Fitting model to feature number 836, s__Granulicatella.sp001058355
+2026-05-21 13:30:45.887491 INFO::Fitting model to feature number 837, s__Granulicatella.adiacens
+2026-05-21 13:30:45.890641 INFO::Fitting model to feature number 838, s__HROM_Genome_2591
+2026-05-21 13:30:45.893777 INFO::Fitting model to feature number 839, s__Granulicatella.adiacens_A
+2026-05-21 13:30:45.896924 INFO::Fitting model to feature number 840, s__Granulicatella.sp001071995
+2026-05-21 13:30:45.900073 INFO::Fitting model to feature number 841, s__HROM_Genome_2598
+2026-05-21 13:30:45.903195 INFO::Fitting model to feature number 842, s__HROM_Genome_2600
+2026-05-21 13:30:45.906277 INFO::Fitting model to feature number 843, s__Granulicatella.sp900551535
+2026-05-21 13:30:45.909465 INFO::Fitting model to feature number 844, s__HROM_Genome_2604
+2026-05-21 13:30:45.912637 INFO::Fitting model to feature number 845, s__Granulicatella.adiacens_A.1
+2026-05-21 13:30:45.915896 INFO::Fitting model to feature number 846, s__HROM_Genome_2606
+2026-05-21 13:30:45.919085 INFO::Fitting model to feature number 847, s__HROM_Genome_2617
+2026-05-21 13:30:45.922352 INFO::Fitting model to feature number 848, s__HROM_Genome_2618
+2026-05-21 13:30:45.9255 INFO::Fitting model to feature number 849, s__Granulicatella.sp905371865
+2026-05-21 13:30:45.928565 INFO::Fitting model to feature number 850, s__HROM_Genome_2622
+2026-05-21 13:30:45.931751 INFO::Fitting model to feature number 851, s__HROM_Genome_2624
+2026-05-21 13:30:45.934821 INFO::Fitting model to feature number 852, s__Lacticaseibacillus.rhamnosus
+2026-05-21 13:30:45.937961 INFO::Fitting model to feature number 853, s__Lacticaseibacillus.paracasei
+2026-05-21 13:30:45.941047 INFO::Fitting model to feature number 854, s__HROM_Genome_2639
+2026-05-21 13:30:45.944167 INFO::Fitting model to feature number 855, s__Metamycoplasma.orale
+2026-05-21 13:30:45.947281 INFO::Fitting model to feature number 856, s__Metamycoplasma.salivarium
+2026-05-21 13:30:45.950404 INFO::Fitting model to feature number 857, s__HROM_Genome_2646
+2026-05-21 13:30:45.953508 INFO::Fitting model to feature number 858, s__HROM_Genome_2654
+2026-05-21 13:30:45.956618 INFO::Fitting model to feature number 859, s__CAJPPJ01.sp905372515
+2026-05-21 13:30:45.959716 INFO::Fitting model to feature number 860, s__HROM_Genome_2656
+2026-05-21 13:30:45.962807 INFO::Fitting model to feature number 861, s__HROM_Genome_2657
+2026-05-21 13:30:45.96611 INFO::Fitting model to feature number 862, s__HROM_Genome_2658
+2026-05-21 13:30:45.979705 INFO::Fitting model to feature number 863, s__Gemella.morbillorum
+2026-05-21 13:30:45.984068 INFO::Fitting model to feature number 864, s__Gemella.sanguinis
+2026-05-21 13:30:45.987329 INFO::Fitting model to feature number 865, s__HROM_Genome_2666
+2026-05-21 13:30:45.990479 INFO::Fitting model to feature number 866, s__Gemella.sp900555985
+2026-05-21 13:30:45.993614 INFO::Fitting model to feature number 867, s__Gemella.sp900766305
+2026-05-21 13:30:45.99672 INFO::Fitting model to feature number 868, s__HROM_Genome_2669
+2026-05-21 13:30:45.999891 INFO::Fitting model to feature number 869, s__Gemella.haemolysans_B
+2026-05-21 13:30:46.003067 INFO::Fitting model to feature number 870, s__HROM_Genome_2671
+2026-05-21 13:30:46.006752 INFO::Fitting model to feature number 871, s__HROM_Genome_2672
+2026-05-21 13:30:46.009945 INFO::Fitting model to feature number 872, s__HROM_Genome_2673
+2026-05-21 13:30:46.013136 INFO::Fitting model to feature number 873, s__HROM_Genome_2675
+2026-05-21 13:30:46.016297 INFO::Fitting model to feature number 874, s__Gemella.haemolysans_A
+2026-05-21 13:30:46.019436 INFO::Fitting model to feature number 875, s__HROM_Genome_2678
+2026-05-21 13:30:46.022706 INFO::Fitting model to feature number 876, s__HROM_Genome_2679
+2026-05-21 13:30:46.025848 INFO::Fitting model to feature number 877, s__Gemella.sp002871655
+2026-05-21 13:30:46.029038 INFO::Fitting model to feature number 878, s__HROM_Genome_2681
+2026-05-21 13:30:46.032149 INFO::Fitting model to feature number 879, s__HROM_Genome_2682
+2026-05-21 13:30:46.035317 INFO::Fitting model to feature number 880, s__HROM_Genome_2683
+2026-05-21 13:30:46.03847 INFO::Fitting model to feature number 881, s__HROM_Genome_2690
+2026-05-21 13:30:46.0416 INFO::Fitting model to feature number 882, s__HROM_Genome_2691
+2026-05-21 13:30:46.044773 INFO::Fitting model to feature number 883, s__HROM_Genome_2693
+2026-05-21 13:30:46.048016 INFO::Fitting model to feature number 884, s__Staphylococcus.aureus
+2026-05-21 13:30:46.051213 INFO::Fitting model to feature number 885, s__Staphylococcus.epidermidis
+2026-05-21 13:30:46.054386 INFO::Fitting model to feature number 886, s__CAJPQU01.sp905373705
+2026-05-21 13:30:46.057513 INFO::Fitting model to feature number 887, s__CAJPQU01.sp905372875
+2026-05-21 13:30:46.060721 INFO::Fitting model to feature number 888, s__HROM_Genome_2711
+2026-05-21 13:30:46.063851 INFO::Fitting model to feature number 889, s__Mitsuokella.sp000469545
+2026-05-21 13:30:46.067004 INFO::Fitting model to feature number 890, s__Selenomonas.sp905372355
+2026-05-21 13:30:46.070375 INFO::Fitting model to feature number 891, s__HROM_Genome_2716
+2026-05-21 13:30:46.073534 INFO::Fitting model to feature number 892, s__Selenomonas.sp905373085
+2026-05-21 13:30:46.076692 INFO::Fitting model to feature number 893, s__HROM_Genome_2719
+2026-05-21 13:30:46.079776 INFO::Fitting model to feature number 894, s__Centipeda.artemidis
+2026-05-21 13:30:46.082908 INFO::Fitting model to feature number 895, s__HROM_Genome_2723
+2026-05-21 13:30:46.086025 INFO::Fitting model to feature number 896, s__Centipeda.sp000318175
+2026-05-21 13:30:46.089158 INFO::Fitting model to feature number 897, s__Centipeda.noxia
+2026-05-21 13:30:46.092297 INFO::Fitting model to feature number 898, s__Centipeda.sp015265235
+2026-05-21 13:30:46.095438 INFO::Fitting model to feature number 899, s__HROM_Genome_2729
+2026-05-21 13:30:46.098549 INFO::Fitting model to feature number 900, s__Centipeda.sp905372865
+2026-05-21 13:30:46.101692 INFO::Fitting model to feature number 901, s__HROM_Genome_2731
+2026-05-21 13:30:46.111737 INFO::Fitting model to feature number 902, s__Centipeda.massiliensis
+2026-05-21 13:30:46.116329 INFO::Fitting model to feature number 903, s__HROM_Genome_2734
+2026-05-21 13:30:46.119815 INFO::Fitting model to feature number 904, s__Centipeda.flueggei
+2026-05-21 13:30:46.122991 INFO::Fitting model to feature number 905, s__Centipeda.felix
+2026-05-21 13:30:46.126135 INFO::Fitting model to feature number 906, s__Centipeda.sp001683335
+2026-05-21 13:30:46.129308 INFO::Fitting model to feature number 907, s__Centipeda.periodontii
+2026-05-21 13:30:46.132492 INFO::Fitting model to feature number 908, s__Centipeda.sp000468035
+2026-05-21 13:30:46.135712 INFO::Fitting model to feature number 909, s__HROM_Genome_2741
+2026-05-21 13:30:46.138885 INFO::Fitting model to feature number 910, s__Centipeda.infelix
+2026-05-21 13:30:46.142075 INFO::Fitting model to feature number 911, s__Centipeda.sp000286455
+2026-05-21 13:30:46.145292 INFO::Fitting model to feature number 912, s__Centipeda.sp001717585
+2026-05-21 13:30:46.148448 INFO::Fitting model to feature number 913, s__HROM_Genome_2747
+2026-05-21 13:30:46.151596 INFO::Fitting model to feature number 914, s__HROM_Genome_2749
+2026-05-21 13:30:46.154781 INFO::Fitting model to feature number 915, s__HROM_Genome_2750
+2026-05-21 13:30:46.157935 INFO::Fitting model to feature number 916, s__Veillonella.sp900550455
+2026-05-21 13:30:46.161166 INFO::Fitting model to feature number 917, s__Veillonella.sp900549805
+2026-05-21 13:30:46.164437 INFO::Fitting model to feature number 918, s__Allisonella.pneumosintes
+2026-05-21 13:30:46.167619 INFO::Fitting model to feature number 919, s__Dialister.micraerophilus
+2026-05-21 13:30:46.170785 INFO::Fitting model to feature number 920, s__F0422.sp001553345
+2026-05-21 13:30:46.173956 INFO::Fitting model to feature number 921, s__HROM_Genome_2759
+2026-05-21 13:30:46.177172 INFO::Fitting model to feature number 922, s__F0422.sp900766245
+2026-05-21 13:30:46.180426 INFO::Fitting model to feature number 923, s__F0422.sp003999875
+2026-05-21 13:30:46.183612 INFO::Fitting model to feature number 924, s__F0422.sp003992005
+2026-05-21 13:30:46.186761 INFO::Fitting model to feature number 925, s__Veillonella.tobetsuensis
+2026-05-21 13:30:46.190439 INFO::Fitting model to feature number 926, s__Veillonella.atypica
+2026-05-21 13:30:46.19404 INFO::Fitting model to feature number 927, s__Veillonella.rogosae
+2026-05-21 13:30:46.197176 INFO::Fitting model to feature number 928, s__Veillonella.nakazawae
+2026-05-21 13:30:46.200457 INFO::Fitting model to feature number 929, s__Veillonella.sp002959755
+2026-05-21 13:30:46.203648 INFO::Fitting model to feature number 930, s__Veillonella.parvula_A
+2026-05-21 13:30:46.206837 INFO::Fitting model to feature number 931, s__Veillonella.infantium
+2026-05-21 13:30:46.210131 INFO::Fitting model to feature number 932, s__Veillonella.dispar
+2026-05-21 13:30:46.213566 INFO::Fitting model to feature number 933, s__Veillonella.sp902834965
+2026-05-21 13:30:46.216792 INFO::Fitting model to feature number 934, s__Veillonella.dispar.1
+2026-05-21 13:30:46.219998 INFO::Fitting model to feature number 935, s__Veillonella.sp900552445
+2026-05-21 13:30:46.223101 INFO::Fitting model to feature number 936, s__Veillonella.sp900550175
+2026-05-21 13:30:46.22623 INFO::Fitting model to feature number 937, s__Veillonella.sp018367495
+2026-05-21 13:30:46.229374 INFO::Fitting model to feature number 938, s__HROM_Genome_2826
+2026-05-21 13:30:46.232622 INFO::Fitting model to feature number 939, s__Veillonella.sp900757715
+2026-05-21 13:30:46.242252 INFO::Fitting model to feature number 940, s__HROM_Genome_2831
+2026-05-21 13:30:46.246606 INFO::Fitting model to feature number 941, s__HROM_Genome_2832
+2026-05-21 13:30:46.249786 INFO::Fitting model to feature number 942, s__HROM_Genome_2833
+2026-05-21 13:30:46.252948 INFO::Fitting model to feature number 943, s__Veillonella.sp003463825
+2026-05-21 13:30:46.256104 INFO::Fitting model to feature number 944, s__Veillonella.dispar.2
+2026-05-21 13:30:46.259279 INFO::Fitting model to feature number 945, s__Veillonella.dispar.3
+2026-05-21 13:30:46.26245 INFO::Fitting model to feature number 946, s__Veillonella.sp905209685
+2026-05-21 13:30:46.265695 INFO::Fitting model to feature number 947, s__HROM_Genome_2847
+2026-05-21 13:30:46.268914 INFO::Fitting model to feature number 948, s__Anaeroglobus.micronuciformis
+2026-05-21 13:30:46.272113 INFO::Fitting model to feature number 949, s__Anaeroglobus.geminatus
+2026-05-21 13:30:46.275271 INFO::Fitting model to feature number 950, s__Dialister.invisus
+2026-05-21 13:30:46.278422 INFO::Fitting model to feature number 951, s__Leptotrichia.sp013394795
+2026-05-21 13:30:46.281609 INFO::Fitting model to feature number 952, s__Leptotrichia.wadei_A
+2026-05-21 13:30:46.284835 INFO::Fitting model to feature number 953, s__Leptotrichia.sp018128225
+2026-05-21 13:30:46.288037 INFO::Fitting model to feature number 954, s__JABCPH02.sp013333235
+2026-05-21 13:30:46.291179 INFO::Fitting model to feature number 955, s__Leptotrichia.sp002240055
+2026-05-21 13:30:46.294421 INFO::Fitting model to feature number 956, s__Leptotrichia.hongkongensis
+2026-05-21 13:30:46.297568 INFO::Fitting model to feature number 957, s__Leptotrichia.massiliensis
+2026-05-21 13:30:46.30074 INFO::Fitting model to feature number 958, s__Leptotrichia.shahii
+2026-05-21 13:30:46.303901 INFO::Fitting model to feature number 959, s__HROM_Genome_2869
+2026-05-21 13:30:46.307069 INFO::Fitting model to feature number 960, s__Leptotrichia.wadei
+2026-05-21 13:30:46.310255 INFO::Fitting model to feature number 961, s__HROM_Genome_2871
+2026-05-21 13:30:46.313464 INFO::Fitting model to feature number 962, s__HROM_Genome_2872
+2026-05-21 13:30:46.316633 INFO::Fitting model to feature number 963, s__Leptotrichia.hofstadii
+2026-05-21 13:30:46.319776 INFO::Fitting model to feature number 964, s__Leptotrichia.buccalis
+2026-05-21 13:30:46.322937 INFO::Fitting model to feature number 965, s__Leptotrichia.trevisanii
+2026-05-21 13:30:46.326105 INFO::Fitting model to feature number 966, s__HROM_Genome_2877
+2026-05-21 13:30:46.32923 INFO::Fitting model to feature number 967, s__Leptotrichia.sp000469385
+2026-05-21 13:30:46.332419 INFO::Fitting model to feature number 968, s__Leptotrichia.sp001553645
+2026-05-21 13:30:46.335546 INFO::Fitting model to feature number 969, s__Leptotrichia_A.sp000469505
+2026-05-21 13:30:46.338705 INFO::Fitting model to feature number 970, s__Leptotrichia_A.sp001274535
+2026-05-21 13:30:46.341836 INFO::Fitting model to feature number 971, s__Leptotrichia_A.sp905371725
+2026-05-21 13:30:46.345011 INFO::Fitting model to feature number 972, s__HROM_Genome_2884
+2026-05-21 13:30:46.34818 INFO::Fitting model to feature number 973, s__Pseudoleptotrichia.goodfellowii
+2026-05-21 13:30:46.351326 INFO::Fitting model to feature number 974, s__Fusobacterium.polymorphum
+2026-05-21 13:30:46.35456 INFO::Fitting model to feature number 975, s__Fusobacterium.nucleatum_J
+2026-05-21 13:30:46.35773 INFO::Fitting model to feature number 976, s__Fusobacterium.pseudoperiodonticum
+2026-05-21 13:30:46.36087 INFO::Fitting model to feature number 977, s__Fusobacterium.nucleatum
+2026-05-21 13:30:46.370067 INFO::Fitting model to feature number 978, s__Fusobacterium.animalis
+2026-05-21 13:30:46.374279 INFO::Fitting model to feature number 979, s__Fusobacterium.hwasookii
+2026-05-21 13:30:46.377484 INFO::Fitting model to feature number 980, s__Fusobacterium.vincentii
+2026-05-21 13:30:46.380661 INFO::Fitting model to feature number 981, s__HROM_Genome_2894
+2026-05-21 13:30:46.383839 INFO::Fitting model to feature number 982, s__Fusobacterium.massiliense
+2026-05-21 13:30:46.387096 INFO::Fitting model to feature number 983, s__Fusobacterium.periodonticum
+2026-05-21 13:30:46.39029 INFO::Fitting model to feature number 984, s__Fusobacterium.sp000235465
+2026-05-21 13:30:46.393507 INFO::Fitting model to feature number 985, s__HROM_Genome_2902
+2026-05-21 13:30:46.39672 INFO::Fitting model to feature number 986, s__HROM_Genome_2903
+2026-05-21 13:30:46.400311 INFO::Fitting model to feature number 987, s__HROM_Genome_2905
+2026-05-21 13:30:46.403495 INFO::Fitting model to feature number 988, s__HROM_Genome_2910
+2026-05-21 13:30:46.406709 INFO::Fitting model to feature number 989, s__HOT.345.sp003260355
+2026-05-21 13:30:46.409863 INFO::Fitting model to feature number 990, s__HROM_Genome_2914
+2026-05-21 13:30:46.413034 INFO::Fitting model to feature number 991, s__HROM_Genome_2915
+2026-05-21 13:30:46.416191 INFO::Fitting model to feature number 992, s__HOT.345.sp013333605
+2026-05-21 13:30:46.419333 INFO::Fitting model to feature number 993, s__HROM_Genome_2919
+2026-05-21 13:30:46.422471 INFO::Fitting model to feature number 994, s__HROM_Genome_2924
+2026-05-21 13:30:46.425617 INFO::Fitting model to feature number 995, s__HOT.345.sp013333295
+2026-05-21 13:30:46.428877 INFO::Fitting model to feature number 996, s__GN02.873.sp003260345
+2026-05-21 13:30:46.431988 INFO::Fitting model to feature number 997, s__GN02.873.sp013332525
+2026-05-21 13:30:46.435159 INFO::Fitting model to feature number 998, s__GN02.872.sp002761215
+2026-05-21 13:30:46.438286 INFO::Fitting model to feature number 999, s__GN02.872.sp003260325
+2026-05-21 13:30:46.441485 INFO::Fitting model to feature number 1000, s__HROM_Genome_2937
+2026-05-21 13:30:46.444605 INFO::Fitting model to feature number 1001, s__HROM_Genome_3296
+2026-05-21 13:30:46.447716 INFO::Fitting model to feature number 1002, s__Saccharimonas.sp018127705
+2026-05-21 13:30:46.450843 INFO::Fitting model to feature number 1003, s__HROM_Genome_3421
+2026-05-21 13:30:46.454084 INFO::Fitting model to feature number 1004, s__Saccharimonas.sp010202265
+2026-05-21 13:30:46.457184 INFO::Fitting model to feature number 1005, s__HROM_Genome_3428
+2026-05-21 13:30:46.460325 INFO::Fitting model to feature number 1006, s__Nanosynbacter.sp900556355
+2026-05-21 13:30:46.463411 INFO::Fitting model to feature number 1007, s__HROM_Genome_3432
+2026-05-21 13:30:46.466579 INFO::Fitting model to feature number 1008, s__HROM_Genome_3434
+2026-05-21 13:30:46.469694 INFO::Fitting model to feature number 1009, s__HROM_Genome_3435
+2026-05-21 13:30:46.472815 INFO::Fitting model to feature number 1010, s__HROM_Genome_3436
+2026-05-21 13:30:46.475904 INFO::Fitting model to feature number 1011, s__HROM_Genome_3437
+2026-05-21 13:30:46.479023 INFO::Fitting model to feature number 1012, s__Nanosynbacter.sp900555885
+2026-05-21 13:30:46.482169 INFO::Fitting model to feature number 1013, s__HROM_Genome_3440
+2026-05-21 13:30:46.485327 INFO::Fitting model to feature number 1014, s__HROM_Genome_3444
+2026-05-21 13:30:46.488389 INFO::Fitting model to feature number 1015, s__HROM_Genome_3445
+2026-05-21 13:30:46.497068 INFO::Fitting model to feature number 1016, s__Nanosynbacter.sp900555885.1
+2026-05-21 13:30:46.501773 INFO::Fitting model to feature number 1017, s__HROM_Genome_3447
+2026-05-21 13:30:46.504941 INFO::Fitting model to feature number 1018, s__Nanosynbacter.sp900555675
+2026-05-21 13:30:46.50817 INFO::Fitting model to feature number 1019, s__HROM_Genome_3455
+2026-05-21 13:30:46.511326 INFO::Fitting model to feature number 1020, s__Nanosynbacter.sp900555425
+2026-05-21 13:30:46.514505 INFO::Fitting model to feature number 1021, s__HROM_Genome_3457
+2026-05-21 13:30:46.517689 INFO::Fitting model to feature number 1022, s__HROM_Genome_3459
+2026-05-21 13:30:46.520869 INFO::Fitting model to feature number 1023, s__HROM_Genome_3460
+2026-05-21 13:30:46.524082 INFO::Fitting model to feature number 1024, s__HROM_Genome_3461
+2026-05-21 13:30:46.52727 INFO::Fitting model to feature number 1025, s__Nanosynbacter.sp900557595
+2026-05-21 13:30:46.530422 INFO::Fitting model to feature number 1026, s__HROM_Genome_3464
+2026-05-21 13:30:46.533546 INFO::Fitting model to feature number 1027, s__HROM_Genome_3465
+2026-05-21 13:30:46.536663 INFO::Fitting model to feature number 1028, s__HROM_Genome_3472
+2026-05-21 13:30:46.539788 INFO::Fitting model to feature number 1029, s__HROM_Genome_3477
+2026-05-21 13:30:46.542889 INFO::Fitting model to feature number 1030, s__HROM_Genome_3479
+2026-05-21 13:30:46.546052 INFO::Fitting model to feature number 1031, s__HROM_Genome_3488
+2026-05-21 13:30:46.54917 INFO::Fitting model to feature number 1032, s__HROM_Genome_3490
+2026-05-21 13:30:46.552277 INFO::Fitting model to feature number 1033, s__HROM_Genome_3494
+2026-05-21 13:30:46.555394 INFO::Fitting model to feature number 1034, s__HROM_Genome_3499
+2026-05-21 13:30:46.558501 INFO::Fitting model to feature number 1035, s__HROM_Genome_3505
+2026-05-21 13:30:46.561672 INFO::Fitting model to feature number 1036, s__HROM_Genome_3509
+2026-05-21 13:30:46.564781 INFO::Fitting model to feature number 1037, s__HROM_Genome_3523
+2026-05-21 13:30:46.568106 INFO::Fitting model to feature number 1038, s__HROM_Genome_3540
+2026-05-21 13:30:46.571275 INFO::Fitting model to feature number 1039, s__HROM_Genome_3564
+2026-05-21 13:30:46.57445 INFO::Fitting model to feature number 1040, s__SDRW01.sp007845485
+2026-05-21 13:30:46.577586 INFO::Fitting model to feature number 1041, s__HROM_Genome_3578
+2026-05-21 13:30:46.580771 INFO::Fitting model to feature number 1042, s__SDRK01.sp007845205
+2026-05-21 13:30:46.583861 INFO::Fitting model to feature number 1043, s__Nanogingivalis.gingivitcus
+2026-05-21 13:30:46.587005 INFO::Fitting model to feature number 1044, s__Nanogingivalis.sp900555945
+2026-05-21 13:30:46.59008 INFO::Fitting model to feature number 1045, s__Nanogingivalis.sp015257795
+2026-05-21 13:30:46.593181 INFO::Fitting model to feature number 1046, s__HROM_Genome_3824
+2026-05-21 13:30:46.596262 INFO::Fitting model to feature number 1047, s__Nanogingivalis.sp013333405
+2026-05-21 13:30:46.599442 INFO::Fitting model to feature number 1048, s__Nanogingivalis.sp900556165
+2026-05-21 13:30:46.602607 INFO::Fitting model to feature number 1049, s__HROM_Genome_3842
+2026-05-21 13:30:46.605719 INFO::Fitting model to feature number 1050, s__Nanogingivalis.sp013333405.1
+2026-05-21 13:30:46.608886 INFO::Fitting model to feature number 1051, s__HROM_Genome_3856
+2026-05-21 13:30:46.611998 INFO::Fitting model to feature number 1052, s__HROM_Genome_3857
+2026-05-21 13:30:46.61514 INFO::Fitting model to feature number 1053, s__Nanosyncoccus.sp015257485
+2026-05-21 13:30:46.618318 INFO::Fitting model to feature number 1054, s__HROM_Genome_3888
+2026-05-21 13:30:46.628508 INFO::Fitting model to feature number 1055, s__HROM_Genome_3895
+2026-05-21 13:30:46.631802 INFO::Fitting model to feature number 1056, s__HROM_Genome_3898
+2026-05-21 13:30:46.634972 INFO::Fitting model to feature number 1057, s__HROM_Genome_3945
+2026-05-21 13:30:46.638156 INFO::Fitting model to feature number 1058, s__HROM_Genome_3950
+2026-05-21 13:30:46.641248 INFO::Fitting model to feature number 1059, s__HROM_Genome_3966
+2026-05-21 13:30:46.644417 INFO::Fitting model to feature number 1060, s__HROM_Genome_3977
+2026-05-21 13:30:46.64764 INFO::Fitting model to feature number 1061, s__HROM_Genome_3992
+2026-05-21 13:30:46.650828 INFO::Fitting model to feature number 1062, s__HROM_Genome_4008
+2026-05-21 13:30:46.654144 INFO::Fitting model to feature number 1063, s__HROM_Genome_4015
+2026-05-21 13:30:46.657341 INFO::Fitting model to feature number 1064, s__HROM_Genome_4042
+2026-05-21 13:30:46.660563 INFO::Fitting model to feature number 1065, s__HROM_Genome_4057
+2026-05-21 13:30:46.663728 INFO::Fitting model to feature number 1066, s__HROM_Genome_4093
+2026-05-21 13:30:46.667147 INFO::Fitting model to feature number 1067, s__HROM_Genome_4095
+2026-05-21 13:30:46.670355 INFO::Fitting model to feature number 1068, s__HROM_Genome_4164
+2026-05-21 13:30:46.67355 INFO::Fitting model to feature number 1069, s__HROM_Genome_4207
+2026-05-21 13:30:46.676749 INFO::Fitting model to feature number 1070, s__HROM_Genome_4222
+2026-05-21 13:30:46.679882 INFO::Fitting model to feature number 1071, s__HROM_Genome_4230
+2026-05-21 13:30:46.683124 INFO::Fitting model to feature number 1072, s__HROM_Genome_4280
+2026-05-21 13:30:46.686271 INFO::Fitting model to feature number 1073, s__HROM_Genome_4364
+2026-05-21 13:30:46.689426 INFO::Fitting model to feature number 1074, s__HROM_Genome_4367
+2026-05-21 13:30:46.692654 INFO::Fitting model to feature number 1075, s__HROM_Genome_4379
+2026-05-21 13:30:46.695881 INFO::Fitting model to feature number 1076, s__HROM_Genome_4413
+2026-05-21 13:30:46.699204 INFO::Fitting model to feature number 1077, s__HROM_Genome_4420
+2026-05-21 13:30:46.70236 INFO::Fitting model to feature number 1078, s__HROM_Genome_4431
+2026-05-21 13:30:46.705473 INFO::Fitting model to feature number 1079, s__HROM_Genome_4443
+2026-05-21 13:30:46.708624 INFO::Fitting model to feature number 1080, s__HROM_Genome_4450
+2026-05-21 13:30:46.711763 INFO::Fitting model to feature number 1081, s__HROM_Genome_4452
+2026-05-21 13:30:46.714916 INFO::Fitting model to feature number 1082, s__HROM_Genome_4459
+2026-05-21 13:30:46.718048 INFO::Fitting model to feature number 1083, s__HROM_Genome_4460
+2026-05-21 13:30:46.721189 INFO::Fitting model to feature number 1084, s__HROM_Genome_4463
+2026-05-21 13:30:46.724374 INFO::Fitting model to feature number 1085, s__HROM_Genome_4477
+2026-05-21 13:30:46.727702 INFO::Fitting model to feature number 1086, s__Nanosyncoccus.sp013332965
+2026-05-21 13:30:46.730842 INFO::Fitting model to feature number 1087, s__Nanosyncoccus.nanoralicus
+2026-05-21 13:30:46.733965 INFO::Fitting model to feature number 1088, s__HROM_Genome_4481
+2026-05-21 13:30:46.737135 INFO::Fitting model to feature number 1089, s__Nanosyncoccus.nanoralicus.1
+2026-05-21 13:30:46.740255 INFO::Fitting model to feature number 1090, s__Nanosyncoccus.sp013332965.1
+2026-05-21 13:30:46.743358 INFO::Fitting model to feature number 1091, s__HROM_Genome_4498
+2026-05-21 13:30:46.746538 INFO::Fitting model to feature number 1092, s__HROM_Genome_4502
+2026-05-21 13:30:46.756693 INFO::Fitting model to feature number 1093, s__HROM_Genome_4507
+2026-05-21 13:30:46.760007 INFO::Fitting model to feature number 1094, s__Nanosyncoccus.sp905372495
+2026-05-21 13:30:46.763216 INFO::Fitting model to feature number 1095, s__Nanosyncoccus.nanoralicus.2
+2026-05-21 13:30:46.766393 INFO::Fitting model to feature number 1096, s__HROM_Genome_4551
+2026-05-21 13:30:46.769588 INFO::Fitting model to feature number 1097, s__Nanosyncoccus.sp013332965.2
+2026-05-21 13:30:46.772772 INFO::Fitting model to feature number 1098, s__HROM_Genome_4774
+2026-05-21 13:30:46.775997 INFO::Fitting model to feature number 1099, s__HROM_Genome_4779
+2026-05-21 13:30:46.779242 INFO::Fitting model to feature number 1100, s__Kingella.kingae
+2026-05-21 13:30:46.782449 INFO::Fitting model to feature number 1101, s__Simonsiella.muelleri
+2026-05-21 13:30:46.785665 INFO::Fitting model to feature number 1102, s__HROM_Genome_4817
+2026-05-21 13:30:46.788898 INFO::Fitting model to feature number 1103, s__HROM_Genome_4818
+2026-05-21 13:30:46.7921 INFO::Fitting model to feature number 1104, s__Neisseria.sp000186165
+2026-05-21 13:30:46.79534 INFO::Fitting model to feature number 1105, s__Neisseria.subflava_C
+2026-05-21 13:30:46.798625 INFO::Fitting model to feature number 1106, s__Neisseria.sicca_A
+2026-05-21 13:30:46.801868 INFO::Fitting model to feature number 1107, s__HROM_Genome_4825
+2026-05-21 13:30:46.805045 INFO::Fitting model to feature number 1108, s__Neisseria.mucosa_A
+2026-05-21 13:30:46.808212 INFO::Fitting model to feature number 1109, s__Neisseria.polysaccharea
+2026-05-21 13:30:46.811411 INFO::Fitting model to feature number 1110, s__Neisseria.sp000090875
+2026-05-21 13:30:46.814635 INFO::Fitting model to feature number 1111, s__Neisseria.elongata
+2026-05-21 13:30:46.817809 INFO::Fitting model to feature number 1112, s__Neisseria.cinerea
+2026-05-21 13:30:46.821063 INFO::Fitting model to feature number 1113, s__Neisseria.flavescens
+2026-05-21 13:30:46.824251 INFO::Fitting model to feature number 1114, s__Eikenella.corrodens
+2026-05-21 13:30:46.827485 INFO::Fitting model to feature number 1115, s__Eikenella.corrodens_B
+2026-05-21 13:30:46.830636 INFO::Fitting model to feature number 1116, s__Eikenella.halliae
+2026-05-21 13:30:46.833844 INFO::Fitting model to feature number 1117, s__HROM_Genome_4842
+2026-05-21 13:30:46.836999 INFO::Fitting model to feature number 1118, s__Neisseria.sp002237445
+2026-05-21 13:30:46.840338 INFO::Fitting model to feature number 1119, s__CAJPNX01.sp905372165
+2026-05-21 13:30:46.8436 INFO::Fitting model to feature number 1120, s__Neisseria.bacilliformis
+2026-05-21 13:30:46.846829 INFO::Fitting model to feature number 1121, s__HROM_Genome_4852
+2026-05-21 13:30:46.84996 INFO::Fitting model to feature number 1122, s__HROM_Genome_4854
+2026-05-21 13:30:46.853147 INFO::Fitting model to feature number 1123, s__Kingella_A.denitrificans
+2026-05-21 13:30:46.85633 INFO::Fitting model to feature number 1124, s__HROM_Genome_4856
+2026-05-21 13:30:46.859483 INFO::Fitting model to feature number 1125, s__Kingella_B.oralis
+2026-05-21 13:30:46.862749 INFO::Fitting model to feature number 1126, s__HROM_Genome_4858
+2026-05-21 13:30:46.865908 INFO::Fitting model to feature number 1127, s__HROM_Genome_4859
+2026-05-21 13:30:46.869097 INFO::Fitting model to feature number 1128, s__HROM_Genome_4862
+2026-05-21 13:30:46.87229 INFO::Fitting model to feature number 1129, s__HROM_Genome_4863
+2026-05-21 13:30:46.875521 INFO::Fitting model to feature number 1130, s__HROM_Genome_4870
+2026-05-21 13:30:46.885903 INFO::Fitting model to feature number 1131, s__HROM_Genome_4872
+2026-05-21 13:30:46.889208 INFO::Fitting model to feature number 1132, s__HROM_Genome_4887
+2026-05-21 13:30:46.892412 INFO::Fitting model to feature number 1133, s__Lautropia.mirabilis
+2026-05-21 13:30:46.895641 INFO::Fitting model to feature number 1134, s__Lautropia.dentalis
+2026-05-21 13:30:46.898937 INFO::Fitting model to feature number 1135, s__HROM_Genome_4895
+2026-05-21 13:30:46.902219 INFO::Fitting model to feature number 1136, s__HROM_Genome_4896
+2026-05-21 13:30:46.905478 INFO::Fitting model to feature number 1137, s__Ottowia.sp001262075
+2026-05-21 13:30:46.908753 INFO::Fitting model to feature number 1138, s__HROM_Genome_4908
+2026-05-21 13:30:46.911947 INFO::Fitting model to feature number 1139, s__Cardiobacterium.hominis
+2026-05-21 13:30:46.915169 INFO::Fitting model to feature number 1140, s__HROM_Genome_4910
+2026-05-21 13:30:46.918362 INFO::Fitting model to feature number 1141, s__HROM_Genome_4912
+2026-05-21 13:30:46.921943 INFO::Fitting model to feature number 1142, s__HROM_Genome_4915
+2026-05-21 13:30:46.925143 INFO::Fitting model to feature number 1143, s__Cardiobacterium.valvarum
+2026-05-21 13:30:46.928319 INFO::Fitting model to feature number 1144, s__Haemophilus_A.sputorum
+2026-05-21 13:30:46.931536 INFO::Fitting model to feature number 1145, s__Haemophilus_A.parahaemolyticus
+2026-05-21 13:30:46.934699 INFO::Fitting model to feature number 1146, s__Haemophilus_A.paraphrohaemolyticus
+2026-05-21 13:30:46.937898 INFO::Fitting model to feature number 1147, s__Haemophilus_D.pittmaniae
+2026-05-21 13:30:46.941199 INFO::Fitting model to feature number 1148, s__Haemophilus_D.parainfluenzae
+2026-05-21 13:30:46.944507 INFO::Fitting model to feature number 1149, s__Haemophilus_D.parainfluenzae_L
+2026-05-21 13:30:46.947757 INFO::Fitting model to feature number 1150, s__Haemophilus_D.sp001815355
+2026-05-21 13:30:46.9512 INFO::Fitting model to feature number 1151, s__Haemophilus.aegyptius
+2026-05-21 13:30:46.954432 INFO::Fitting model to feature number 1152, s__Haemophilus_D.parainfluenzae_J
+2026-05-21 13:30:46.957691 INFO::Fitting model to feature number 1153, s__Haemophilus_D.sp900756875
+2026-05-21 13:30:46.960823 INFO::Fitting model to feature number 1154, s__HROM_Genome_4940
+2026-05-21 13:30:46.963954 INFO::Fitting model to feature number 1155, s__HROM_Genome_4942
+2026-05-21 13:30:46.967113 INFO::Fitting model to feature number 1156, s__Haemophilus.seminalis
+2026-05-21 13:30:46.970279 INFO::Fitting model to feature number 1157, s__Haemophilus_D.parainfluenzae_M
+2026-05-21 13:30:46.973449 INFO::Fitting model to feature number 1158, s__Haemophilus_D.parainfluenzae_N
+2026-05-21 13:30:46.976631 INFO::Fitting model to feature number 1159, s__Haemophilus.haemolyticus
+2026-05-21 13:30:46.979815 INFO::Fitting model to feature number 1160, s__Haemophilus_D.parainfluenzae_L.1
+2026-05-21 13:30:46.982996 INFO::Fitting model to feature number 1161, s__Haemophilus_D.sp905215245
+2026-05-21 13:30:46.986181 INFO::Fitting model to feature number 1162, s__Haemophilus_D.parainfluenzae_K
+2026-05-21 13:30:46.98938 INFO::Fitting model to feature number 1163, s__Rodentibacter.sp901420285
+2026-05-21 13:30:46.992521 INFO::Fitting model to feature number 1164, s__HROM_Genome_4958
+2026-05-21 13:30:46.995691 INFO::Fitting model to feature number 1165, s__Mesocricetibacter.sp905373425
+2026-05-21 13:30:46.998839 INFO::Fitting model to feature number 1166, s__Aggregatibacter.actinomycetemcomitans
+2026-05-21 13:30:47.001969 INFO::Fitting model to feature number 1167, s__Aggregatibacter.aphrophilus
+2026-05-21 13:30:47.010794 INFO::Fitting model to feature number 1168, s__Aggregatibacter.segnis
+2026-05-21 13:30:47.015498 INFO::Fitting model to feature number 1169, s__Aggregatibacter.kilianii
+2026-05-21 13:30:47.018819 INFO::Fitting model to feature number 1170, s__Aggregatibacter.segnis_A
+2026-05-21 13:30:47.021972 INFO::Fitting model to feature number 1171, s__Aggregatibacter.sp000466335
+2026-05-21 13:30:47.025143 INFO::Fitting model to feature number 1172, s__HROM_Genome_4966
+2026-05-21 13:30:47.028292 INFO::Fitting model to feature number 1173, s__HROM_Genome_4990
+2026-05-21 13:30:47.031587 INFO::Fitting model to feature number 1174, s__Moraxella_A.cinereus
+2026-05-21 13:30:47.034806 INFO::Fitting model to feature number 1175, s__Xanthomonas.campestris
+2026-05-21 13:30:47.037999 INFO::Fitting model to feature number 1176, s__HROM_Genome_5020
+2026-05-21 13:30:47.04123 INFO::Fitting model to feature number 1177, s__HROM_Genome_5023
+2026-05-21 13:30:47.044412 INFO::Fitting model to feature number 1178, s__Treponema_B.denticola
+2026-05-21 13:30:47.047623 INFO::Fitting model to feature number 1179, s__HROM_Genome_5027
+2026-05-21 13:30:47.050808 INFO::Fitting model to feature number 1180, s__Treponema_B.sp905372345
+2026-05-21 13:30:47.054009 INFO::Fitting model to feature number 1181, s__HROM_Genome_5029
+2026-05-21 13:30:47.057148 INFO::Fitting model to feature number 1182, s__Treponema.sp905372265
+2026-05-21 13:30:47.060399 INFO::Fitting model to feature number 1183, s__HROM_Genome_5035
+2026-05-21 13:30:47.063597 INFO::Fitting model to feature number 1184, s__Treponema.sp010365865
+2026-05-21 13:30:47.066769 INFO::Fitting model to feature number 1185, s__Treponema.medium
+2026-05-21 13:30:47.069946 INFO::Fitting model to feature number 1186, s__Treponema.sp018336815
+2026-05-21 13:30:47.073206 INFO::Fitting model to feature number 1187, s__HROM_Genome_5041
+2026-05-21 13:30:47.076426 INFO::Fitting model to feature number 1188, s__HROM_Genome_5042
+2026-05-21 13:30:47.079647 INFO::Fitting model to feature number 1189, s__HROM_Genome_5043
+2026-05-21 13:30:47.082902 INFO::Fitting model to feature number 1190, s__HROM_Genome_5044
+2026-05-21 13:30:47.086173 INFO::Fitting model to feature number 1191, s__Treponema.sp905373565
+2026-05-21 13:30:47.089333 INFO::Fitting model to feature number 1192, s__HROM_Genome_5046
+2026-05-21 13:30:47.092518 INFO::Fitting model to feature number 1193, s__HROM_Genome_5047
+2026-05-21 13:30:47.09568 INFO::Fitting model to feature number 1194, s__HROM_Genome_5049
+2026-05-21 13:30:47.098854 INFO::Fitting model to feature number 1195, s__Treponema.sp000775995
+2026-05-21 13:30:47.102592 INFO::Fitting model to feature number 1196, s__Treponema.vincentii
+2026-05-21 13:30:47.105762 INFO::Fitting model to feature number 1197, s__HROM_Genome_5053
+2026-05-21 13:30:47.108985 INFO::Fitting model to feature number 1198, s__Treponema_D.sp905372235
+2026-05-21 13:30:47.112216 INFO::Fitting model to feature number 1199, s__HROM_Genome_5066
+2026-05-21 13:30:47.115404 INFO::Fitting model to feature number 1200, s__HROM_Genome_5067
+2026-05-21 13:30:47.118571 INFO::Fitting model to feature number 1201, s__HROM_Genome_5068
+2026-05-21 13:30:47.121719 INFO::Fitting model to feature number 1202, s__Treponema_D.sp014334335
+2026-05-21 13:30:47.124871 INFO::Fitting model to feature number 1203, s__HROM_Genome_5071
+2026-05-21 13:30:47.128094 INFO::Fitting model to feature number 1204, s__Treponema_C.lecithinolyticum
+2026-05-21 13:30:47.131202 INFO::Fitting model to feature number 1205, s__Treponema_C.sp905372025
+2026-05-21 13:30:47.140457 INFO::Fitting model to feature number 1206, s__Treponema_C.maltophilum
+2026-05-21 13:30:47.144962 INFO::Fitting model to feature number 1207, s__Treponema_D.parvum
+2026-05-21 13:30:47.148164 INFO::Fitting model to feature number 1208, s__Treponema_D.sp014334325
+2026-05-21 13:30:47.151386 INFO::Fitting model to feature number 1209, s__Treponema_D.buccale
+2026-05-21 13:30:47.154541 INFO::Fitting model to feature number 1210, s__HROM_Genome_5082
+2026-05-21 13:30:47.157697 INFO::Fitting model to feature number 1211, s__Treponema_D.socranskii
+2026-05-21 13:30:47.160921 INFO::Fitting model to feature number 1212, s__HROM_Genome_5084
+2026-05-21 13:30:47.164217 INFO::Fitting model to feature number 1213, s__HROM_Genome_5091
+2026-05-21 13:30:47.167474 INFO::Fitting model to feature number 1214, s__HROM_Genome_5095
+2026-05-21 13:30:47.170711 INFO::Fitting model to feature number 1215, s__HROM_Genome_5096
+2026-05-21 13:30:47.173964 INFO::Fitting model to feature number 1216, s__HROM_Genome_5100
+2026-05-21 13:30:47.177238 INFO::Fitting model to feature number 1217, s__Fretibacterium.fastidiosum
+2026-05-21 13:30:47.180446 INFO::Fitting model to feature number 1218, s__HROM_Genome_5102
+2026-05-21 13:30:47.183649 INFO::Fitting model to feature number 1219, s__HROM_Genome_5103
+2026-05-21 13:30:47.186873 INFO::Fitting model to feature number 1220, s__CAJPSE01.sp905373185
+2026-05-21 13:30:47.190076 INFO::Fitting model to feature number 1221, s__HROM_Genome_5105
+2026-05-21 13:30:47.193252 INFO::Fitting model to feature number 1222, s__HROM_Genome_5106
+2026-05-21 13:30:47.196384 INFO::Fitting model to feature number 1223, s__Pyramidobacter.piscolens
+2026-05-21 13:30:47.518907 INFO::Counting total values for each feature
+2026-05-21 13:30:47.800304 INFO::Writing filtered data to file maaslin2_OAvsRA/features/filtered_data.tsv
+2026-05-21 13:30:47.902114 INFO::Writing filtered, normalized data to file maaslin2_OAvsRA/features/filtered_data_norm.tsv
+2026-05-21 13:30:47.999807 INFO::Writing filtered, normalized, transformed data to file maaslin2_OAvsRA/features/filtered_data_norm_transformed.tsv
+2026-05-21 13:30:48.123439 WARNING::Deleting existing residuals file: maaslin2_OAvsRA/fits/residuals.rds
+2026-05-21 13:30:48.125935 INFO::Writing residuals to file maaslin2_OAvsRA/fits/residuals.rds
+2026-05-21 13:30:48.168698 WARNING::Deleting existing fitted file: maaslin2_OAvsRA/fits/fitted.rds
+2026-05-21 13:30:48.170912 INFO::Writing fitted values to file maaslin2_OAvsRA/fits/fitted.rds
+2026-05-21 13:30:48.210219 INFO::Writing all results to file (ordered by increasing q-values): maaslin2_OAvsRA/all_results.tsv
+2026-05-21 13:30:48.249833 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): maaslin2_OAvsRA/significant_results.tsv
+2026-05-21 13:30:48.252954 INFO::Writing heatmap of significant results to file: maaslin2_OAvsRA/heatmap.pdf
+2026-05-21 13:30:48.562438 INFO::Writing association plots (one for each significant association) to output folder: maaslin2_OAvsRA
+2026-05-21 13:30:48.576129 INFO::Plotting associations from most to least significant, grouped by metadata
+2026-05-21 13:30:48.578023 INFO::Plotting data for metadata number 1, Smoking_Status
+2026-05-21 13:30:48.580369 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Alloprevotella.sp015259235
+2026-05-21 13:30:49.160338 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Lautropia.dentalis
+2026-05-21 13:30:49.336818 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Treponema_C.sp905372025
+2026-05-21 13:30:49.518909 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Arachnia.rubra
+2026-05-21 13:30:49.664377 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Tannerella.forsythia
+2026-05-21 13:30:49.808807 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Parvimonas.micra
+2026-05-21 13:30:49.947602 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Fusobacterium.animalis
+2026-05-21 13:30:50.092247 INFO::Creating boxplot for categorical data, Smoking_Status vs s__CAJPSE01.sp905373185
+2026-05-21 13:30:50.233543 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.oralis_F
+2026-05-21 13:30:50.378256 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.mitis_Y
+2026-05-21 13:30:50.517591 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Veillonella.dispar.2
+2026-05-21 13:30:50.661721 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.anginosus
+2026-05-21 13:30:50.800045 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_5102
+2026-05-21 13:30:50.942232 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_5103
+2026-05-21 13:30:51.085721 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_5105
+2026-05-21 13:30:51.224169 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_5106
+2026-05-21 13:30:51.38846 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Bulleidia.sp900554555
+2026-05-21 13:30:51.527287 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Fusobacterium.nucleatum_J
+2026-05-21 13:30:51.671335 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Fusobacterium.vincentii
+2026-05-21 13:30:51.811092 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Porphyromonas.gingivalis
+2026-05-21 13:30:51.956502 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.mitis_AC.1
+2026-05-21 13:30:52.097054 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Fretibacterium.fastidiosum
+2026-05-21 13:30:52.242715 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_1704
+2026-05-21 13:30:52.384718 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Veillonella.dispar.2
+2026-05-21 13:30:52.530262 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_5084
+2026-05-21 13:30:52.670821 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Capnocytophaga.sputigena
+2026-05-21 13:30:52.817323 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.oralis_H
+2026-05-21 13:30:52.97778 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Veillonella.sp900550455
+2026-05-21 13:30:53.122389 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Pauljensenia.sp001838165
+2026-05-21 13:30:53.323548 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Actinomyces.sp000195595
+2026-05-21 13:30:53.462813 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_0225
+2026-05-21 13:30:53.62719 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Lancefieldella.parvula
+2026-05-21 13:30:53.780578 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_2246
+2026-05-21 13:30:53.926666 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Dialister.micraerophilus
+2026-05-21 13:30:54.065572 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Treponema_D.buccale
+2026-05-21 13:30:54.208885 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Rothia.mucilaginosa_B.4
+2026-05-21 13:30:54.349206 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Oribacterium.sinus.1
+2026-05-21 13:30:54.494894 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Alloprevotella.rava
+2026-05-21 13:30:54.64009 INFO::Creating boxplot for categorical data, Smoking_Status vs s__JABCPE02.sp013333875
+2026-05-21 13:30:54.780357 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Campylobacter_A.rectus
+2026-05-21 13:30:54.927203 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_1758
+2026-05-21 13:30:55.069085 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_1771
+2026-05-21 13:30:55.25386 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_1892
+2026-05-21 13:30:55.400875 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Mogibacterium.timidum
+2026-05-21 13:30:55.552908 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Hornefia.nodata
+2026-05-21 13:30:55.693128 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.oralis
+2026-05-21 13:30:55.84235 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.gwangjuense
+2026-05-21 13:30:55.997334 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_2319
+2026-05-21 13:30:56.151919 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.mitis_AZ.1
+2026-05-21 13:30:56.29123 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_2666
+2026-05-21 13:30:56.438626 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Nanogingivalis.sp900556165
+2026-05-21 13:30:56.578053 INFO::Creating boxplot for categorical data, Smoking_Status vs s__CAJPNN01.sp905372035
+2026-05-21 13:30:56.725384 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_2463
+2026-05-21 13:30:56.872931 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Bacteroides_D.periocalifornicus
+2026-05-21 13:30:57.013016 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Eubacterium_B.sulci
+2026-05-21 13:30:57.159583 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Peptostreptococcus.sp900759325
+2026-05-21 13:30:57.300304 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Anaeroglobus.geminatus
+2026-05-21 13:30:57.448307 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Treponema_B.sp905372345
+2026-05-21 13:30:57.589407 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Treponema.sp905373565
+2026-05-21 13:30:57.737399 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_2291
+2026-05-21 13:30:57.877184 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Alloprevotella.sp015257125
+2026-05-21 13:30:58.025057 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_2044
+2026-05-21 13:30:58.165427 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.mitis_AI
+2026-05-21 13:30:58.312669 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Granulicatella.sp900551535
+2026-05-21 13:30:58.451076 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_2646
+2026-05-21 13:30:58.598824 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Bacteroides_D.sp905373475
+2026-05-21 13:30:58.746974 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Porphyromonas.endodontalis
+2026-05-21 13:30:58.908772 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_1766
+2026-05-21 13:30:59.069742 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_5068
+2026-05-21 13:30:59.212337 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Cryptobacterium.curtum
+2026-05-21 13:30:59.36134 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Desulfobulbus.oralis
+2026-05-21 13:30:59.503293 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Parvimonas.sp015257355
+2026-05-21 13:30:59.652659 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.halitosis
+2026-05-21 13:30:59.792848 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.chosunense.1
+2026-05-21 13:30:59.940776 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_2671
+2026-05-21 13:31:00.087641 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_4915
+2026-05-21 13:31:00.228768 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_5041
+2026-05-21 13:31:00.377313 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Treponema.vincentii
+2026-05-21 13:31:00.518774 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Lancefieldella.sp000411555
+2026-05-21 13:31:00.667013 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_5067
+2026-05-21 13:31:00.807777 INFO::Creating boxplot for categorical data, Smoking_Status vs s__HROM_Genome_1684
+2026-05-21 13:31:00.981982 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Lancefieldella.sp000411555
+2026-05-21 13:31:01.124434 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Treponema_C.lecithinolyticum
+2026-05-21 13:31:01.27905 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Prevotella.buccae
+2026-05-21 13:31:01.421968 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Streptococcus.sanguinis_A
+2026-05-21 13:31:01.576516 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Neisseria.sicca_A
+2026-05-21 13:31:01.727797 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Treponema_C.maltophilum
+2026-05-21 13:31:01.882773 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Filifactor.alocis
+2026-05-21 13:31:02.044271 INFO::Creating boxplot for categorical data, Smoking_Status vs s__Lachnoanaerobaculum.saburreum
+2026-05-21 13:31:03.913846 INFO::Plotting data for metadata number 2, Age
+2026-05-21 13:31:03.916216 INFO::Creating scatter plot for continuous data, Age vs s__Porphyromonas.gingivalis
+2026-05-21 13:31:04.09926 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:04.101383 INFO::Creating scatter plot for continuous data, Age vs s__W5053.sp000467935
+2026-05-21 13:31:04.332701 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:04.334612 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_5102
+2026-05-21 13:31:04.487412 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:04.489258 INFO::Creating scatter plot for continuous data, Age vs s__CAJPSE01.sp905373185
+2026-05-21 13:31:04.629624 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:04.631608 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_2483
+2026-05-21 13:31:04.796213 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:04.798057 INFO::Creating scatter plot for continuous data, Age vs s__Actinomyces.israelii
+2026-05-21 13:31:04.961321 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:04.963206 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_1142
+2026-05-21 13:31:05.105284 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:05.107191 INFO::Creating scatter plot for continuous data, Age vs s__Bacteroides.heparinolyticus
+2026-05-21 13:31:05.259743 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:05.261511 INFO::Creating scatter plot for continuous data, Age vs s__Desulfomicrobium.orale
+2026-05-21 13:31:05.404217 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:05.405965 INFO::Creating scatter plot for continuous data, Age vs s__Anaeroglobus.geminatus
+2026-05-21 13:31:05.560332 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:05.562016 INFO::Creating scatter plot for continuous data, Age vs s__Staphylococcus.aureus
+2026-05-21 13:31:05.739906 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:05.741699 INFO::Creating scatter plot for continuous data, Age vs s__Phocaeicola.abscessus
+2026-05-21 13:31:05.899925 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:05.901591 INFO::Creating scatter plot for continuous data, Age vs s__Granulicatella.sp001071995
+2026-05-21 13:31:06.054963 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:06.057073 INFO::Creating scatter plot for continuous data, Age vs s__Haemophilus_A.sputorum
+2026-05-21 13:31:06.209338 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:06.211114 INFO::Creating scatter plot for continuous data, Age vs s__Streptococcus.oralis_F
+2026-05-21 13:31:06.386043 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:06.387966 INFO::Creating scatter plot for continuous data, Age vs s__Pseudoramibacter.alactolyticus
+2026-05-21 13:31:06.552043 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:06.553587 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_3447
+2026-05-21 13:31:06.693806 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:06.695765 INFO::Creating scatter plot for continuous data, Age vs s__Streptococcus.anginosus
+2026-05-21 13:31:06.849472 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:06.850998 INFO::Creating scatter plot for continuous data, Age vs s__Treponema_D.sp014334325
+2026-05-21 13:31:07.044659 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:07.046588 INFO::Creating scatter plot for continuous data, Age vs s__Treponema_C.sp905372025
+2026-05-21 13:31:07.201111 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:07.203006 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_5020
+2026-05-21 13:31:07.36825 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:07.370067 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_2386
+2026-05-21 13:31:07.522219 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:07.524029 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_1888
+2026-05-21 13:31:07.688716 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:07.689995 INFO::Creating scatter plot for continuous data, Age vs s__Peptidiphaga.gingivicola
+2026-05-21 13:31:07.855595 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:07.857146 INFO::Creating scatter plot for continuous data, Age vs s__Lancefieldella.sp000411555
+2026-05-21 13:31:08.013103 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:08.015079 INFO::Creating scatter plot for continuous data, Age vs s__Desulfovibrio.sp003860215
+2026-05-21 13:31:08.170516 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:08.172258 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_1758
+2026-05-21 13:31:08.327163 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:08.329122 INFO::Creating scatter plot for continuous data, Age vs s__Limosilactobacillus.vaginalis
+2026-05-21 13:31:08.495902 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:08.497644 INFO::Creating scatter plot for continuous data, Age vs s__Lactobacillus.crispatus
+2026-05-21 13:31:08.654686 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:08.655998 INFO::Creating scatter plot for continuous data, Age vs s__Streptococcus.australis
+2026-05-21 13:31:08.809965 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:08.811772 INFO::Creating scatter plot for continuous data, Age vs s__Streptococcus.constellatus
+2026-05-21 13:31:08.975083 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:08.976758 INFO::Creating scatter plot for continuous data, Age vs s__Selenomonas.sp905373085
+2026-05-21 13:31:09.129776 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:09.131766 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_3824
+2026-05-21 13:31:09.296786 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:09.298572 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_5105
+2026-05-21 13:31:09.461856 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:09.463267 INFO::Creating scatter plot for continuous data, Age vs s__Pyramidobacter.piscolens
+2026-05-21 13:31:09.617339 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:09.619035 INFO::Creating scatter plot for continuous data, Age vs s__Haemophilus_D.parainfluenzae_M
+2026-05-21 13:31:09.78682 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:09.788392 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_1909
+2026-05-21 13:31:09.947166 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:09.948908 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_1919
+2026-05-21 13:31:10.107924 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:10.109565 INFO::Creating scatter plot for continuous data, Age vs s__Streptococcus.xiaochunlingii
+2026-05-21 13:31:10.276078 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:10.277814 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_2106
+2026-05-21 13:31:10.420779 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:10.422123 INFO::Creating scatter plot for continuous data, Age vs s__Fusobacterium.nucleatum_J
+2026-05-21 13:31:10.588555 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:10.589969 INFO::Creating scatter plot for continuous data, Age vs s__Desulfobulbus.oralis
+2026-05-21 13:31:10.754595 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:10.756383 INFO::Creating scatter plot for continuous data, Age vs s__Gemella.sp900555985
+2026-05-21 13:31:10.911352 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:10.912868 INFO::Creating scatter plot for continuous data, Age vs s__Tannerella.forsythia
+2026-05-21 13:31:11.077714 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:11.079208 INFO::Creating scatter plot for continuous data, Age vs s__Olsenella.uli
+2026-05-21 13:31:11.227119 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:11.228911 INFO::Creating scatter plot for continuous data, Age vs s__Prevotella.nanceiensis
+2026-05-21 13:31:11.388368 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:11.389938 INFO::Creating scatter plot for continuous data, Age vs s__Limosilactobacillus.portuensis
+2026-05-21 13:31:11.553251 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:11.55476 INFO::Creating scatter plot for continuous data, Age vs s__Treponema.medium
+2026-05-21 13:31:11.706835 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:11.708337 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_5071
+2026-05-21 13:31:11.864143 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:11.865593 INFO::Creating scatter plot for continuous data, Age vs s__Hornefia.nodata
+2026-05-21 13:31:12.029371 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:12.030908 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_0349
+2026-05-21 13:31:12.173488 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:12.175358 INFO::Creating scatter plot for continuous data, Age vs s__Treponema_D.socranskii
+2026-05-21 13:31:12.340635 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:12.342335 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_2039
+2026-05-21 13:31:12.532222 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:12.533937 INFO::Creating scatter plot for continuous data, Age vs s__Streptococcus.mitis_AC.1
+2026-05-21 13:31:12.693273 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:12.694961 INFO::Creating scatter plot for continuous data, Age vs s__Streptococcus.mitis_BI
+2026-05-21 13:31:12.855034 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:12.856404 INFO::Creating scatter plot for continuous data, Age vs s__Lachnoanaerobaculum.orale
+2026-05-21 13:31:13.010338 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:13.011749 INFO::Creating scatter plot for continuous data, Age vs s__Lactobacillus.paragasseri
+2026-05-21 13:31:13.182235 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:13.183914 INFO::Creating scatter plot for continuous data, Age vs s__Ligilactobacillus.salivarius
+2026-05-21 13:31:13.354959 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:13.356615 INFO::Creating scatter plot for continuous data, Age vs s__HROM_Genome_2317
+2026-05-21 13:31:13.510829 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:13.512214 INFO::Creating scatter plot for continuous data, Age vs s__Fretibacterium.fastidiosum
+2026-05-21 13:31:13.683345 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 13:31:16.5297 INFO::Plotting data for metadata number 3, Sex
+2026-05-21 13:31:16.543245 INFO::Creating boxplot for categorical data, Sex vs s__Streptococcus.sp905221435
+2026-05-21 13:31:16.678583 INFO::Creating boxplot for categorical data, Sex vs s__Pauljensenia.odontolytica_A
+2026-05-21 13:31:16.832517 INFO::Creating boxplot for categorical data, Sex vs s__Campylobacter_A.sp905372745.2
+2026-05-21 13:31:16.977708 INFO::Creating boxplot for categorical data, Sex vs s__Pauljensenia.sp018375675
+2026-05-21 13:31:17.123156 INFO::Creating boxplot for categorical data, Sex vs s__HROM_Genome_1799
+2026-05-21 13:31:17.273096 INFO::Creating boxplot for categorical data, Sex vs s__Streptococcus.sanguinis_A
+2026-05-21 13:31:17.413585 INFO::Creating boxplot for categorical data, Sex vs s__Streptococcus.mitis_AC.1
+2026-05-21 13:31:17.565936 INFO::Creating boxplot for categorical data, Sex vs s__Streptococcus.parasanguinis
+2026-05-21 13:31:17.70341 INFO::Creating boxplot for categorical data, Sex vs s__HROM_Genome_1762
+2026-05-21 13:31:19.714002 INFO::Plotting data for metadata number 4, diagnosis
+2026-05-21 13:31:19.744227 INFO::Creating boxplot for categorical data, diagnosis vs s__Haemophilus_A.sputorum
+2026-05-21 13:31:19.888906 INFO::Creating boxplot for categorical data, diagnosis vs s__Limosilactobacillus.portuensis
+2026-05-21 13:31:20.032033 INFO::Creating boxplot for categorical data, diagnosis vs s__Stomatobaculum.longum_A.1
+2026-05-21 13:31:20.183513 INFO::Creating boxplot for categorical data, diagnosis vs s__Phocaeicola.abscessus
+2026-05-21 13:31:20.32005 INFO::Creating boxplot for categorical data, diagnosis vs s__Desulfovibrio.sp003860215
+2026-05-21 13:31:20.648657 INFO::Creating boxplot for categorical data, diagnosis vs s__HROM_Genome_1919
+2026-05-21 13:31:20.778834 INFO::Creating boxplot for categorical data, diagnosis vs s__Streptococcus.oralis_S
+2026-05-21 13:31:20.914013 INFO::Creating boxplot for categorical data, diagnosis vs s__Lactiplantibacillus.plantarum
+2026-05-21 13:31:21.043878 INFO::Creating boxplot for categorical data, diagnosis vs s__HROM_Genome_2600
+2026-05-21 13:31:21.187278 INFO::Creating boxplot for categorical data, diagnosis vs s__Haemophilus_D.parainfluenzae_J
+2026-05-21 13:31:21.318854 INFO::Creating boxplot for categorical data, diagnosis vs s__Streptococcus.oralis_F.1
+2026-05-21 13:31:21.452122 INFO::Creating boxplot for categorical data, diagnosis vs s__Haemophilus_D.sp900756875
+2026-05-21 13:31:21.579501 INFO::Creating boxplot for categorical data, diagnosis vs s__HROM_Genome_3447
+2026-05-21 13:31:21.712639 INFO::Creating boxplot for categorical data, diagnosis vs s__Pauljensenia.cardiffensis
+2026-05-21 13:31:21.839741 INFO::Creating boxplot for categorical data, diagnosis vs s__Veillonella.sp018367495
+2026-05-21 13:31:21.973862 INFO::Creating boxplot for categorical data, diagnosis vs s__Lancefieldella.sp000564995.2
+2026-05-21 13:31:22.101496 INFO::Creating boxplot for categorical data, diagnosis vs s__Streptococcus.constellatus
+2026-05-21 13:31:22.235466 INFO::Creating boxplot for categorical data, diagnosis vs s__Dialister.micraerophilus
+2026-05-21 13:31:22.36274 INFO::Creating boxplot for categorical data, diagnosis vs s__Aggregatibacter.segnis_A
+2026-05-21 13:31:22.496485 INFO::Creating boxplot for categorical data, diagnosis vs s__Lacticaseibacillus.paracasei

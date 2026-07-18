@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /home/sebin595/project/0.RA_oral_microbiome/for_paper_submission/05_multikingdom_nestedFS/figures\\nsource ~/miniforge3/etc/profile.d/conda.sh && conda activate preprocessing\\nls -la *.p...",
+  "error": "Exit code 1\n-rw-r--r--. 1 sebin595 netbio 20340 Jul  2 20:34 Figure_5A_nestedFS.pdf\n-rw-r--r--. 1 sebin595 netbio 21050 Jul  2 20:34 Figure_5_AUROC_barplot_nestedFS.pdf\n-rw-r--r--. 1 sebin595 netbio 20705 Jul  2 20:34 Figure_5B_multi_nestedFS.pdf\n-rw-r--r--. 1 sebin595 netbio 20471 Jul  2 20:34 Figure_5B_nestedFS.pdf\nTraceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nModuleNotFoundError: No module named 'pdf2image'",
+  "timestamp": "2026-07-02T11:34:29.521Z",
+  "retry_count": 1
+}

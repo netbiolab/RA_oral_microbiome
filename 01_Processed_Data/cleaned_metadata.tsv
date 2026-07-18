@@ -1,0 +1,78 @@
+	saliva swab	Patient_Number	ID	Age	Sex	Height	Weight	BMI	Alcohol_Use	Smoking_Status	diagnosis	Antibiotics_Use	Probiotics_Use	DAS_28_ESR	DAS_28_CRP	CDAI	SDAI	TJC.0.28	SJC.0.28	PtVAS	PhVAS	ESR	CRP	WBC	Plt	RF	Anti_ccp	Steroid	NSAIDs	DMARDs	DAS_28_ESR.1	DAS_28_CRP.1	CDAI.1	SDAI.1	Delta DAS_28_ESR	Good_Rx
+0	sample_2022120210005	5	726735	68	F	150.5	56.85	25.1	No_Alcohol	Never_Smoker	Non_RA	No	No									2.0	0.6	7390.0	255.0	nan	nan	no	No_NSAIDs	no						nan
+1	sample_2022120210006	6	658131	70	M	167.4	72.7	25.94	No_Alcohol	Former_Smoker	Non_RA	No	No									2.0	0.6	6170.0	248.0	nan	nan	no	No_NSAIDs	no						nan
+2	sample_2022120210007	7	30060625	69	F	156.6	60.6	24.71	No_Alcohol	Never_Smoker	Non_RA	No	No									11.0	0.6	5100.0	259.0	10	8	no	NSAIDs_User	no						nan
+3	sample_2022120210008	8	30036818	53	F	153.7	41.1	17.4	Alcohol_User	Current_Smoker	Non_RA	No	Yes									10.0	2.6	6270.0	270.0	10	8	no	No_NSAIDs	no						nan
+4	sample_2022120210009	9	30060211	72	F	160.0	64.95	25.37	No_Alcohol	Never_Smoker	Non_RA	No	Yes									5.0	0.7	6880.0	238.0	10	8	no	NSAIDs_User	no						nan
+5	sample_2022120210010	10	6124555	76	F	148.7	53.4	24.15	No_Alcohol	Never_Smoker	Non_RA	No	No									10.0	0.6	6480.0	299.0	10	8	no	NSAIDs_User	no						nan
+6	sample_2022120210012	12	9518663	78	F	152.2	65.3	28.19	No_Alcohol	Never_Smoker	Non_RA	No	No									2.0	0.6	4030.0	187.0	10	8	no	NSAIDs_User	no						nan
+7	sample_2022120210015	15	9109498	60	M	164.0	82.0	30.49	Alcohol_User	Current_Smoker	Non_RA	No	No									2.0	0.9	6440.0	208.0	10	8	no	NSAIDs_User	no						nan
+8	sample_2022120210017	17	6336973	60	F	162.8	67.7	25.54	No_Alcohol	Never_Smoker	Non_RA	No	Yes									2.0	0.6	4280.0	225.0	10	8	no	No_NSAIDs	no						nan
+9	sample_2022120210018	18	1274627	61	F	160.8	53.6	20.73	No_Alcohol	Never_Smoker	Non_RA	No	Yes									2.0	0.6	6180.0	265.0	10	8	no	NSAIDs_User	no						nan
+10	sample_2022120210019	19	9554758	60	F	146.0	52.0	24.39	No_Alcohol	Never_Smoker	Non_RA	No	No									14.0	7.7	7200.0	314.0	10	8	no	No_NSAIDs	no						nan
+11	sample_2022120210022	22	10750943	49	F	158.0	46.0	18.43	No_Alcohol	Never_Smoker	Non_RA	No	No									13.0	0.6	4660.0	283.0	10	8	no	No_NSAIDs	no						nan
+12	sample_2022120210024	24	30063563	60	F	150.1	55.55	24.66	No_Alcohol	Never_Smoker	Non_RA	No	Yes									3.0	1.1	5650.0	184.0	24	8	no	No_NSAIDs	no						nan
+13	sample_2022120210027	27	9748617	62	M	175.2	75.6	24.63	Alcohol_User	Never_Smoker	Non_RA	No	No									3.0	0.6	6210.0	199.0	6.0	0	no	No_NSAIDs	no						nan
+14	sample_2022120210030	30	30031765	57	F	152.3	80.8	34.83	No_Alcohol	Never_Smoker	Non_RA	No	Yes									3.0	2.1	9000.0	284.0	10	8	no	No_NSAIDs	no						nan
+15	sample_2022120210031	31	30072531	46	F	162.0	62.5	23.81	Alcohol_User	Never_Smoker	Non_RA	No	Yes									2.0	0.6	7570.0	254.0	10	8	no	No_NSAIDs	no						nan
+16	sample_2022120210032	32	9863462	68	F	156.9	60.8	24.7	No_Alcohol	Never_Smoker	Non_RA	No	No									2.0	0.7	6280.0	346.0	10	8	no	No_NSAIDs	no						nan
+17	sample_2022120210034	34	9916947	58	F	154.1	75.5	31.79	No_Alcohol	Never_Smoker	Non_RA	No	Yes									15.0	1.5	6900.0	360.0	10	8	no	No_NSAIDs	no						nan
+18	sample_2022120210035	35	30073558	59	M	174.4	105.6	34.72	No_Alcohol	Never_Smoker	Non_RA	No	No									23.0	0.6	8900.0	220.0	10	8	no	No_NSAIDs	no						nan
+19	sample_2022120210036	36	3704643	71	F	151.4	50.5	22.03	No_Alcohol	Never_Smoker	Non_RA	No	No									5.0	0.6	3900.0	244.0	10	0	no	NSAIDs_User	no						nan
+20	sample_2022120210038	38	9511636	63	F	153.0	49.8	21.27	No_Alcohol	Never_Smoker	Non_RA	No	No									8.0	0.7	6050.0	180.0	8.5	0	no	No_NSAIDs	no						nan
+21	sample_2022120210041	41	9728127	67	F	153.7	52.3	22.14	No_Alcohol	Current_Smoker	Non_RA	No	No									4.0	0.8	7380.0	231.0	10	8	no	No_NSAIDs	no						nan
+22	sample_2022120210045	45	9649812	52	F	152.3	50.65	21.84	Alcohol_User	Never_Smoker	Non_RA	No	Yes									8.0	0.7	4710.0	154.0	10	8	no	No_NSAIDs	no						nan
+23	sample_2022120210054	54	30084791	71	F	158.7	57.8	22.95	No_Alcohol	Never_Smoker	Non_RA	No	No									2.0	1.1	4500.0	162.0	18	8	no	No_NSAIDs	no						nan
+24	sample_2022120210055	55	Other	72	M	169.7	75.25	26.1	Alcohol_User	Never_Smoker	Non_RA	No	No										nan			nan	nan	no	No_NSAIDs	no						nan
+25	sample_2022120210057	57	9741729	71	F	157.1	57.5	23.3	No_Alcohol	Never_Smoker	Non_RA	No	Yes									4.0	1.2	7860.0	171.0	10	0	no	NSAIDs_User	no						nan
+26	sample_2022120210059	59	9565854	55	F	160.1	67.75	26.43	No_Alcohol	Never_Smoker	Non_RA	No	Yes									12.0	0.6	10360.0	430.0	10	8	no	No_NSAIDs	no						nan
+27	sample_2022120210060	60	9836159	68	M	154.7	64.05	26.76	No_Alcohol	Never_Smoker	Non_RA	No	No									3.0	2.5	7600.0	305.0	10	8	no	No_NSAIDs	no						nan
+28	sample_2022120210061	61	30033696	63	F	153.3	56.65	24.11	No_Alcohol	Never_Smoker	Non_RA	No	No									2.0	0.6	6800.0	217.0	10	8	no	No_NSAIDs	no						nan
+29	sample_2022120210062	62	30089123	70	F	153.1	55.95	23.87	No_Alcohol	Never_Smoker	Non_RA	No	No									4.0	0.6	5380.0	234.0	10	8	no	NSAIDs_User	no						nan
+30	sample_2022120210070	71	10494588	53	F	165.5	53.75	1.57	No_Alcohol	Never_Smoker	Non_RA	No	Yes									2.0	0.6	6250.0	239.0	10	8	no	No_NSAIDs	no						nan
+31	sample_2022120210071	70	30096033	57	F	156.7	56.65	1.57	No_Alcohol	Never_Smoker	Non_RA	No	Yes									6.0	0.6	6970.0	271.0	10	8	no	No_NSAIDs	no						nan
+32	sample_5192784	신촌 2	5192784	68	F	163.0	60.0	22.58	No_Alcohol	Never_Smoker	Non_RA	No	No										nan	6070.0	243.0	7.4	nan	no	No_NSAIDs	no						nan
+33	sample_5192779	신촌 3	5192779	69	M	164.0	61.0	22.68	No_Alcohol	Never_Smoker	Non_RA	No	No										nan	7400.0	228.0	5.5	nan	no	NSAIDs_User	no						nan
+34	sample_2022120210001	1,PBMC21	9703121	61	F	152.3	42.6	18.37	No_Alcohol	Never_Smoker	RA	No	Yes	5.59	4.99	22.0	25.22	6.0	0.0	100.0	60.0	56.0	32.2	6170.0	326.0	12	8	no	No_NSAIDs	no	1.61	2.25	5.5	5.56	3.98	Y
+35	sample_2022120210004	4,PBMC22	9939014	72	M	169.3	69.45	24.23	Alcohol_User	Former_Smoker	RA	No	No	4.32	3.23	10.5	12.07	1.0	1.0	30.0	55.0	79.0	15.7	7560.0	254.0	10	8	no	NSAIDs_User	no	2.62	1.69	3.5	3.56	1.7	Y
+36	sample_2022120210037	37	9867619	73	F	148.6	56.4	25.54	No_Alcohol	Never_Smoker	RA	No	No	6.31	5.76	29.0	34.37	9.0	4.0	80.0	80.0	68.0	53.7	10830.0	402.0	10	8	no	NSAIDs_User	no	2.34	2.34	5.5	5.56	3.98	Y
+37	sample_2022120210043	43	9964946	48	M	170.8	69.2	23.72	Alcohol_User	Never_Smoker	RA	No	Yes	4.28	3.88	16.0	16.89	3.0	1.0	60.0	60.0	23.0	8.9	7630.0	292.0	10	8	no	No_NSAIDs	no	2.16	2.52	7.5	7.56	2.13	Y
+38	sample_2022120210051	51,PBMC35	171116	55	M	169.2	67.6	23.61	No_Alcohol	Never_Smoker	RA	No	No	5.3	4.79	24.0	24.73	5.0	4.0	90.0	60.0	24.0	7.3	7430.0	240.0	10	8	no	No_NSAIDs	no	2.92	3.0	9.0	9.18	2.37	Y
+39	sample_2022120210066	66	30078607	46	F	163.2	63.8	23.95	No_Alcohol	Never_Smoker	RA	No	No	3.32	3.97	22.0	22.06	6.0	5.0	60.0	50.0	2.0	0.6	7450.0	309.0	12	8	no	No_NSAIDs	no						nan
+40	sample_2022120210069	69	2337992	73	M	159.0	53.0	20.96	Alcohol_User	Former_Smoker	RA	No	Yes	6.91	6.54	38.5	44.99	13.0	11.0	80.0	65.0	58.0	64.9	4970.0	284.0	10	8	no	NSAIDs_User	no	6.51	6.08	33.5	38.77	0.4	N
+41	sample_2022120210002	2,PBMC19	9740439	58	M	167.2	58.9	21.07	Alcohol_User	Current_Smoker	RA	No	No	5.44	4.79	22.5	25.0	5.0	4.0	60.0	75.0	54.0	25	6170.0	247.0	650	384	no	No_NSAIDs	no	3.6	3.14	9.0	9.63	1.85	N
+42	sample_2022120210003	3,PBMC20	30049484	70	F	146.6	41.5	19.31	No_Alcohol	Never_Smoker	RA	No	No	4.89	3.63	14.0	15.56	1.0	2.0	50.0	60.0	102.0	15.6	8540.0	366.0	164	500	no	NSAIDs_User	no	4.01	2.96	7.0	7.44	0.89	N
+43	sample_2022120210011	11,PBMC25	30059832	62	M	159.7	59.4	23.29	Alcohol_User	Former_Smoker	RA	No	Yes	4.39	3.9	18.5	18.74	4.0	2.0	70.0	55.0	15.0	2.4	7960.0	307.0	79	500	no	No_NSAIDs	no	4.09	3.57	16.0	16.11	0.31	N
+44	sample_2022120210013	13,PBMC24	9776149	67	F	154.5	64.55	27.04	No_Alcohol	Never_Smoker	RA	No	Yes	4.9	4.72	28.5	28.64	8.0	7.0	80.0	55.0	8.0	1.4	6120.0	264.0	85	500	no	No_NSAIDs	no	0.49	1.21	1.0	1.1	4.42	Y
+45	sample_2022120210014	14	9920772	51	F	164.3	58.6	21.71	No_Alcohol	Never_Smoker	RA	No	No	4.17	3.58	20.5	20.6	5.0	1.0	60.0	85.0	13.0	1	8080.0	204.0	188	500	no	No_NSAIDs	no	2.5	2.38	6.0	6.06	1.66	Y
+46	sample_2022120210016	16	9896144	63	F	167.0	64.0	22.95	No_Alcohol	Never_Smoker	RA	No	Yes	4.09	3.44	15.5	15.72	3.0	2.0	50.0	55.0	18.0	2.2	6090.0	179.0	186	50.9	no	NSAIDs_User	no	1.46	1.17	2.5	2.58	2.63	Y
+47	sample_2022120210020	20	30037699	49	F	155.5	49.3	20.39	No_Alcohol	Never_Smoker	RA	No	No	3.8	2.25	8.5	8.56	1.0	1.0	20.0	45.0	46.0	0.6	5060.0	283.0	220	500	no	No_NSAIDs	no						nan
+48	sample_2022120210021	21,PBMC26	7093110	83	F	146.7	54.8	25.46	No_Alcohol	Never_Smoker	RA	No	No	6.19	5.1	26.5	28.94	6.0	5.0	70.0	85.0	99.0	24.4	6460.0	307.0	23	500	no	NSAIDs_User	no	2.59	1.92	4.5	4.56	3.61	Y
+49	sample_2022120210023	23,PBMC27	750206	65	F	163.9	62.6	23.3	No_Alcohol	Never_Smoker	RA	No	No	6.17	5.48	28.0	32.25	7.0	4.0	80.0	90.0	74.0	42.5	7410.0	372.0	67	500	no	NSAIDs_User	no	3.86	3.42	10.0	10.74	2.31	N
+50	sample_2022120210025	25,PBMC28	10823624	40	F	155.8	88.1	36.29	No_Alcohol	Never_Smoker	RA	No	No	4.81	4.51	20.5	21.87	4.0	3.0	70.0	65.0	24.0	13.7	7950.0	295.0	16	500	no	NSAIDs_User	no	1.6	1.59	3.0	3.29	3.21	Y
+51	sample_2022120210026	26	30057353	28	F	154.2	70.5	29.65	No_Alcohol	Never_Smoker	RA	No	No	4.41	3.63	13.0	14.0	3.0	1.0	40.0	50.0	41.0	10	8870.0	420.0	59	500	no	NSAIDs_User	no	0.97	1.13	2.0	2.06	3.44	Y
+52	sample_2022120210028	28	8724044	21	F	166.2	78.75	28.51	No_Alcohol	Never_Smoker	RA	No	No	5.64	4.75	24.0	24.85	6.0	5.0	70.0	60.0	45.0	8.5	10160.0	357.0	55	367	no	No_NSAIDs	no	4.56	3.71	15.0	15.8	1.08	N
+53	sample_2022120210029	29	30066138	49	F	159.9	69.15	27.05	No_Alcohol	Never_Smoker	RA	No	Yes	4.31	3.9	20.0	20.06	5.0	2.0	80.0	50.0	9.0	0.6	6100.0	214.0	91	500	no	No_NSAIDs	no	2.09	2.25	5.5	5.56	2.22	Y
+54	sample_2022120210033	33	30069897	51	F	149.4	48.7	21.82	No_Alcohol	Never_Smoker	RA	No	No	4.87	4.03	18.0	19.75	3.0	3.0	40.0	80.0	59.0	17.5	8400.0	375.0	23	78.8	no	No_NSAIDs	no	2.53	1.83	2.5	2.77	2.34	Y
+55	sample_2022120210039	39	30063829	59	F	153.2	60.2	25.65	No_Alcohol	Never_Smoker	RA	No	No	6.76	5.94	38.5	39.28	18.0	4.0	90.0	75.0	39.0	7.8	9690.0	245.0	253	500	no	NSAIDs_User	no	3.1	2.33	6.0	6.1	3.66	Y
+56	sample_2022120210040	40,PBMC29	9593278	61	M	172.2	64.95	21.9	Alcohol_User	Current_Smoker	RA	No	No	6.78	5.92	37.0	37.86	11.0	10.0	100.0	60.0	43.0	8.6	7550.0	251.0	126	500	no	NSAIDs_User	no	2.94	1.93	9.0	9.09	3.84	Y
+57	sample_2022120210042	42	9871924	43	F	160.0	80.0	31.25	No_Alcohol	Never_Smoker	RA	No	Yes	3.92	3.81	17.0	17.35	2.0	2.0	80.0	50.0	10.0	3.5	6830.0	283.0	227	500	no	NSAIDs_User	no	1.76	2.08	3.0	3.29	2.16	Y
+58	sample_2022120210044	44,PBMC30	6147267	64	F	143.2	54.9	26.77	No_Alcohol	Never_Smoker	RA	No	Yes	4.89	4.13	23.0	23.06	5.0	3.0	90.0	60.0	15.0	0.6	5250.0	317.0	41	18.8	no	No_NSAIDs	no	2.09	2.25	6.5	6.56	2.8	Y
+59	sample_2022120210046	46	30075525	54	F	151.8	54.1	23.48	No_Alcohol	Never_Smoker	RA	No	No	5.35	3.99	21.5	21.56	5.0	3.0	80.0	55.0	35.0	0.6	6920.0	416.0	15	98.3	no	No_NSAIDs	no	1.61	1.13	0.5	0.56	3.73	Y
+60	sample_2022120210047	47,PBMC31	9611237	51	F	161.2	49.45	19.03	No_Alcohol	Never_Smoker	RA	No	No	6.05	4.93	27.0	27.64	8.0	6.0	70.0	60.0	55.0	6.4	7810.0	415.0	211	242	no	No_NSAIDs	no	4.19	3.65	11.0	12.12	1.87	N
+61	sample_2022120210048	48,PBMC32	30000627	48	F	157.5	77.25	31.14	No_Alcohol	Never_Smoker	RA	No	No	5.14	4.26	19.0	19.51	5.0	1.0	80.0	50.0	35.0	5.1	8670.0	444.0	155	75.9	no	NSAIDs_User	no	5.02	4.14	18.0	18.35	0.12	N
+62	sample_2022120210049	49,PBMC33	30078889	75	F	147.2	55.9	25.8	No_Alcohol	Never_Smoker	RA	No	No	6.62	5.76	36.0	37.23	10.0	9.0	90.0	80.0	51.0	12.3	6140.0	305.0	266	86	no	No_NSAIDs	no	3.09	2.67	8.0	8.17	3.53	Y
+63	sample_2022120210050	50,PBMC34	9741508	62	F	150.9	55.4	24.33	No_Alcohol	Never_Smoker	RA	No	No	6.78	5.9	30.0	34.17	8.0	7.0	90.0	60.0	96.0	41.7	7540.0	545.0	96	44.4	no	NSAIDs_User	no	2.38	1.41	3.5	3.56	4.4	Y
+64	sample_2022120210052	52,PBMC36	30011702	44	F	164.3	63.85	23.65	No_Alcohol	Never_Smoker	RA	No	No	4.01	2.81	13.0	13.06	1.0	1.0	60.0	50.0	28.0	0.6	3790.0	163.0	99	8	no	No_NSAIDs	no	2.51	1.13	2.0	2.06	1.5	Y
+65	sample_2022120210053	53	9565456	63	M	164.0	77.75	28.91	No_Alcohol	Never_Smoker	RA	No	Yes	6.28	5.68	25.5	39.67	5.0	4.0	80.0	85.0	120.0	141.7	14370.0	412.0	11	46.5	no	NSAIDs_User	no	2.38	2.35	4.5	4.86	3.91	Y
+66	sample_2022120210056	56	9694254	72	M	166.6	54.95	19.8	No_Alcohol	Former_Smoker	RA	No	No	8.41	7.79	56.0	69.48	20.0	17.0	100.0	90.0	120.0	134.8	16380.0	555.0	17	12.7	no	NSAIDs_User	no	5.23	4.58	18.0	21.77	3.18	N
+67	sample_2022120210058	58	9804610	54	F	159.9	51.7	20.22	No_Alcohol	Never_Smoker	RA	No	No	3.84	3.08	11.0	11.53	3.0	3.0	0.0	50.0	30.0	5.3	7560.0	337.0	15	500	no	NSAIDs_User	no	0.49	1.13	1.0	1.06	3.35	Y
+68	sample_2022120210063	63,PBMC37	9801766	60	F	147.5	55.95	25.72	No_Alcohol	Never_Smoker	RA	No	No	5.33	4.46	22.0	22.83	6.0	3.0	60.0	70.0	43.0	8.3	4230.0	279.0	112	312	no	NSAIDs_User	no						nan
+69	sample_2022120210064	64,PBMC38	9913510	39	M	181.9	75.0	22.67	No_Alcohol	Never_Smoker	RA	No	No	7.42	6.47	42.0	47.41	8.0	15.0	100.0	90.0	120.0	54.1	6830.0	487.0	650	500	no	NSAIDs_User	no						nan
+70	sample_2022120210065	65,PBMC39	30088291	57	M	166.3	56.3	20.36	Alcohol_User	Current_Smoker	RA	No	No	3.8	3.76	12.0	13.44	1.0	1.0	70.0	30.0	17.0	14.4	7270.0	254.0	346	500	no	NSAIDs_User	no	2.8	2.72	7.5	7.8	1.01	Y
+71	sample_2022120210067	67,PBMC40	30091432	59	M	168.0	66.3	23.46	No_Alcohol	Current_Smoker	RA	No	No	6.84	6.04	36.5	40.54	13.0	10.0	60.0	75.0	83.0	40.4	6450.0	411.0	650	500	no	NSAIDs_User	no						nan
+72	sample_2022120210068	68	857408	48	F	173.3	59.9	19.94	No_Alcohol	Never_Smoker	RA	No	No	5.16	3.71	15.0	15.57	3.0	2.0	50.0	50.0	83.0	5.7	6940.0	261.0	119	75.9	no	NSAIDs_User	no						nan
+73	sample_2022120210072	72	6397705	52	F	162.1	73.3	27.9	No_Alcohol	Never_Smoker	RA	No	No	4.43	3.97	18.0	18.76	1.0	4.0	80.0	50.0	23.0	7.6	5290.0	297.0	115	157	no	NSAIDs_User	no						nan
+74	sample_2022120210073	73	9821299	61	F	155.0	55.0	22.89	No_Alcohol	Never_Smoker	RA	No	No	4.65	5.44	34.0	34.61	10.0	10.0	80.0	60.0	3.5	6.1	6520.0	239.0	72	500	no	No_NSAIDs	no						nan
+75	sample_10810599	신촌 1	10810599	62	F	165.0	64.0	23.51	No_Alcohol	Never_Smoker	RA	No	No	4.39	4.01	21.0	21.07	3.0	3.0	100.0	50.0	9.0	0.7	14900.0	298.0	99	1565.5	no	No_NSAIDs	no	3.22	2.74	10.0	10.06	1.17	N
+76	sample_10816884	신촌 4	10816884	33	M	185.0	100.0	29.22	No_Alcohol	Current_Smoker	RA	No	No	7.48	7.24	51.0	56.01	17.0	17.0	100.0	70.0	42.0	50.1	6570.0	237.0	689	2132.3	Solondo	NSAIDs_User	no	2.71	3.15	12.0	12.25	4.77	Y

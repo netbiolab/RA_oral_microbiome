@@ -1,0 +1,173 @@
+Scenario	Table	Variable	Type	Groups	N	df	PseudoF	R2	P	Q	Sig
+Follow-up	Bacteria	Age	continuous	continuous	35	1	0.852	0.0252	0.533	0.736	ns
+Follow-up	Bacteria	Sex	categorical	F (n=24), M (n=11)	35	1	0.879	0.0259	0.497	0.721	ns
+Follow-up	Bacteria	Height	continuous	continuous	35	1	0.523	0.0156	0.938	0.972	ns
+Follow-up	Bacteria	Weight	continuous	continuous	35	1	0.499	0.0149	0.956	0.972	ns
+Follow-up	Bacteria	BMI	continuous	continuous	35	1	0.599	0.0178	0.862	0.972	ns
+Follow-up	Bacteria	Alcohol use	categorical	No_Alcohol (n=28), Alcohol_User (n=7)	35	1	0.986	0.0290	0.386	0.658	ns
+Follow-up	Bacteria	Smoking status	categorical	Never_Smoker (n=27), Current_Smoker (n=4), Former_Smoker (n=4)	35	2	1.911	0.1067	0.025	0.331	*
+Follow-up	Bacteria	Probiotics use	categorical	No (n=25), Yes (n=10)	35	1	0.471	0.0141	0.972	0.972	ns
+Follow-up	Bacteria	NSAID use	categorical	NSAIDs_User (n=19), No_NSAIDs (n=16)	35	1	0.505	0.0151	0.944	0.972	ns
+Follow-up	Bacteria	ESR	continuous	continuous	35	1	1.155	0.0338	0.262	0.543	ns
+Follow-up	Bacteria	CRP	continuous	continuous	35	1	1.521	0.0441	0.116	0.414	ns
+Follow-up	Bacteria	WBC	continuous	continuous	35	1	0.560	0.0167	0.909	0.972	ns
+Follow-up	Bacteria	Platelet	continuous	continuous	35	1	0.901	0.0266	0.496	0.721	ns
+Follow-up	Bacteria	Rheumatoid factor	continuous	continuous	35	1	0.947	0.0279	0.437	0.704	ns
+Follow-up	Bacteria	Anti-CCP	continuous	continuous	35	1	1.280	0.0373	0.196	0.437	ns
+Follow-up	Bacteria	DAS28-ESR (baseline)	continuous	continuous	35	1	1.606	0.0464	0.113	0.414	ns
+Follow-up	Bacteria	DAS28-CRP (baseline)	continuous	continuous	35	1	1.982	0.0567	0.052	0.331	.
+Follow-up	Bacteria	CDAI (baseline)	continuous	continuous	35	1	1.889	0.0542	0.057	0.331	.
+Follow-up	Bacteria	SDAI (baseline)	continuous	continuous	35	1	1.998	0.0571	0.047	0.331	*
+Follow-up	Bacteria	Tender joint count	continuous	continuous	35	1	1.476	0.0428	0.130	0.414	ns
+Follow-up	Bacteria	Swollen joint count	continuous	continuous	35	1	1.975	0.0565	0.048	0.331	*
+Follow-up	Bacteria	Patient VAS	continuous	continuous	35	1	1.721	0.0496	0.094	0.414	.
+Follow-up	Bacteria	Physician VAS	continuous	continuous	35	1	0.824	0.0244	0.567	0.747	ns
+Follow-up	Bacteria	DAS28-ESR (follow-up)	continuous	continuous	35	1	1.428	0.0415	0.157	0.414	ns
+Follow-up	Bacteria	DAS28-CRP (follow-up)	continuous	continuous	35	1	1.144	0.0335	0.304	0.553	ns
+Follow-up	Bacteria	CDAI (follow-up)	continuous	continuous	35	1	1.359	0.0396	0.194	0.437	ns
+Follow-up	Bacteria	SDAI (follow-up)	continuous	continuous	35	1	1.485	0.0431	0.147	0.414	ns
+Follow-up	Bacteria	Delta DAS28-ESR	continuous	continuous	35	1	0.792	0.0234	0.607	0.765	ns
+Follow-up	Bacteria	Treatment response (Good_Rx)	categorical	Y (n=25), N (n=10)	35	1	1.114	0.0326	0.305	0.553	ns
+Follow-up	Fungi	Age	continuous	continuous	35	1	0.856	0.0253	0.519	0.776	ns
+Follow-up	Fungi	Sex	categorical	F (n=24), M (n=11)	35	1	0.949	0.0280	0.444	0.776	ns
+Follow-up	Fungi	Height	continuous	continuous	35	1	0.611	0.0182	0.729	0.880	ns
+Follow-up	Fungi	Weight	continuous	continuous	35	1	1.661	0.0479	0.115	0.773	ns
+Follow-up	Fungi	BMI	continuous	continuous	35	1	1.616	0.0467	0.122	0.773	ns
+Follow-up	Fungi	Alcohol use	categorical	No_Alcohol (n=28), Alcohol_User (n=7)	35	1	1.423	0.0413	0.160	0.773	ns
+Follow-up	Fungi	Smoking status	categorical	Never_Smoker (n=27), Current_Smoker (n=4), Former_Smoker (n=4)	35	2	1.067	0.0625	0.344	0.776	ns
+Follow-up	Fungi	Probiotics use	categorical	No (n=25), Yes (n=10)	35	1	2.143	0.0610	0.038	0.773	*
+Follow-up	Fungi	NSAID use	categorical	NSAIDs_User (n=19), No_NSAIDs (n=16)	35	1	0.985	0.0290	0.422	0.776	ns
+Follow-up	Fungi	ESR	continuous	continuous	35	1	1.503	0.0436	0.153	0.773	ns
+Follow-up	Fungi	CRP	continuous	continuous	35	1	1.176	0.0344	0.294	0.776	ns
+Follow-up	Fungi	WBC	continuous	continuous	35	1	0.987	0.0290	0.429	0.776	ns
+Follow-up	Fungi	Platelet	continuous	continuous	35	1	0.740	0.0219	0.626	0.797	ns
+Follow-up	Fungi	Rheumatoid factor	continuous	continuous	35	1	0.335	0.0100	0.970	0.970	ns
+Follow-up	Fungi	Anti-CCP	continuous	continuous	35	1	0.766	0.0227	0.608	0.797	ns
+Follow-up	Fungi	DAS28-ESR (baseline)	continuous	continuous	35	1	0.988	0.0291	0.436	0.776	ns
+Follow-up	Fungi	DAS28-CRP (baseline)	continuous	continuous	35	1	1.040	0.0305	0.413	0.776	ns
+Follow-up	Fungi	CDAI (baseline)	continuous	continuous	35	1	0.910	0.0268	0.492	0.776	ns
+Follow-up	Fungi	SDAI (baseline)	continuous	continuous	35	1	0.993	0.0292	0.447	0.776	ns
+Follow-up	Fungi	Tender joint count	continuous	continuous	35	1	0.763	0.0226	0.632	0.797	ns
+Follow-up	Fungi	Swollen joint count	continuous	continuous	35	1	0.879	0.0259	0.535	0.776	ns
+Follow-up	Fungi	Patient VAS	continuous	continuous	35	1	0.476	0.0142	0.896	0.928	ns
+Follow-up	Fungi	Physician VAS	continuous	continuous	35	1	1.622	0.0469	0.131	0.773	ns
+Follow-up	Fungi	DAS28-ESR (follow-up)	continuous	continuous	35	1	0.600	0.0179	0.773	0.880	ns
+Follow-up	Fungi	DAS28-CRP (follow-up)	continuous	continuous	35	1	0.879	0.0259	0.507	0.776	ns
+Follow-up	Fungi	CDAI (follow-up)	continuous	continuous	35	1	0.919	0.0271	0.469	0.776	ns
+Follow-up	Fungi	SDAI (follow-up)	continuous	continuous	35	1	1.014	0.0298	0.395	0.776	ns
+Follow-up	Fungi	Delta DAS28-ESR	continuous	continuous	35	1	0.547	0.0163	0.810	0.880	ns
+Follow-up	Fungi	Treatment response (Good_Rx)	categorical	Y (n=25), N (n=10)	35	1	0.540	0.0161	0.819	0.880	ns
+Follow-up	Virus	Age	continuous	continuous	35	1	0.684	0.0203	0.729	0.872	ns
+Follow-up	Virus	Sex	categorical	F (n=24), M (n=11)	35	1	1.109	0.0325	0.269	0.488	ns
+Follow-up	Virus	Height	continuous	continuous	35	1	0.658	0.0196	0.782	0.872	ns
+Follow-up	Virus	Weight	continuous	continuous	35	1	0.582	0.0173	0.881	0.946	ns
+Follow-up	Virus	BMI	continuous	continuous	35	1	0.910	0.0268	0.443	0.623	ns
+Follow-up	Virus	Alcohol use	categorical	No_Alcohol (n=28), Alcohol_User (n=7)	35	1	1.015	0.0298	0.354	0.570	ns
+Follow-up	Virus	Smoking status	categorical	Never_Smoker (n=27), Current_Smoker (n=4), Former_Smoker (n=4)	35	2	2.027	0.1125	0.019	0.276	*
+Follow-up	Virus	Probiotics use	categorical	No (n=25), Yes (n=10)	35	1	0.516	0.0154	0.964	0.988	ns
+Follow-up	Virus	NSAID use	categorical	NSAIDs_User (n=19), No_NSAIDs (n=16)	35	1	0.666	0.0198	0.774	0.872	ns
+Follow-up	Virus	ESR	continuous	continuous	35	1	1.368	0.0398	0.155	0.305	ns
+Follow-up	Virus	CRP	continuous	continuous	35	1	1.475	0.0428	0.152	0.305	ns
+Follow-up	Virus	WBC	continuous	continuous	35	1	0.802	0.0237	0.594	0.749	ns
+Follow-up	Virus	Platelet	continuous	continuous	35	1	1.010	0.0297	0.376	0.574	ns
+Follow-up	Virus	Rheumatoid factor	continuous	continuous	35	1	0.800	0.0237	0.581	0.749	ns
+Follow-up	Virus	Anti-CCP	continuous	continuous	35	1	1.160	0.0339	0.286	0.488	ns
+Follow-up	Virus	DAS28-ESR (baseline)	continuous	continuous	35	1	1.690	0.0487	0.088	0.305	.
+Follow-up	Virus	DAS28-CRP (baseline)	continuous	continuous	35	1	2.098	0.0598	0.042	0.276	*
+Follow-up	Virus	CDAI (baseline)	continuous	continuous	35	1	1.945	0.0557	0.057	0.276	.
+Follow-up	Virus	SDAI (baseline)	continuous	continuous	35	1	2.023	0.0578	0.047	0.276	*
+Follow-up	Virus	Tender joint count	continuous	continuous	35	1	1.582	0.0457	0.103	0.305	ns
+Follow-up	Virus	Swollen joint count	continuous	continuous	35	1	2.479	0.0699	0.021	0.276	*
+Follow-up	Virus	Patient VAS	continuous	continuous	35	1	1.501	0.0435	0.145	0.305	ns
+Follow-up	Virus	Physician VAS	continuous	continuous	35	1	0.439	0.0131	0.988	0.988	ns
+Follow-up	Virus	DAS28-ESR (follow-up)	continuous	continuous	35	1	1.628	0.0470	0.108	0.305	ns
+Follow-up	Virus	DAS28-CRP (follow-up)	continuous	continuous	35	1	1.459	0.0423	0.158	0.305	ns
+Follow-up	Virus	CDAI (follow-up)	continuous	continuous	35	1	1.883	0.0540	0.069	0.286	.
+Follow-up	Virus	SDAI (follow-up)	continuous	continuous	35	1	2.015	0.0575	0.056	0.276	.
+Follow-up	Virus	Delta DAS28-ESR	continuous	continuous	35	1	0.911	0.0269	0.451	0.623	ns
+Follow-up	Virus	Treatment response (Good_Rx)	categorical	Y (n=25), N (n=10)	35	1	1.529	0.0443	0.123	0.305	ns
+Follow-up	Pathway	Age	continuous	continuous	35	1	0.452	0.0135	0.871	0.920	ns
+Follow-up	Pathway	Sex	categorical	F (n=24), M (n=11)	35	1	1.070	0.0314	0.341	0.620	ns
+Follow-up	Pathway	Height	continuous	continuous	35	1	0.417	0.0125	0.888	0.920	ns
+Follow-up	Pathway	Weight	continuous	continuous	35	1	0.432	0.0129	0.886	0.920	ns
+Follow-up	Pathway	BMI	continuous	continuous	35	1	0.569	0.0169	0.757	0.920	ns
+Follow-up	Pathway	Alcohol use	categorical	No_Alcohol (n=28), Alcohol_User (n=7)	35	1	1.006	0.0296	0.385	0.620	ns
+Follow-up	Pathway	Smoking status	categorical	Never_Smoker (n=27), Current_Smoker (n=4), Former_Smoker (n=4)	35	2	2.236	0.1226	0.034	0.123	*
+Follow-up	Pathway	Probiotics use	categorical	No (n=25), Yes (n=10)	35	1	0.662	0.0197	0.668	0.920	ns
+Follow-up	Pathway	NSAID use	categorical	NSAIDs_User (n=19), No_NSAIDs (n=16)	35	1	0.338	0.0101	0.969	0.969	ns
+Follow-up	Pathway	ESR	continuous	continuous	35	1	1.018	0.0299	0.375	0.620	ns
+Follow-up	Pathway	CRP	continuous	continuous	35	1	2.024	0.0578	0.065	0.171	.
+Follow-up	Pathway	WBC	continuous	continuous	35	1	0.977	0.0287	0.411	0.627	ns
+Follow-up	Pathway	Platelet	continuous	continuous	35	1	1.035	0.0304	0.360	0.620	ns
+Follow-up	Pathway	Rheumatoid factor	continuous	continuous	35	1	0.456	0.0136	0.835	0.920	ns
+Follow-up	Pathway	Anti-CCP	continuous	continuous	35	1	0.818	0.0242	0.530	0.769	ns
+Follow-up	Pathway	DAS28-ESR (baseline)	continuous	continuous	35	1	2.386	0.0674	0.041	0.132	*
+Follow-up	Pathway	DAS28-CRP (baseline)	continuous	continuous	35	1	3.235	0.0893	0.014	0.087	*
+Follow-up	Pathway	CDAI (baseline)	continuous	continuous	35	1	2.961	0.0823	0.018	0.087	*
+Follow-up	Pathway	SDAI (baseline)	continuous	continuous	35	1	3.120	0.0864	0.012	0.087	*
+Follow-up	Pathway	Tender joint count	continuous	continuous	35	1	2.796	0.0781	0.023	0.095	*
+Follow-up	Pathway	Swollen joint count	continuous	continuous	35	1	3.218	0.0888	0.014	0.087	*
+Follow-up	Pathway	Patient VAS	continuous	continuous	35	1	1.886	0.0541	0.106	0.256	ns
+Follow-up	Pathway	Physician VAS	continuous	continuous	35	1	0.482	0.0144	0.829	0.920	ns
+Follow-up	Pathway	DAS28-ESR (follow-up)	continuous	continuous	35	1	1.577	0.0456	0.168	0.375	ns
+Follow-up	Pathway	DAS28-CRP (follow-up)	continuous	continuous	35	1	2.378	0.0672	0.060	0.171	.
+Follow-up	Pathway	CDAI (follow-up)	continuous	continuous	35	1	3.228	0.0891	0.015	0.087	*
+Follow-up	Pathway	SDAI (follow-up)	continuous	continuous	35	1	3.581	0.0979	0.012	0.087	*
+Follow-up	Pathway	Delta DAS28-ESR	continuous	continuous	35	1	0.579	0.0173	0.740	0.920	ns
+Follow-up	Pathway	Treatment response (Good_Rx)	categorical	Y (n=25), N (n=10)	35	1	1.309	0.0381	0.239	0.495	ns
+Full	Bacteria	Age	continuous	continuous	77	1	1.899	0.0247	0.044	0.308	*
+Full	Bacteria	Sex	categorical	F (n=57), M (n=20)	77	1	1.371	0.0180	0.170	0.476	ns
+Full	Bacteria	Height	continuous	continuous	77	1	1.151	0.0151	0.303	0.540	ns
+Full	Bacteria	Weight	continuous	continuous	77	1	0.909	0.0120	0.490	0.572	ns
+Full	Bacteria	BMI	continuous	continuous	77	1	1.301	0.0171	0.218	0.509	ns
+Full	Bacteria	Alcohol use	categorical	No_Alcohol (n=64), Alcohol_User (n=13)	77	1	1.460	0.0191	0.133	0.466	ns
+Full	Bacteria	Smoking status	categorical	Never_Smoker (n=64), Current_Smoker (n=8), Former_Smoker (n=5)	77	2	1.574	0.0408	0.072	0.336	.
+Full	Bacteria	Probiotics use	categorical	No (n=54), Yes (n=23)	77	1	0.605	0.0080	0.859	0.859	ns
+Full	Bacteria	NSAID use	categorical	No_NSAIDs (n=43), NSAIDs_User (n=34)	77	1	0.715	0.0094	0.690	0.743	ns
+Full	Bacteria	ESR	continuous	continuous	74	1	1.013	0.0139	0.409	0.552	ns
+Full	Bacteria	CRP	continuous	continuous	74	1	1.964	0.0266	0.041	0.308	*
+Full	Bacteria	WBC	continuous	continuous	76	1	0.924	0.0123	0.434	0.552	ns
+Full	Bacteria	Platelet	continuous	continuous	76	1	1.042	0.0139	0.347	0.540	ns
+Full	Bacteria	Diagnosis (RA vs non-RA)	categorical	RA (n=43), Non_RA (n=34)	77	1	1.072	0.0141	0.333	0.540	ns
+Full	Fungi	Age	continuous	continuous	77	1	0.849	0.0112	0.558	0.868	ns
+Full	Fungi	Sex	categorical	F (n=57), M (n=20)	77	1	0.395	0.0052	0.947	0.947	ns
+Full	Fungi	Height	continuous	continuous	77	1	0.572	0.0076	0.806	0.868	ns
+Full	Fungi	Weight	continuous	continuous	77	1	0.975	0.0128	0.425	0.868	ns
+Full	Fungi	BMI	continuous	continuous	77	1	0.680	0.0090	0.697	0.868	ns
+Full	Fungi	Alcohol use	categorical	No_Alcohol (n=64), Alcohol_User (n=13)	77	1	0.630	0.0083	0.759	0.868	ns
+Full	Fungi	Smoking status	categorical	Never_Smoker (n=64), Current_Smoker (n=8), Former_Smoker (n=5)	77	2	0.856	0.0226	0.601	0.868	ns
+Full	Fungi	Probiotics use	categorical	No (n=54), Yes (n=23)	77	1	2.488	0.0321	0.013	0.182	*
+Full	Fungi	NSAID use	categorical	No_NSAIDs (n=43), NSAIDs_User (n=34)	77	1	2.009	0.0261	0.041	0.287	*
+Full	Fungi	ESR	continuous	continuous	74	1	1.549	0.0211	0.142	0.663	ns
+Full	Fungi	CRP	continuous	continuous	74	1	1.339	0.0183	0.208	0.728	ns
+Full	Fungi	WBC	continuous	continuous	76	1	0.802	0.0107	0.600	0.868	ns
+Full	Fungi	Platelet	continuous	continuous	76	1	0.783	0.0105	0.607	0.868	ns
+Full	Fungi	Diagnosis (RA vs non-RA)	categorical	RA (n=43), Non_RA (n=34)	77	1	0.719	0.0095	0.674	0.868	ns
+Full	Virus	Age	continuous	continuous	77	1	1.689	0.0220	0.080	0.319	.
+Full	Virus	Sex	categorical	F (n=57), M (n=20)	77	1	1.743	0.0227	0.088	0.319	.
+Full	Virus	Height	continuous	continuous	77	1	0.982	0.0129	0.405	0.567	ns
+Full	Virus	Weight	continuous	continuous	77	1	0.791	0.0104	0.594	0.693	ns
+Full	Virus	BMI	continuous	continuous	77	1	1.031	0.0136	0.365	0.567	ns
+Full	Virus	Alcohol use	categorical	No_Alcohol (n=64), Alcohol_User (n=13)	77	1	1.322	0.0173	0.187	0.524	ns
+Full	Virus	Smoking status	categorical	Never_Smoker (n=64), Current_Smoker (n=8), Former_Smoker (n=5)	77	2	1.535	0.0398	0.091	0.319	.
+Full	Virus	Probiotics use	categorical	No (n=54), Yes (n=23)	77	1	0.720	0.0095	0.681	0.733	ns
+Full	Virus	NSAID use	categorical	No_NSAIDs (n=43), NSAIDs_User (n=34)	77	1	0.640	0.0085	0.779	0.779	ns
+Full	Virus	ESR	continuous	continuous	74	1	1.146	0.0157	0.304	0.532	ns
+Full	Virus	CRP	continuous	continuous	74	1	2.042	0.0276	0.052	0.319	.
+Full	Virus	WBC	continuous	continuous	76	1	1.175	0.0156	0.246	0.532	ns
+Full	Virus	Platelet	continuous	continuous	76	1	1.109	0.0148	0.278	0.532	ns
+Full	Virus	Diagnosis (RA vs non-RA)	categorical	RA (n=43), Non_RA (n=34)	77	1	0.894	0.0118	0.477	0.607	ns
+Full	Pathway	Age	continuous	continuous	77	1	1.170	0.0154	0.297	0.600	ns
+Full	Pathway	Sex	categorical	F (n=57), M (n=20)	77	1	1.834	0.0239	0.092	0.600	.
+Full	Pathway	Height	continuous	continuous	77	1	0.717	0.0095	0.602	0.702	ns
+Full	Pathway	Weight	continuous	continuous	77	1	0.876	0.0115	0.480	0.645	ns
+Full	Pathway	BMI	continuous	continuous	77	1	1.182	0.0155	0.310	0.600	ns
+Full	Pathway	Alcohol use	categorical	No_Alcohol (n=64), Alcohol_User (n=13)	77	1	1.097	0.0144	0.343	0.600	ns
+Full	Pathway	Smoking status	categorical	Never_Smoker (n=64), Current_Smoker (n=8), Former_Smoker (n=5)	77	2	1.476	0.0384	0.142	0.600	ns
+Full	Pathway	Probiotics use	categorical	No (n=54), Yes (n=23)	77	1	0.805	0.0106	0.507	0.645	ns
+Full	Pathway	NSAID use	categorical	No_NSAIDs (n=43), NSAIDs_User (n=34)	77	1	0.427	0.0057	0.877	0.877	ns
+Full	Pathway	ESR	continuous	continuous	74	1	0.908	0.0125	0.481	0.645	ns
+Full	Pathway	CRP	continuous	continuous	74	1	2.777	0.0371	0.030	0.420	*
+Full	Pathway	WBC	continuous	continuous	76	1	1.343	0.0178	0.210	0.600	ns
+Full	Pathway	Platelet	continuous	continuous	76	1	1.050	0.0140	0.342	0.600	ns
+Full	Pathway	Diagnosis (RA vs non-RA)	categorical	RA (n=43), Non_RA (n=34)	77	1	0.552	0.0073	0.773	0.832	ns
