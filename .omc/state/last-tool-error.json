@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd \\\"/nbl/vault2/home/sebin595/project/0.RA_oral_microbiome/for_paper_submission\\\" && PYTHONNOUSERSITE=1 /home/sebin595/miniconda3/envs/ml_maaslin2_pipeline/bin/python3 - <<'EOF'\\nimport p...",
-  "error": "Exit code 127\n/bin/bash: line 15: /home/sebin595/miniconda3/envs/ml_maaslin2_pipeline/bin/python3: No such file or directory",
-  "timestamp": "2026-07-08T01:13:04.616Z",
-  "retry_count": 1
-}
